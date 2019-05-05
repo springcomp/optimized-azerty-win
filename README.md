@@ -7,7 +7,7 @@ to add a custom layout on Windows supporting a new optimized azerty keyboard lay
 
 ## Installation
 
-See the [release tab](./releases) to download the last setup.
+See the [release tab](/tbolon/optimized-azerty-win/releases) to download the last setup.
 
 When the keyboard layout is installed, you will certainly have to restart Windows to allow the new layout to be displayed on the language setup screen.
 
