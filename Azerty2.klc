@@ -51,7 +51,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 1f	S		1	s	S	-1	00df	1e9e		// LATIN SMALL LETTER S, LATIN CAPITAL LETTER S, <none>, LATIN SMALL LETTER SHARP S (German), Lettre majuscule latine S dur
 20	D		1	d	D	-1	0024	-1		// LATIN SMALL LETTER D, LATIN CAPITAL LETTER D, <none>, DOLLAR SIGN, <none>
 21	F		1	f	F	-1	-1	-1		// LATIN SMALL LETTER F, LATIN CAPITAL LETTER F, <none>, <none>, <none>
-22	G		1	g	G	-1	0000@	-1		// LATIN SMALL LETTER G, LATIN CAPITAL LETTER G, <none>, NUL, <none>
+22	G		1	g	G	-1	03bc@	-1		// LATIN SMALL LETTER G, LATIN CAPITAL LETTER G, <none>, GREEK SMALL LETTER MU, <none>
 23	H		1	h	H	-1	-1	0331@		// LATIN SMALL LETTER H, LATIN CAPITAL LETTER H, <none>, <none>, COMBINING MACRON BELOW
 24	J		1	j	J	-1	-1	-1		// LATIN SMALL LETTER J, LATIN CAPITAL LETTER J, <none>, <none>, <none>
 25	K		1	k	K	-1	0337	-1		// LATIN SMALL LETTER K, LATIN CAPITAL LETTER K, <none>, COMBINING SHORT SOLIDUS OVERLAY, <none>
@@ -485,7 +485,7 @@ DEADKEY 0331
 006e	1e49	// n -> ṉ
 004e	1e48	// N -> Ṉ
 
-DEADKEY	0000
+DEADKEY	03bc
 
 0061	03b1	// a -> α
 0041	0391	// A -> Α
@@ -495,6 +495,10 @@ DEADKEY	0000
 0045	0395	// E -> Ε
 0072	03c1	// r -> ρ
 0052	03a1	// R -> Ρ
+0074	03c4	// t -> τ
+0054	03a4	// T -> Τ
+0079	03c5	// y -> υ
+0059	03a5	// Y -> Υ
 0075	03b8	// u -> θ
 0055	0398	// U -> Θ
 0069	03b9	// i -> ι
@@ -507,6 +511,8 @@ DEADKEY	0000
 0053	03a3	// S -> Σ
 0064	03b4	// d -> δ
 0044	0394	// D -> Δ
+0066	03c6	// f -> φ
+0046	03a6	// F -> Φ
 0067	03b3	// g -> γ
 0047	0393	// G -> Γ
 0068	03b7	// h -> η
@@ -520,6 +526,12 @@ DEADKEY	0000
 006d	03bc	// m -> μ
 004d	039c	// M -> Μ
 0077	03c2	// w -> ς
+0078	03c7	// x -> χ
+0058	03a7	// X -> Χ
+0063	03c8	// c -> ψ
+0043	03a8	// C -> Ψ
+0076	03c9	// v -> ω
+0056	03a9	// V -> Ω
 0062	03b2	// b -> β
 0042	0392	// B -> Β
 006e	03bd	// n -> ν
@@ -607,7 +619,7 @@ KEYNAME_EXT
 
 KEYNAME_DEAD
 
-0000	"NUL"
+03bc	"GREEK SMALL LETTER MU"
 0301	"COMBINING ACUTE ACCENT (Oxia, Tonos)"
 0300	"COMBINING GRAVE ACCENT (Varia)"
 030b	"COMBINING DOUBLE ACUTE ACCENT"
@@ -626,6 +638,7 @@ KEYNAME_DEAD
 0328	"COMBINING OGONEK"
 007e	"TILDE"
 0326	"COMBINING COMMA BELOW"
+
 
 DESCRIPTIONS
 
