@@ -71,7 +71,7 @@ PROCESS{
         $mapped = Get-CodePoint -Char $combined[0]
 
         if ($codePoint -ne $mapped)
-            { Write-Output "$($codePoint.ToString("x4"))`t$($mapped.ToString("x4"))`t$($char) -> $($combined)" }
+            { Write-Output "$($codePoint.ToString("x4"))`t// $($mapped.ToString("x4"))`t$($char) -> $($combined)" }
     }
 
     Write-Output ""
