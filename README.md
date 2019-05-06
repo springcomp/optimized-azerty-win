@@ -13,6 +13,32 @@ When the keyboard layout is installed, you will certainly have to restart Window
 
 The keyboard is installed as « New Azerty Keyboard » layout.
 
+## Known issues
+
+Once installed, the keyboard layout supports most, but not all, of the norm.
+
+### Unsupported currencies
+
+The norm assigns some currency symbols to various key combinations that are currently not supported.
+
+For instance, the `₼` MANAT SIGN (U+20BC) is assigned to the following key combination:
+
+<kbd>AltGr</kbd>+<kbd>¤</kbd>, <kbd>AltGr</kbd>+<kbd>m</kbd>
+
+Currently, currency signs that must be prefixed with <kbd>AltGr</kbd> are not supported.
+
+These are:
+
+- `₨` RUPEE SIGN (U+20A8)
+- `₡` COLON SIGN (U+20A1)
+- `₢` CRUZEIRO SIGN (U+20A2)
+- `₰` GERMAN PENNY SIGN (U+20B0)
+- `₼` MANAT SIGN (U+20BC)
+- `₾` LARI SIGN (U+20BE)
+
+Although assigned to <kbd>AltGr</kbd>+<kbd>¤</kbd>, <kbd>AltGr</kbd>+<kbd>E</kbd>, the `¤` CURRENCY SIGN (U+00A4) is available by pressing a <kbd>SPACE</kbd> instead. It is thus available by typing <kbd>AltGr</kbd>+<kbd>¤</kbd>, <kbd>SPACE</kbd>.
+
+
 ## Links
 
 - [Le nouvel AZERTY](http://norme-azerty.fr/)
