@@ -52,7 +52,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 20	D		1	d	D	-1	0024	-1		// LATIN SMALL LETTER D, LATIN CAPITAL LETTER D, <none>, DOLLAR SIGN, <none>
 21	F		1	f	F	-1	00a4@	-1		// LATIN SMALL LETTER F, LATIN CAPITAL LETTER F, <none>, CURRENCY SIGN, <none>
 22	G		1	g	G	-1	03bc@	-1		// LATIN SMALL LETTER G, LATIN CAPITAL LETTER G, <none>, GREEK SMALL LETTER MU, <none>
-23	H		1	h	H	-1	-1	0331@		// LATIN SMALL LETTER H, LATIN CAPITAL LETTER H, <none>, <none>, COMBINING MACRON BELOW
+23	H		1	h	H	-1	0259@	0331@		// LATIN SMALL LETTER H, LATIN CAPITAL LETTER H, <none>, LATIN SMALL LETTER SHWA, COMBINING MACRON BELOW
 24	J		1	j	J	-1	-1	-1		// LATIN SMALL LETTER J, LATIN CAPITAL LETTER J, <none>, <none>, <none>
 25	K		1	k	K	-1	0337@	-1		// LATIN SMALL LETTER K, LATIN CAPITAL LETTER K, <none>, COMBINING SHORT SOLIDUS OVERLAY, <none>
 26	L		1	l	L	-1	007c	-1		// LATIN SMALL LETTER L, LATIN CAPITAL LETTER L, <none>, VERTICAL LINE, <none>
@@ -111,6 +111,34 @@ DEADKEY 00a4
 221e	20bc	// ∞  -> ₼
 007c	20be	// | -> ₾
 0020	00a4	//   -> ¤
+
+DEADKEY 0259
+
+2018	201a	// ‘ -> ‚
+0037	203a	// 7 -> ›
+2019	2018	// ’ -> ‘
+0038	2039	// 8 -> ‹
+00ab	201e	// « -> „
+0039	00bb	// 9 -> »
+00bb	201c	// » -> “
+0030	00ab	// 0 -> «
+0027	02bc	// ' -> ʼ
+0061	00aa	// a -> ª
+0065	0259	// e -> ə
+0045	018f	// E -> Ə
+0074	00fe	// t -> þ
+0054	00de	// T -> Þ
+0069	0131	// i -> ı
+0049	0130	// I -> İ
+006f	00ba	// o -> º
+0073	017f	// s -> ſ
+0064	00f0	// d -> ð
+0044	00d0	// D -> Ð
+0067	014b	// g -> ŋ
+0047	014a	// G -> Ŋ
+006a	0133	// j -> ĳ
+004a	0132	// J -> Ĳ
+0020	0259	//   -> ə
 
 DEADKEY 0300
 
@@ -688,6 +716,7 @@ KEYNAME_EXT
 KEYNAME_DEAD
 
 00a4	"CURRENCY SIGN"
+0259	"LATIN SMALL LETTER SHWA"
 03bc	"GREEK SMALL LETTER MU"
 0301	"COMBINING ACUTE ACCENT (Oxia, Tonos)"
 0300	"COMBINING GRAVE ACCENT (Varia)"
