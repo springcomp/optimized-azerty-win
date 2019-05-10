@@ -24,7 +24,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 //--	----		----	----	----	----	----	----
 
 02	1		1	00e0	1	-1	00a7	00c0		// LATIN SMALL LETTER A WITH GRAVE, DIGIT ONE, <none>, SECTION SIGN, LATIN CAPITAL LETTER A WITH GRAVE
-03	2		1	00e9	2	-1	0301@	00c9		// LATIN SMALL LETTER E WITH ACUTE, DIGIT TWO, <none>, COMBINING ACUTE ACCENT (Oxia, Tonos), LATIN CAPITAL LETTER E WITH ACUTE
+03	2		1	00e9	2	-1	00b4@	00c9		// LATIN SMALL LETTER E WITH ACUTE, DIGIT TWO, <none>, ACUTE ACCENT, LATIN CAPITAL LETTER E WITH ACUTE
 04	3		1	00e8	3	-1	0060@	00c8		// LATIN SMALL LETTER E WITH GRAVE, DIGIT THREE, <none>, GRAVE ACCENT, LATIN CAPITAL LETTER E WITH GRAVE
 05	4		1	00ea	4	-1	0026	00ca		// LATIN SMALL LETTER E WITH CIRCUMFLEX, DIGIT FOUR, <none>, AMPERSAND, LATIN CAPITAL LETTER E WITH CIRCUMFLEX
 06	5		1	0028	5	-1	005b	030b@		// LEFT PARENTHESIS, DIGIT FIVE, <none>, LEFT SQUARE BRACKET, COMBINING DOUBLE ACUTE ACCENT
@@ -254,6 +254,47 @@ DEADKEY 00b0
 0079	1e99	// y -> ẙ
 0020	00b0	//   -> °
 
+DEADKEY 00b4
+
+0041	00c1	// A -> Á
+0043	0106	// C -> Ć
+0045	00c9	// E -> É
+0047	01f4	// G -> Ǵ
+0049	00cd	// I -> Í
+004b	1e30	// K -> Ḱ
+004c	0139	// L -> Ĺ
+004d	1e3e	// M -> Ḿ
+004e	0143	// N -> Ń
+004f	00d3	// O -> Ó
+0050	1e54	// P -> Ṕ
+0052	0154	// R -> Ŕ
+0053	015a	// S -> Ś
+0055	00da	// U -> Ú
+0057	1e82	// W -> Ẃ
+0059	00dd	// Y -> Ý
+005a	0179	// Z -> Ź
+0061	00e1	// a -> á
+0063	0107	// c -> ć
+0065	00e9	// e -> é
+0067	01f5	// g -> ǵ
+0069	00ed	// i -> í
+006b	1e31	// k -> ḱ
+006c	013a	// l -> ĺ
+006d	1e3f	// m -> ḿ
+006e	0144	// n -> ń
+006f	00f3	// o -> ó
+0070	1e55	// p -> ṕ
+0072	0155	// r -> ŕ
+0073	015b	// s -> ś
+0075	00fa	// u -> ú
+0077	1e83	// w -> ẃ
+0079	00fd	// y -> ý
+007a	017a	// z -> ź
+00c6    01fc    // Æ -> Ǽ
+00e6    01fd    // æ -> ǽ
+00b4	0301	// ´ -> ◌́
+0020	00b4	//   -> ´
+
 DEADKEY	00b5
 
 0041	0391	// A -> Α
@@ -334,46 +375,6 @@ DEADKEY 0259
 2018	201a	// ‘ -> ‚
 2019	2018	// ’ -> ‘
 0020	0259	//   -> ə
-
-DEADKEY 0301
-
-0041	00c1	// A -> Á
-0043	0106	// C -> Ć
-0045	00c9	// E -> É
-0047	01f4	// G -> Ǵ
-0049	00cd	// I -> Í
-004b	1e30	// K -> Ḱ
-004c	0139	// L -> Ĺ
-004d	1e3e	// M -> Ḿ
-004e	0143	// N -> Ń
-004f	00d3	// O -> Ó
-0050	1e54	// P -> Ṕ
-0052	0154	// R -> Ŕ
-0053	015a	// S -> Ś
-0055	00da	// U -> Ú
-0057	1e82	// W -> Ẃ
-0059	00dd	// Y -> Ý
-005a	0179	// Z -> Ź
-0061	00e1	// a -> á
-0063	0107	// c -> ć
-0065	00e9	// e -> é
-0067	01f5	// g -> ǵ
-0069	00ed	// i -> í
-006b	1e31	// k -> ḱ
-006c	013a	// l -> ĺ
-006d	1e3f	// m -> ḿ
-006e	0144	// n -> ń
-006f	00f3	// o -> ó
-0070	1e55	// p -> ṕ
-0072	0155	// r -> ŕ
-0073	015b	// s -> ś
-0075	00fa	// u -> ú
-0077	1e83	// w -> ẃ
-0079	00fd	// y -> ý
-007a	017a	// z -> ź
-00c6    01fc    // Æ -> Ǽ
-00e6    01fd    // æ -> ǽ
-0020	0000	//   -> [NUL]
 
 DEADKEY 0304
 
@@ -768,9 +769,9 @@ KEYNAME_DEAD
 007e	"TILDE"
 00a4	"CURRENCY SIGN"
 00b0	"DEGREE SIGN"
+00b4	"ACUTE ACCENT"
 00b5	"MICRO SIGN"
 0259	"LATIN SMALL LETTER SHWA"
-0301	"COMBINING ACUTE ACCENT (Oxia, Tonos)"
 0304	"COMBINING MACRON"
 0306	"COMBINING BREVE (Vrachy)"
 0307	"COMBINING DOT ABOVE"
