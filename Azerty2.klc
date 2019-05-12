@@ -42,7 +42,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 14	T		1	t	T	-1	007b	2122		// LATIN SMALL LETTER T, LATIN CAPITAL LETTER T, <none>, LEFT CURLY BRACKET, TRADE MARK SIGN
 15	Y		1	y	Y	-1	007d	-1		// LATIN SMALL LETTER Y, LATIN CAPITAL LETTER Y, <none>, RIGHT CURLY BRACKET, <none>
 16	U		1	u	U	-1	00f9	00d9		// LATIN SMALL LETTER U, LATIN CAPITAL LETTER U, <none>, LATIN SMALL LETTER U WITH GRAVE, LATIN CAPITAL LETTER U WITH GRAVE
-17	I		1	i	I	-1	02d9@	0323@		// LATIN SMALL LETTER I, LATIN CAPITAL LETTER I, <none>, DOT ABOVE, COMBINING DOT BELOW
+17	I		1	i	I	-1	02d9@	002e@		// LATIN SMALL LETTER I, LATIN CAPITAL LETTER I, <none>, DOT ABOVE, FULL STOP
 18	O		1	o	O	-1	0153	0152		// LATIN SMALL LETTER O, LATIN CAPITAL LETTER O, <none>, LATIN SMALL LIGATURE OE, LATIN CAPITAL LIGATURE OE
 19	P		1	p	P	-1	0025	2030		// LATIN SMALL LETTER P, LATIN CAPITAL LETTER P, <none>, PERCENT SIGN, PER MILLE SIGN
 1a	OEM_6		1	002d	2013	001b	2212	2011		// HYPHEN-MINUS, EN DASH, ESCAPE, MINUS SIGN, NON-BREAKING HYPHEN
@@ -137,6 +137,49 @@ DEADKEY 002d
 007a	01b6	// z -> ƶ
 002d	0335	// - -> ◌̵
 0020	002d	//   -> -
+
+DEADKEY 002e
+
+0041	1ea0	// A -> Ạ
+0042	1e04	// B -> Ḅ
+0044	1e0c	// D -> Ḍ
+0045	1eb8	// E -> Ẹ
+0048	1e24	// H -> Ḥ
+0049	1eca	// I -> Ị
+004b	1e32	// K -> Ḳ
+004c	1e36	// L -> Ḷ
+004d	1e42	// M -> Ṃ
+004e	1e46	// N -> Ṇ
+004f	1ecc	// O -> Ọ
+0052	1e5a	// R -> Ṛ
+0053	1e62	// S -> Ṣ
+0054	1e6c	// T -> Ṭ
+0055	1ee4	// U -> Ụ
+0056	1e7e	// V -> Ṿ
+0057	1e88	// W -> Ẉ
+0059	1ef4	// Y -> Ỵ
+005a	1e92	// Z -> Ẓ
+0061	1ea1	// a -> ạ
+0062	1e05	// b -> ḅ
+0064	1e0d	// d -> ḍ
+0065	1eb9	// e -> ẹ
+0068	1e25	// h -> ḥ
+0069	1ecb	// i -> ị
+006b	1e33	// k -> ḳ
+006c	1e37	// l -> ḷ
+006d	1e43	// m -> ṃ
+006e	1e47	// n -> ṇ
+006f	1ecd	// o -> ọ
+0072	1e5b	// r -> ṛ
+0073	1e63	// s -> ṣ
+0074	1e6d	// t -> ṭ
+0075	1ee5	// u -> ụ
+0076	1e7f	// v -> ṿ
+0077	1e89	// w -> ẉ
+0079	1ef5	// y -> ỵ
+007a	1e93	// z -> ẓ
+002e	0323	// . -> ◌̣
+0020	002e	//   -> .
 
 DEADKEY 002f
 
@@ -639,48 +682,6 @@ DEADKEY 0311
 0075	0217	// u -> ȗ
 0020	0000	//   -> [NUL]
 
-DEADKEY 0323
-
-0041	1ea0	// A -> Ạ
-0042	1e04	// B -> Ḅ
-0044	1e0c	// D -> Ḍ
-0045	1eb8	// E -> Ẹ
-0048	1e24	// H -> Ḥ
-0049	1eca	// I -> Ị
-004b	1e32	// K -> Ḳ
-004c	1e36	// L -> Ḷ
-004d	1e42	// M -> Ṃ
-004e	1e46	// N -> Ṇ
-004f	1ecc	// O -> Ọ
-0052	1e5a	// R -> Ṛ
-0053	1e62	// S -> Ṣ
-0054	1e6c	// T -> Ṭ
-0055	1ee4	// U -> Ụ
-0056	1e7e	// V -> Ṿ
-0057	1e88	// W -> Ẉ
-0059	1ef4	// Y -> Ỵ
-005a	1e92	// Z -> Ẓ
-0061	1ea1	// a -> ạ
-0062	1e05	// b -> ḅ
-0064	1e0d	// d -> ḍ
-0065	1eb9	// e -> ẹ
-0068	1e25	// h -> ḥ
-0069	1ecb	// i -> ị
-006b	1e33	// k -> ḳ
-006c	1e37	// l -> ḷ
-006d	1e43	// m -> ṃ
-006e	1e47	// n -> ṇ
-006f	1ecd	// o -> ọ
-0072	1e5b	// r -> ṛ
-0073	1e63	// s -> ṣ
-0074	1e6d	// t -> ṭ
-0075	1ee5	// u -> ụ
-0076	1e7f	// v -> ṿ
-0077	1e89	// w -> ẉ
-0079	1ef5	// y -> ỵ
-007a	1e93	// z -> ẓ
-0020	0000	//   -> [NUL]
-
 DEADKEY 0326
 
 0053	0218	// S -> Ș
@@ -774,6 +775,7 @@ KEYNAME_EXT
 KEYNAME_DEAD
 
 002d	"HYPHEN MINUS"
+002e	"FULL STOP"
 002f	"SOLIDUS"
 005e	"CIRCUMFLEX ACCENT"
 0060	"GRAVE ACCENT"
@@ -794,7 +796,6 @@ KEYNAME_DEAD
 02dd	"DOUBLE ACCUTE ACCENT"
 02f5	"DOUBLE GRAVE ACCENT"
 0311	"COMBINING INVERTED BREVE"
-0323	"COMBINING DOT BELOW"
 0326	"COMBINING COMMA BELOW"
 
 
