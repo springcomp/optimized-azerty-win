@@ -52,7 +52,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 20	D		1	d	D	-1	0024	-1		// LATIN SMALL LETTER D, LATIN CAPITAL LETTER D, <none>, DOLLAR SIGN, <none>
 21	F		1	f	F	-1	00a4@	-1		// LATIN SMALL LETTER F, LATIN CAPITAL LETTER F, <none>, CURRENCY SIGN, <none>
 22	G		1	g	G	-1	00b5@	-1		// LATIN SMALL LETTER G, LATIN CAPITAL LETTER G, <none>, MICRO SIGN, <none>
-23	H		1	h	H	-1	0259@	0331@		// LATIN SMALL LETTER H, LATIN CAPITAL LETTER H, <none>, LATIN SMALL LETTER SHWA, COMBINING MACRON BELOW
+23	H		1	h	H	-1	0259@	02cd@		// LATIN SMALL LETTER H, LATIN CAPITAL LETTER H, <none>, LATIN SMALL LETTER SHWA, MACRON BELOW
 24	J		1	j	J	-1	-1	-1		// LATIN SMALL LETTER J, LATIN CAPITAL LETTER J, <none>, <none>, <none>
 25	K		1	k	K	-1	002f@	-1		// LATIN SMALL LETTER K, LATIN CAPITAL LETTER K, <none>, SOLIDUS 
 26	L		1	l	L	-1	007c	-1		// LATIN SMALL LETTER L, LATIN CAPITAL LETTER L, <none>, VERTICAL LINE, <none>
@@ -453,6 +453,28 @@ DEADKEY 0259
 2019	2018	// ’ -> ‘
 0020	0259	//   -> ə
 
+DEADKEY 02cd
+
+0042	1e06	// B -> Ḇ
+0044	1e0e	// D -> Ḏ
+004b	1e34	// K -> Ḵ
+004c	1e3a	// L -> Ḻ
+004e	1e48	// N -> Ṉ
+0052	1e5e	// R -> Ṟ
+0054	1e6e	// T -> Ṯ
+005a	1e94	// Z -> Ẕ
+0062	1e07	// b -> ḇ
+0064	1e0f	// d -> ḏ
+0068	1e96	// h -> ẖ
+006b	1e35	// k -> ḵ
+006c	1e3b	// l -> ḻ
+006e	1e49	// n -> ṉ
+0072	1e5f	// r -> ṟ
+0074	1e6f	// t -> ṯ
+007a	1e95	// z -> ẕ
+02cd	0331	// ˍ -> ◌̱
+0020	02cd	//   -> ˍ
+
 DEADKEY 02d8
 
 0041	0102	// A -> Ă
@@ -666,27 +688,6 @@ DEADKEY 0326
 0074	021b	// t -> ț
 0020	0000	//   -> [NUL]
 
-DEADKEY 0331
-
-0042	1e06	// B -> Ḇ
-0044	1e0e	// D -> Ḏ
-004b	1e34	// K -> Ḵ
-004c	1e3a	// L -> Ḻ
-004e	1e48	// N -> Ṉ
-0052	1e5e	// R -> Ṟ
-0054	1e6e	// T -> Ṯ
-005a	1e94	// Z -> Ẕ
-0062	1e07	// b -> ḇ
-0064	1e0f	// d -> ḏ
-0068	1e96	// h -> ẖ
-006b	1e35	// k -> ḵ
-006c	1e3b	// l -> ḻ
-006e	1e49	// n -> ṉ
-0072	1e5f	// r -> ṟ
-0074	1e6f	// t -> ṯ
-007a	1e95	// z -> ẕ
-0020	0000	//   -> [NUL]
-
 
 KEYNAME
 
@@ -783,6 +784,7 @@ KEYNAME_DEAD
 00b5	"MICRO SIGN"
 00b8	"CEDILLA"
 0259	"LATIN SMALL LETTER SHWA"
+02cd	"MACRON BELOW"
 02d8	"BREVE"
 02da	"RING ABOVE"
 02db	"OGONEK"
@@ -793,7 +795,6 @@ KEYNAME_DEAD
 0311	"COMBINING INVERTED BREVE"
 0323	"COMBINING DOT BELOW"
 0326	"COMBINING COMMA BELOW"
-0331	"COMBINING MACRON BELOW"
 
 
 DESCRIPTIONS
