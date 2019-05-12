@@ -35,20 +35,20 @@ LAYOUT		;an extra '@' at the end is a dead key
 0b	0		1	00bb	0	-1	201d	203a		// 0   ” › 
 0c	OEM_4		1	0027	0022	-1	00b0	02da@		// ' "   ° ˚ 
 0d	OEM_PLUS	1	005e@	00a8@	-1	02c7@	-1		// ^ ¨   ˇ   
-10	A		1	a	A	-1	00e6	00c6		// a A   
+10	A		5	a	A	-1	00e6	00c6		// a A   æ Æ
 11	Z		1	z	Z	-1	00a3	-1		// z Z   £   
 12	E		1	e	E	-1	20ac	-1		// e E   €   
 13	R		1	r	R	-1	00ae	-1		// r R   ®   
 14	T		1	t	T	-1	007b	2122		// t T   { ™ 
 15	Y		1	y	Y	-1	007d	-1		// y Y   }   
-16	U		1	u	U	-1	00f9	00d9		// u U   ù Ù 
+16	U		5	u	U	-1	00f9	00d9		// u U   ù Ù 
 17	I		1	i	I	-1	02d9@	002e@		// i I   ˙ . 
-18	O		1	o	O	-1	0153	0152		// o O   œ Œ 
+18	O		5	o	O	-1	0153	0152		// o O   œ Œ 
 19	P		1	p	P	-1	0025	2030		// p P   % ‰ 
 1a	OEM_6		1	002d	2013	001b	2212	2011		// - – − ‑ 
 1b	OEM_1		1	002b	00b1	001d	2020	2021		// + ± † ‡ 
 1e	Q		1	q	Q	-1	03b8	-1		// q Q   θ   
-1f	S		1	s	S	-1	00df	1e9e		// s S   
+1f	S		5	s	S	-1	00df	1e9e		// s S   ß ẞ
 20	D		1	d	D	-1	0024	-1		// d D   $   
 21	F		1	f	F	-1	00a4@	-1		// f F   ¤   
 22	G		1	g	G	-1	00b5@	-1		// g G   µ   
@@ -60,9 +60,9 @@ LAYOUT		;an extra '@' at the end is a dead key
 28	OEM_3		1	002f	005c	-1	00f7	221a		// / \   ÷ √ 
 29	OEM_7		0	0040	0023	-1	02d8@	2040@		// @ #   ˘ 
 2b	OEM_5		1	002a	00bd	001c	00d7	00bc		// * ½ × ¼ 
-2c	W		1	w	W	-1	0292	01b7		// w W   ʒ Ʒ 
+2c	W		5	w	W	-1	0292	01b7		// w W   ʒ Ʒ 
 2d	X		1	x	X	-1	00a9	-1		// x X   ©   
-2e	C		1	c	C	-1	00e7	00c7		// c C   ç Ç 
+2e	C		5	c	C	-1	00e7	00c7		// c C   ç Ç 
 2f	V		1	v	V	-1	00b8@	02db@		// v V   ¸ ˛ 
 30	B		1	b	B	-1	002d@	-1		// b B     
 31	N		1	n	N	-1	007e@	-1		// n N   ~   
