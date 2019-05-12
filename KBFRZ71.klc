@@ -1,6 +1,6 @@
-﻿KBD	Azerty2	"French - AZERTY NF Z71-300"
+﻿KBD	KBFRZ71	"French - AZERTY NF Z71-300"
 
-COPYRIGHT	"(c) 2019 Creative Commons"
+COPYRIGHT	"© 2019 Creative Commons"
 
 COMPANY	"Creative Commons"
 
@@ -814,7 +814,7 @@ KEYNAME_DEAD
 
 DESCRIPTIONS
 
-0409	French - Azerty 2
+0409	French - AZERTY NF Z71-300
 
 LANGUAGENAMES
 
