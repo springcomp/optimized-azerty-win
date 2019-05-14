@@ -52,7 +52,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 20	D		1	d	D	-1	0024	-1		// LATIN SMALL LETTER D, LATIN CAPITAL LETTER D, <none>, DOLLAR SIGN, <none>
 21	F		1	f	F	-1	00a4@	-1		// LATIN SMALL LETTER F, LATIN CAPITAL LETTER F, <none>, CURRENCY SIGN, <none>
 22	G		1	g	G	-1	03bc@	-1		// LATIN SMALL LETTER G, LATIN CAPITAL LETTER G, <none>, GREEK SMALL LETTER MU, <none>
-23	H		1	h	H	-1	-1	0331@		// LATIN SMALL LETTER H, LATIN CAPITAL LETTER H, <none>, <none>, COMBINING MACRON BELOW
+23	H		1	h	H	-1	0259@	0331@		// LATIN SMALL LETTER H, LATIN CAPITAL LETTER H, <none>, LATIN SMALL LETTER SHWA, COMBINING MACRON BELOW
 24	J		1	j	J	-1	-1	-1		// LATIN SMALL LETTER J, LATIN CAPITAL LETTER J, <none>, <none>, <none>
 25	K		1	k	K	-1	0337@	-1		// LATIN SMALL LETTER K, LATIN CAPITAL LETTER K, <none>, COMBINING SHORT SOLIDUS OVERLAY, <none>
 26	L		1	l	L	-1	007c	-1		// LATIN SMALL LETTER L, LATIN CAPITAL LETTER L, <none>, VERTICAL LINE, <none>
@@ -112,6 +112,34 @@ DEADKEY 00a4
 007c	20be	// | -> ₾
 0020	00a4	//   -> ¤
 
+DEADKEY 0259
+
+2018	201a	// ‘ -> ‚
+0037	203a	// 7 -> ›
+2019	2018	// ’ -> ‘
+0038	2039	// 8 -> ‹
+00ab	201e	// « -> „
+0039	00bb	// 9 -> »
+00bb	201c	// » -> “
+0030	00ab	// 0 -> «
+0027	02bc	// ' -> ʼ
+0061	00aa	// a -> ª
+0065	0259	// e -> ə
+0045	018f	// E -> Ə
+0074	00fe	// t -> þ
+0054	00de	// T -> Þ
+0069	0131	// i -> ı
+0049	0130	// I -> İ
+006f	00ba	// o -> º
+0073	017f	// s -> ſ
+0064	00f0	// d -> ð
+0044	00d0	// D -> Ð
+0067	014b	// g -> ŋ
+0047	014a	// G -> Ŋ
+006a	0133	// j -> ĳ
+004a	0132	// J -> Ĳ
+0020	0259	//   -> ə
+
 DEADKEY 0300
 
 0061	00e0	// a -> à
@@ -136,6 +164,8 @@ DEADKEY 0301
 
 0061	00e1	// a -> á
 0041	00c1	// A -> Á
+00e6    01fd    // æ -> ǽ
+00c6    01fc    // Æ -> Ǽ
 007a	017a	// z -> ź
 005a	0179	// Z -> Ź
 0065	00e9	// e -> é
@@ -228,12 +258,18 @@ DEADKEY 007e
 0056	1e7c	// V -> Ṽ
 006e	00f1	// n -> ñ
 004e	00d1	// N -> Ñ
+002d	2248	// - -> ≃
+003c    2272    // < -> ≲ 
+003d	2248	// = -> ≈
+003e    2273    // > -> ≳
 0020	007e	//   -> ~
 
 DEADKEY 0304
 
 0061	0101	// a -> ā
 0041	0100	// A -> Ā
+00e6    01e3    // æ -> ǣ
+00c6    01e2    // Æ -> Ǣ
 0065	0113	// e -> ē
 0045	0112	// E -> Ē
 0079	0233	// y -> ȳ
@@ -393,6 +429,8 @@ DEADKEY 030c
 0037	2087	// 7 -> ₇ 
 0038	2088	// 8 -> ₈ 
 0039	2089	// 9 -> ₉
+0292    01ef    // ʒ -> ǯ
+01b7    01ee    // Ʒ -> Ǯ
 0020	0000	//   -> [NUL]
 
 DEADKEY 030f
@@ -540,16 +578,47 @@ DEADKEY 0331
 
 DEADKEY 0335
 
+0062	0180	// b -> ƀ
+0042	0243	// B -> Ƀ
 0064	00f0	// d -> ð
 0044	00d0	// D -> Ð
+0067	01e5	// g -> ǥ
+0047	01e4	// G -> Ǥ
 0068	0127	// h -> ħ
 0048	0126	// H -> Ħ
+0049	0197	// I -> Ɨ
+006a	0249	// j -> ɉ
+004a	0248	// J -> Ɉ
+006c	019a	// l -> ƚ
+004c	023d	// L -> Ƚ
+0072	024d	// r -> ɍ
+0052	024c	// R -> Ɍ
+0074	0167	// t -> ŧ
+0054	0166	// T -> Ŧ
+0055	0244	// U -> Ʉ
+0079	024f	// y -> ɏ
+0059	024e	// Y -> Ɏ
+007a	01b6	// z -> ƶ
+005a	01b5	// Z -> Ƶ
 0020	002d	//   -> -
 
 DEADKEY 0337
 
+0041	023a	// A -> Ⱥ
+0063	023c	// c -> ȼ
+0043	023b	// C -> Ȼ
+0065	0247	// e -> ɇ
+0045	0246	// E -> Ɇ
+006c	0142	// l -> ł
+004c	0141	// L -> Ł
 006f	00f8	// o -> ø
 004f	00d8	// O -> Ø
+0054	023e	// T -> Ⱦ
+003c	226e	// < -> ≮
+003d	2260	// = -> ≠
+003e	226f	// > -> ≯
+2264	2270	// ≤ -> ≰
+2265	2271	// ≥ -> ≱
 0020	002f	//   -> /
 
 DEADKEY	03bc
@@ -688,6 +757,7 @@ KEYNAME_EXT
 KEYNAME_DEAD
 
 00a4	"CURRENCY SIGN"
+0259	"LATIN SMALL LETTER SHWA"
 03bc	"GREEK SMALL LETTER MU"
 0301	"COMBINING ACUTE ACCENT (Oxia, Tonos)"
 0300	"COMBINING GRAVE ACCENT (Varia)"
