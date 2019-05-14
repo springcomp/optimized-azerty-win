@@ -50,7 +50,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 1e	Q		1	q	Q	-1	03b8	-1		// LATIN SMALL LETTER Q, LATIN CAPITAL LETTER Q, <none>, GREEK SMALL LETTER THETA, <none>
 1f	S		1	s	S	-1	00df	1e9e		// LATIN SMALL LETTER S, LATIN CAPITAL LETTER S, <none>, LATIN SMALL LETTER SHARP S (German), Lettre majuscule latine S dur
 20	D		1	d	D	-1	0024	-1		// LATIN SMALL LETTER D, LATIN CAPITAL LETTER D, <none>, DOLLAR SIGN, <none>
-21	F		1	f	F	-1	-1	-1		// LATIN SMALL LETTER F, LATIN CAPITAL LETTER F, <none>, <none>, <none>
+21	F		1	f	F	-1	00a4@	-1		// LATIN SMALL LETTER F, LATIN CAPITAL LETTER F, <none>, CURRENCY SIGN, <none>
 22	G		1	g	G	-1	03bc@	-1		// LATIN SMALL LETTER G, LATIN CAPITAL LETTER G, <none>, GREEK SMALL LETTER MU, <none>
 23	H		1	h	H	-1	-1	0331@		// LATIN SMALL LETTER H, LATIN CAPITAL LETTER H, <none>, <none>, COMBINING MACRON BELOW
 24	J		1	j	J	-1	-1	-1		// LATIN SMALL LETTER J, LATIN CAPITAL LETTER J, <none>, <none>, <none>
@@ -73,6 +73,44 @@ LAYOUT		;an extra '@' at the end is a dead key
 39	SPACE		0	0020	0020	0020	0020	00a0		// SPACE, SPACE, SPACE, SPACE, NO-BREAK SPACE
 56	OEM_102	0	003c	003e	001c	2264	2265		// LESS-THAN SIGN, GREATER-THAN SIGN, INFORMATION SEPARATOR FOUR, LESS-THAN OR EQUAL TO, GREATER-THAN OR EQUAL TO
 53	DECIMAL	0	002e	002e	-1	-1	-1		// FULL STOP, FULL STOP, , , 
+
+
+DEADKEY 00a4
+
+0041	20b3	// A -> ₳
+0065	20a0	// e -> ₠
+0072	20bd	// r -> ₽
+0052	20b9	// R -> ₹
+0074	20b8	// t -> ₸
+0054	20ae	// T -> ₮
+0079	00a5	// y -> ¥
+0070	20b1	// p -> ₱
+0050	20a7	// P -> ₧
+0073	20aa	// s -> ₪
+0053	20b7	// S -> ₷
+0064	20ab	// d -> ₫
+0044	20af	// D -> ₯
+0066	0192	// f -> ƒ
+0046	20a3	// F -> ₣
+0067	20b2	// g -> ₲
+0068	20b4	// h -> ₴
+006b	20ad	// k -> ₭
+006c	20ba	// l -> ₺
+004c	20a4	// L -> ₤
+006d	20a5	// m -> ₥
+004d	2133	// M -> ℳ
+0077	20a9	// w -> ₩
+0063	00a2	// c -> ¢
+0043	20a1	// C -> ₡
+0062	0e3f	// b -> ฿
+006e	20a6	// n -> ₦
+00c7	20a1	// Ç -> ₡
+00e7	20a2	// ç -> ₢
+00ae	20a8	// ® -> ₨
+0025	20b0	// % -> ₰
+221e	20bc	// ∞  -> ₼
+007c	20be	// | -> ₾
+0020	00a4	//   -> ¤
 
 DEADKEY 0300
 
@@ -649,6 +687,7 @@ KEYNAME_EXT
 
 KEYNAME_DEAD
 
+00a4	"CURRENCY SIGN"
 03bc	"GREEK SMALL LETTER MU"
 0301	"COMBINING ACUTE ACCENT (Oxia, Tonos)"
 0300	"COMBINING GRAVE ACCENT (Varia)"
