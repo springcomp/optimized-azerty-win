@@ -62,7 +62,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 26	L		1	l	L	-1	007c	-1		// l L   |   
 27	M		1	m	M	-1	221e	-1		// m M   ∞   
 28	OEM_3		0	002f	005c	-1	00f7	221a		// / \   ÷ √ 
-29	OEM_7		0	0040	0023	-1	02d8@	2040@		// @ #   ˘ 
+29	OEM_7		0	0040	0023	-1	02d8@	1d54@		// @ #   ᵔ 
 2b	OEM_5		0	002a	00bd	-1	00d7	00bc		// * ½   × ¼ 
 2c	W		5	w	W	-1	0292	01b7		// w W   ʒ Ʒ 
 2d	X		1	x	X	-1	00a9	-1		// x X   ©   
@@ -753,7 +753,7 @@ DEADKEY 02f5
 202f	02f5	//   -> ˵
 0020	02f5	//   -> ˵
 
-DEADKEY 2040
+DEADKEY 1d54
 
 0041	0202	// A -> Ȃ
 0045	0206	// E -> Ȇ
@@ -767,11 +767,11 @@ DEADKEY 2040
 006f	020f	// o -> ȏ
 0072	0213	// r -> ȓ
 0075	0217	// u -> ȗ
-2040	0311	// ⁀ -> ◌̑
-00a0	2040	//   -> ⁀
-2003	2040	//   -> ⁀
-202f	2040	//   -> ⁀
-0020	2040	//   -> ⁀
+1d54	0311	// ᵔ -> ◌̑
+00a0	1d54	//   -> ᵔ
+2003	1d54	//   -> ᵔ
+202f	1d54	//   -> ᵔ
+0020	1d54	//   -> ᵔ
 
 
 KEYNAME
@@ -879,7 +879,7 @@ KEYNAME_DEAD
 02d9	"DOT ABOVE"
 02dd	"DOUBLE ACCUTE ACCENT"
 02f5	"DOUBLE GRAVE ACCENT"
-2040	"TIE"
+1d54	"MODIFIER LETTER SMALL TOP HALF O"
 
 
 DESCRIPTIONS
