@@ -63,7 +63,7 @@ This allows to input certain characters verbatim. However, please note that cert
 |Sequence|Character|Unicode code point|
 |---|---|---|
 | <kbd>AltGr</kbd>+<kbd>@</kbd>, <kbd>Space</kbd> | `˘` | BREVE (U+02D8) |
-| <kbd>AltGr</kbd>+<kbd>#</kbd>, <kbd>Space</kbd> | `⁀` | CHARACTER TIE (U+2040)¹ |
+| <kbd>AltGr</kbd>+<kbd>#</kbd>, <kbd>Space</kbd> | `ᵔ` | MODIFIER LETTER SMALL TOP HALF O (U+1D54)¹ |
 | <kbd>AltGr</kbd>+<kbd>é</kbd>, <kbd>Space</kbd> | `´` | ACUTE ACCENT (U+00B4) |
 | <kbd>AltGr</kbd>+<kbd>è</kbd>, <kbd>Space</kbd> | `` ` `` | GRAVE ACCENT (U+0060) |
 | <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>(</kbd>, <kbd>Space</kbd> | `˝` | DOUBLE ACUTE ACCENT (U+02DD) |
@@ -86,7 +86,7 @@ This allows to input certain characters verbatim. However, please note that cert
 Please, note that this allows typing a `` ` `` (GRAVE ACCENT) character, known to developers as "backtick", even though this character is conspicuously absent from the list of supported characters mandated by the standard.
 
 <sup><sup>
-¹ The 'COMBINING INVERTED BREVE' character does not have a non-spacing equivalent and is replaced by the 'CHARACTER TIE' visual approximation.  
+¹ The 'COMBINING INVERTED BREVE' character does not have a non-spacing equivalent and is replaced by the 'MODIFIER LETTER SMALL TOP HALF O' visual approximation.  
 ² For some reason, the 'DOUBLE GRAVE ACCENT' is positioned at the bottom of the text.  
 ³ The 'COMBINING DOT BELOW' character does not have a non-spacing equivalent and is replaced by the 'FULL STOP' visual approximation.  
 ⁴ THe 'COMBINING COMMA BELOW' character does not have a non-spacing equivalent and is replaced by the 'COMMA' visual approximation.
