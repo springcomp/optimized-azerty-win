@@ -22,4 +22,4 @@ The keyboard is installed as « New Azerty Keyboard » layout.
 - [Norme AFNOR](https://www.boutique.afnor.org/norme/nf-z71-300/interfaces-utilisateurs-dispositions-de-clavier-bureautique-francais/article/901594/fa188960)
 
 
-<sup><sup>Cette œuvre est mise à disposition selon les termes de la [http](License Creative Commons Attribution 4.0 International).</sup></sup>   
+<sup><sup>Cette œuvre est mise à disposition selon les termes de la [License Creative Commons Attribution 4.0 International](https://i.creativecommons.org/l/by/4.0/80x15.png).</sup></sup>   
