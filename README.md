@@ -93,6 +93,19 @@ Please, note that this allows typing a `` ` `` (GRAVE ACCENT) character, known t
 </sup></sup>
 
 
+### Caps Lock
+
+The AZERTY-NF layout also includes the "SGCaps" feature. Used originally for the Swiss-German layout, this feature changes the behaviour of the <kbd>Caps Lock</kbd> key.
+
+Traditionnaly, <kbd>Caps Lock</kbd> acts like maintaining the <kbd>Shift</kbd> key. This means that in a traditionnal AZERTY layout, enabling <kbd>Caps Lock</kbd> and typing <kbd>é</kbd> produces the number `1`.
+
+The AZERTY-NF layout allows you to type the corresponding accented characters when <kbd>Caps Lock</kbd> is toggled on.
+
+Thus, enabling <kbd>Caps Lock</kbd> and typing <kbd>à</kbd>, <kbd>é</kbd>, <kbd>ê</kbd>, <kbd>è</kbd>, <kbd>^</kbd>, <kbd>i</kbd>, <kbd>^</kbd>, <kbd>o</kbd>, <kbd>ù</kbd> produces `ÀÉÊÈÎÔÙ`.
+
+More realistically, enabling <kbd>Caps Lock</kbd> and typing <kbd>c</kbd>, <kbd>'</kbd>, <kbd>e</kbd>, <kbd>s</kbd>, <kbd>t</kbd>, <kbd>Space</kbd>, <kbd>à</kbd>, <kbd>Space</kbd>, <kbd>d</kbd>, <kbd>i</kbd>, <kbd>r</kbd>, <kbd>e</kbd> produces `C'EST À DIRE`. Notice that neither the apostrophe (`'`) nor the accented character (`à`) did require extra precautions. This would not be normally feasible on a traditional AZERTY layout.
+
+
 ## Known issues
 
 ### Combining Diacritical marks
