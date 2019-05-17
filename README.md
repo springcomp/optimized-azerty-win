@@ -13,7 +13,7 @@ See the [Releases](https://github.com/tbolon/optimized-azerty-win/releases) tab 
 
 When the keyboard layout is installed, you will certainly have to restart Windows to allow the new layout to be displayed on the language setup screen.
 
-The keyboard is installed as « New Azerty Keyboard » layout.
+The keyboard is installed as « Français - AZERTY NF Z71-300 » layout.
 
 
 ## Usage
