@@ -1,5 +1,8 @@
 [![Creative Commons](https://i.creativecommons.org/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)
 
+[![Build status](https://ci.appveyor.com/api/projects/status/7b0ppkrn5qgs3ucv?svg=true)](https://ci.appveyor.com/project/springcomp/optimized-azerty-win)
+
+
 ## Content
 
 This repository contains a simple .klc file which can be used with [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
