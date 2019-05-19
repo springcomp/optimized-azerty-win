@@ -1,4 +1,7 @@
-[![Creative Commons](https://i.creativecommons.org/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)
+[![GitHub license](https://img.shields.io/github/license/tbolon/optimized-azerty-win.svg)](https://github.com/tbolon/optimized-azerty-win/blob/master/LICENCE.txt)
+
+[![GitHub issues](https://img.shields.io/github/issues/tbolon/optimized-azerty-win.svg)](https://github.com/tbolon/optimized-azerty-win/issues)
+
 
 ## Content
 
@@ -6,6 +9,7 @@ This repository contains a simple .klc file which can be used with [Microsoft Ke
 to add a custom layout on Windows supporting a recently standardized azerty keyboard layout.
 
 ![](./refs/main_layout.png)
+
 
 ## Installation
 
