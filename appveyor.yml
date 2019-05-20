@@ -44,4 +44,5 @@ deploy:
     artifact: artifacts\setup.zip,artifacts\sources.zip
     prerelease: true
     on:
+      branch: master # only release from master branch
       APPVEYOR_REPO_TAG: true # only release on new tag
