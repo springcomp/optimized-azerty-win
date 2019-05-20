@@ -117,7 +117,7 @@ More realistically, enabling <kbd>Caps Lock</kbd> and typing <kbd>c</kbd>, <kbd>
 
 The NF Z71-300 standard that governs the behaviour of the AZERTY-NF layout dictates the complete set of characters that __must__ be supported, as well as a list of characters that are __recommended__.
 
-The present layout supports the `ẜ`(latin long small letter S with diagnonal stroke)  and `ẛ` (latin long small letter S with dot above) characters but they must be typed using a combining diacritical mark instead of relying on the dead-key diacritical mark.
+The present layout supports the `ẜ`(latin long small letter S with diagonal stroke)  and `ẛ` (latin long small letter S with dot above) characters but they must be typed using a combining diacritical mark instead of relying on the dead-key diacritical mark.
 
 
 Thus, the following combinations are required:
