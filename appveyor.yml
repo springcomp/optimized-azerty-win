@@ -1,0 +1,47 @@
+image: Visual Studio 2017
+
+branches:
+  only:
+    - master
+    - continuous_integration
+
+before_build:
+  - ps: docker build --cache-from sprinccompdocker/msklc:1.4 --tag private/msklc:1.4 --file .\Dockerfile .\context\
+
+build_script:
+  - ps: Set-Content -Path ".\bin\KBFRZ71.klc" -Encoding Unicode -Value (Get-Content -Path ".\KBFRZ71.klc" -Raw -Encoding UTF8)
+  - ps: docker run --rm --mount "type=bind,source=C:\projects\optimized-azerty-win\bin,target=C:\sources" private/msklc:1.4 > build.log
+  - ps: |
+      $content = (Get-Content -Path ".\build.log" -Raw)
+      Write-Host "`r`n"
+      if ($content.Contains("Error")) {
+        Write-Host $content -ForegroundColor Red
+        throw "Build failed."
+      }
+      else {
+        Write-Host $content -ForegroundColor Green
+        Remove-Item -Path ".\KBFRZ71.klc"
+      }
+
+after_build:
+  - ps: 7z a artifacts\setup.zip C:\projects\optimized-azerty-win\bin\* -xr!artifacts
+  - ps: 7z a artifacts\sources.zip C:\projects\optimized-azerty-win\* -xr!bin -xr!artifacts
+
+artifacts:
+  - path: artifacts\setup.zip
+    name: setup
+    type: file
+  - path: artifacts\sources.zip
+    name: sources
+    type: file
+
+deploy:
+  - provider: GitHub
+    release: $(APPVEYOR_REPO_TAG_NAME)
+    description: AZERTY NF Z71-300 Keyboard Layout
+    auth_token:
+      secure: 6sczxSu1J6KcBNTBKjni6OSc3smg/JlHJWhI68nq0l8InM/4ebZ9Z6hhWLPpZPJl
+    artifact: artifacts\setup.zip,artifacts\sources.zip
+    prerelease: true
+    on:
+      APPVEYOR_REPO_TAG: true # only release on new tag

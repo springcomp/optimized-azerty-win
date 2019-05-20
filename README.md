@@ -3,6 +3,9 @@
 [![GitHub issues](https://img.shields.io/github/issues/tbolon/optimized-azerty-win.svg)](https://github.com/tbolon/optimized-azerty-win/issues)
 
 
+[![Build status](https://ci.appveyor.com/api/projects/status/7b0ppkrn5qgs3ucv?svg=true)](https://ci.appveyor.com/project/springcomp/optimized-azerty-win)
+
+
 ## Content
 
 This repository contains a simple .klc file which can be used with [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
