@@ -25,14 +25,10 @@ build_script:
 
 after_build:
   - ps: 7z a artifacts\setup.zip C:\projects\optimized-azerty-win\bin\* -xr!artifacts
-  - ps: 7z a artifacts\sources.zip C:\projects\optimized-azerty-win\* -xr!bin -xr!artifacts
 
 artifacts:
   - path: artifacts\setup.zip
     name: setup
-    type: file
-  - path: artifacts\sources.zip
-    name: sources
     type: file
 
 deploy:
@@ -41,7 +37,7 @@ deploy:
     description: AZERTY NF Z71-300 Keyboard Layout
     auth_token:
       secure: ubTLMSsBY2gwqt3JU4rlNswLN1LR9p9rCKmROofJagRes96Pmpe8S4ctjz74O0jb
-    artifact: artifacts\setup.zip,artifacts\sources.zip
+    artifact: artifacts\setup.zip
     prerelease: true
     on:
       branch: master # only release from master branch
