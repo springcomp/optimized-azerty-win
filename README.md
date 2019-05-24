@@ -53,7 +53,7 @@ For instance:
 Please, note that using a combining diacritical mark differs from using a dead-key in the following ways:
 
 - The combining diacritical mark must be typed __after__ a previously typed character, whereas a dead key must be typed before the desired character key.
-- Using a combining diacritical mark __produces an additional Unicode code point__ in the input, and thus modifies the previously typed character to apply a diacritical mark, whereas the sequence of a dead-key followed by a character produces a single Unicode code point, corresponding to a [precomposed character](https://en.wikipedia.org/wiki/Precomposed_character).
+- Using a combining diacritical mark __produces an additional Unicode code point__ in the output, and thus modifies the previously typed character to apply a diacritical mark, whereas the sequence of a dead-key followed by a character produces a single Unicode code point, corresponding to a [precomposed character](https://en.wikipedia.org/wiki/Precomposed_character).
 
 For instance, the following two combinations both produce the letter `é`. However, the resulting sequences of Unicode code points differ:
 
@@ -61,9 +61,9 @@ For instance, the following two combinations both produce the letter `é`. Howev
 - <kbd>e</kbd>, <kbd>AltGr</kbd>+<kbd>é</kbd>, <kbd>AltGr</kbd>+<kbd>é</kbd> produces `é` (U+0065, U+0301) `e + ◌́` .
 
 
-Please, note that it is possible to input a non-spacing version of a diacritical mark by typing a <kbd>Space</kbd> after the dead-key.
+Please, note that it is possible to input a non-combining version of a diacritical mark by typing a <kbd>Space</kbd> after the dead-key.
 
-This allows to input certain characters verbatim. However, please note that certain diacritical marks do not have a non-spacing variant. For these characters, a somewhat equivalent glyph is produced, according to the following table:
+This allows to input certain characters verbatim. However, please note that certain diacritical marks do not have a non-combining variant. For these characters, a somewhat equivalent glyph is produced, according to the following table:
 
 |Sequence|Character|Unicode code point|
 |---|---|---|
@@ -91,10 +91,10 @@ This allows to input certain characters verbatim. However, please note that cert
 Please, note that this allows typing a `` ` `` (GRAVE ACCENT) character, known to developers as "backtick", even though this character is conspicuously absent from the list of supported characters mandated by the standard.
 
 <sup><sup>
-¹ The 'COMBINING INVERTED BREVE' character does not have a non-spacing equivalent and is replaced by the 'MODIFIER LETTER SMALL TOP HALF O' visual approximation.  
+¹ The 'COMBINING INVERTED BREVE' character does not have a non-combining equivalent and is replaced by the 'MODIFIER LETTER SMALL TOP HALF O' visual approximation.  
 ² For some reason, the 'DOUBLE GRAVE ACCENT' is positioned at the bottom of the text.  
-³ The 'COMBINING DOT BELOW' character does not have a non-spacing equivalent and is replaced by the 'FULL STOP' visual approximation.  
-⁴ THe 'COMBINING COMMA BELOW' character does not have a non-spacing equivalent and is replaced by the 'COMMA' visual approximation.
+³ The 'COMBINING DOT BELOW' character does not have a non-combining equivalent and is replaced by the 'FULL STOP' visual approximation.  
+⁴ THe 'COMBINING COMMA BELOW' character does not have a non-combining equivalent and is replaced by the 'COMMA' visual approximation.
 </sup></sup>
 
 
