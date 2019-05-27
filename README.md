@@ -121,7 +121,7 @@ The `` characters, 'LATIN SMALL LONG LETTER S' (U+017F) shown in the table above
 The following two combinations are available:
 
 - <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd>Eu</kbd> produces `ẜ` 'LATIN SMALL LETTER LONG S WITH DIAGONAL STROKE' (U+1E9C)
-- <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd>Eu</kbd> produces `ẛ` 'LATIN SMALL LETTER LONG S WITH DOT ABOVE' (U+1E9B)
+- <kbd>AltGr</kbd>+<kbd>i</kbd>, <kbd>AltGr</kbd>+<kbd>Eu</kbd> produces `ẛ` 'LATIN SMALL LETTER LONG S WITH DOT ABOVE' (U+1E9B)
 
 
 
