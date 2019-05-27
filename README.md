@@ -110,25 +110,22 @@ Thus, enabling <kbd>Caps Lock</kbd> and typing <kbd>à</kbd>, <kbd>é</kbd>, <kb
 
 More realistically, enabling <kbd>Caps Lock</kbd> and typing <kbd>c</kbd>, <kbd>'</kbd>, <kbd>e</kbd>, <kbd>s</kbd>, <kbd>t</kbd>, <kbd>Space</kbd>, <kbd>à</kbd>, <kbd>Space</kbd>, <kbd>d</kbd>, <kbd>i</kbd>, <kbd>r</kbd>, <kbd>e</kbd> produces `C'EST À DIRE`. Notice that neither the apostrophe (`'`) nor the accented character (`à`) did require extra precautions. This would not be normally feasible on a traditional AZERTY layout.
 
+### Extended characters
+
+The AZERTY-NF contains a 'European Extended Characters' layer that is accessible after pressing <kbd>AltGr</kbd>+<kbd>Eu</kbd>.
+
+This layer contains characters not in common use in the French language. However, one of the goal of the standard is to allow writing texts with characters most commonly found in other European languages.
+
+The `` characters, 'LATIN SMALL LONG LETTER S' (U+017F) shown in the table above can also be altered with diacritical marks. 
+
+The following two combinations are available:
+
+- <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd>Eu</kbd> produces `ẜ` 'LATIN SMALL LETTER LONG S WITH DIAGONAL STROKE' (U+1E9C)
+- <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd>Eu</kbd> produces `ẛ` 'LATIN SMALL LETTER LONG S WITH DOT ABOVE' (U+1E9B)
+
+
 
 ## Known issues
-
-### Combining Diacritical marks
-
-The NF Z71-300 standard that governs the behaviour of the AZERTY-NF layout dictates the complete set of characters that __must__ be supported, as well as a list of characters that are __recommended__.
-
-The present layout supports the `ẜ`(latin long small letter S with diagonal stroke)  and `ẛ` (latin long small letter S with dot above) characters but they must be typed using a combining diacritical mark instead of relying on the dead-key diacritical mark.
-
-
-Thus, the following combinations are required:
-
-- <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>s</kbd>, <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd>k</kbd> produces `ẜ`.
-- <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>s</kbd>, <kbd>AltGr</kbd>+<kbd>i</kbd>, <kbd>AltGr</kbd>+<kbd>i</kbd> produces `ẛ`.
-
-Please, note that, as described previously, those combinations produce a sequence of two Unicode code points instead of a single code-point corresponding to the precomposed character.
-
-- `ẜ` (U+017F, U+0337) instead of precomposed (U+1E9C)
-- `ẛ` (U+017F, U+0307) instead of precomposed (U+1E9B)
 
 ### Diacritical marks and 'below' variants
 
