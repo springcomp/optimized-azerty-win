@@ -116,7 +116,28 @@ The AZERTY-NF contains a 'European Extended Characters' layer that is accessible
 
 This layer contains characters not in common use in the French language. However, one of the goal of the standard is to allow writing texts with characters most commonly found in other European languages.
 
-The `` characters, 'LATIN SMALL LONG LETTER S' (U+017F) shown in the table above can also be altered with diacritical marks. 
+The following table shows some characters available from the European Extended Characters layer. Other punctuation marks, not shown here, are also available. Please refer to [the layout](refs/EU_level.png) shown by the official page for more information. 
+
+|Sequence|Character|Unicode code point|
+|---|---|---|
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>a</kbd> | `ª` | FEMININE ORDINAL INDICATOR (U+00AA) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>d</kbd> | `ð` | LATIN SMALL LETTER ETH (U+0000) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>d</kbd> | `Ð` | LATIN CAPITAL LETTER ETH (U+00D0) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>e</kbd> | `ə` | LATIN SMALL LETTER SCHWA (U+0259) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>e</kbd> | `Ə` | LATIN CAPITAL LETTER SCHWA (U+018F) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>g</kbd> | `ŋ` | LATIN SMALL LETTER ENG (U+014B) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>g</kbd> | `Ŋ` | LATIN CAPITAL LETTER ENG (U+014A) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>i</kbd> | `ı` | LATIN SMALL LETTER DOTLESS I (U+0131) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>i</kbd> | `İ` | LATIN CAPITAL LETTER I WITH DOT ABOVE (U+0130) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>j</kbd> | `ĳ` | LATIN SMALL LIGATURE IJ (U+0133) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>j</kbd> | `Ĳ` | LATIN CAPITAL LIGATURE IJ (U+0132) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>o</kbd> | `º` | MASCULINE ORDINAL INDICATOR (U+00BA) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>s</kbd> | `ſ` | LATIN SMALL LETTER LONG S (U+017F) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>t</kbd> | `þ` | LATIN SMALL LETTER THORN (U+00FE) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>T</kbd> | `Þ` | LATIN CAPITAL LETTER THORN (U+00DE) |
+
+
+The `ſ` character, 'LATIN SMALL LONG LETTER S' (U+017F) shown in the table above can also be altered with diacritical marks. 
 
 The following two combinations are available:
 
