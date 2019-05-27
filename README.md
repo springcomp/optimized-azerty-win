@@ -68,7 +68,7 @@ This allows to input certain characters verbatim. However, please note that cert
 |Sequence|Character|Unicode code point|
 |---|---|---|
 | <kbd>AltGr</kbd>+<kbd>@</kbd>, <kbd>Space</kbd> | `˘` | BREVE (U+02D8) |
-| <kbd>AltGr</kbd>+<kbd>#</kbd>, <kbd>Space</kbd> | `ᵔ` | DEGREE SIGN (U+00B0)¹ |
+| <kbd>AltGr</kbd>+<kbd>#</kbd>, <kbd>Space</kbd> | `°` | DEGREE SIGN (U+00B0)¹ |
 | <kbd>AltGr</kbd>+<kbd>é</kbd>, <kbd>Space</kbd> | `´` | ACUTE ACCENT (U+00B4) |
 | <kbd>AltGr</kbd>+<kbd>è</kbd>, <kbd>Space</kbd> | `` ` `` | GRAVE ACCENT (U+0060) |
 | <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>(</kbd>, <kbd>Space</kbd> | `˝` | DOUBLE ACUTE ACCENT (U+02DD) |
