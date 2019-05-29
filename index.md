@@ -36,6 +36,8 @@ Vos contributions sont bienvenues.
 
 Tout d’abord, la disposition a été pensée pour ne pas trop bouleverser les habitudes des utilisateurs. Vous devriez y trouver tous les caractères nécessaires à la bonne écriture du français. Avec un peu d’habitude, les réflexes reviennent assez vite.
 
+![](assets/images/base.png)
+
 ### Majuscules accentuées
 
 L’une des critiques principales vis-à-vis de la disposition AZERTY actuelle est la difficulté de saisir des majuscules accentuées. La disposition AZERTY-NF résoud ce problème en proposant, en accès rapide, sur des positions intuitives, les majuscules suivantes :
