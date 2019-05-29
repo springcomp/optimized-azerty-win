@@ -19,13 +19,13 @@ Pourtant, l’utilisation de cette disposition reste intuitive car 93% des posit
 
 ### Libre de droit
 
-<a href="https://github.com/tbolon/optimized-azerty-win"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_green_007200.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+<a href="https://github.com/springcomp/optimized-azerty-win"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_green_007200.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
 
-[![GitHub license](https://img.shields.io/github/license/tbolon/optimized-azerty-win.svg)](https://github.com/tbolon/optimized-azerty-win/blob/master/LICENCE.txt)
+[![GitHub license](https://img.shields.io/github/license/springcomp/optimized-azerty-win.svg)](https://github.com/springcomp/optimized-azerty-win/blob/master/LICENCE.txt)
 
 
-- [Essayez la disposition](https://github.com/tbolon/optimized-azerty-win/releases) sous Windows®.
-- [Faîtes-nous part](https://github.com/tbolon/optimized-azerty-win/issues) de vos commentaires et suggestions d’amélioration.
+- [Essayez la disposition](https://github.com/springcomp/optimized-azerty-win/releases) sous Windows®.
+- [Faîtes-nous part](https://github.com/springcomp/optimized-azerty-win/issues) de vos commentaires et suggestions d’amélioration.
 
 La disposition AZERTY-NF distribuée sous license [Creative Commons CC-BY](https://creativecommons.org/licenses/by/4.0/) qui vous permet de copier et redistribuer la disposition sur tout support. Elle permet également l’utilisation de la disposition dans un contexte commercial.
 
