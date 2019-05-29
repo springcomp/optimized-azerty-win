@@ -1,4 +1,4 @@
-repository: tbolon/optimized-azerty-win
+repository: springcomp/optimized-azerty-win
 plugins:
   - jekyll-seo-tag
 
