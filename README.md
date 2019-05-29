@@ -3,6 +3,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/tbolon/optimized-azerty-win.svg)](https://github.com/tbolon/optimized-azerty-win/issues)
 [![Build status](https://ci.appveyor.com/api/projects/status/agve42knfy5eri07?svg=true)](https://ci.appveyor.com/project/tbolon/optimized-azerty-win)
 
+![](./refs/french.png) Veuillez consulter [la documentation en français](https://tbolon.github.io/optimized-azerty-win/). 
 
 ## Content
 
