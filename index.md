@@ -4,23 +4,39 @@ title: Disposition AZERTY Normalisée
 ---
 
 # {{ page.title }}
+
 ![Bandeau](assets/images/banner-996x450.png)
 
 
 ## Vue d’ensemble
 
-Récemment, l’organisme de certification AFNOR a publié la norme NF Z71-300 relative portant sur deux dispositions de clavier bureautiques pour l’écriture du français. Cette norme établit les règles de gravure des claviers physiques ainsi que les caractères qui doivent être pris en charge par les pilotes pour les systèmes d’exploitation concernés.
+Récemment, l’organisme de certification AFNOR a publié la norme NF Z71-300 portant sur deux dispositions de claviers bureautiques pour l’écriture du français. Cette norme établit les règles de gravure des claviers physiques ainsi que les caractères qui doivent être pris en charge par les pilotes pour les systèmes d’exploitation concernés.
 
-Parmi les dispositions proposées par la norme, la disposition AZERTY – appelée AZERTY-NF dans la suite – a été repensée pour inclure l’intégralité des caractères nécessaires à l’écriture du français, comme, par exemple les caractères `É`, `œ` et `«`. Elle inclue également de nombreux caractères et signes de ponctuation utilisés dans les langues des européennes, y compris les caractères grecs.
+Parmi les dispositions proposées par la norme, la disposition AZERTY – appelée AZERTY-NF dans la suite – a été repensée pour inclure l’intégralité des caractères nécessaires à l’écriture du français, comme, par exemple les caractères `É`, `œ` et `«`. Elle inclue également de nombreux caractères et signes de ponctuation utilisés dans les langues européennes, y compris les caractères grecs courants.
 
 Pourtant, l’utilisation de cette disposition reste intuitive car 93% des positions sont partagées par la disposition AZERTY « traditionnelle ». Les positions modifiées sont rendues intuitives par un groupement logique de certains caractères, comme les parenthèses, ou les signes mathématiques.
+
+
+### Libre de droit
+
+<a href="https://github.com/tbolon/optimized-azerty-win"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_green_007200.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+
+[![GitHub license](https://img.shields.io/github/license/tbolon/optimized-azerty-win.svg)](https://github.com/tbolon/optimized-azerty-win/blob/master/LICENCE.txt)
+
+
+- [Essayez la disposition](https://github.com/tbolon/optimized-azerty-win/releases) sous Windows®.
+- [Faîtes-nous part](https://github.com/tbolon/optimized-azerty-win/issues) de vos commentaires et suggestions d’amélioration.
+
+La disposition AZERTY-NF distribuée sous license [Creative Commons CC-BY](https://creativecommons.org/licenses/by/4.0/) qui vous permet de copier et redistribuer la disposition sur tout support. Elle permet également l’utilisation de la disposition dans un contexte commercial.
+
+Vos contributions sont bienvenues.
 
 
 ## Utilisation
 
 Tout d’abord, la disposition a été pensée pour ne pas trop bouleverser les habitudes des utilisateurs. Vous devriez y trouver tous les caractères nécessaires à la bonne écriture du français. Avec un peu d’habitude, les réflexes reviennent assez vite.
 
-### Maj.uscules accentuées
+### Majuscules accentuées
 
 L’une des critiques principales vis-à-vis de la disposition AZERTY actuelle est la difficulté de saisir des majuscules accentuées. La disposition AZERTY-NF résoud ce problème en proposant, en accès rapide, sur des positions intuitives, les majuscules suivantes :
 
@@ -41,7 +57,7 @@ On trouvera également les deux ligatures courantes du français :
 | <kbd>AltGr</kbd>+<kbd>Maj.</kbd>+<kbd>o</kbd> | `Œ` |
 
 
-### Diacritical marks and accented characters
+### Caractères accentués et signes diacritiques
 
 L’une des particularité de la disposition est d’être résolument moderne et de permettre la saisie d’un très grand nombre de caractères accentués. En plus des accents et diacritiques `accent grave`, `accent circonflexe`, `tréma` et `tilde` que vous connaissez déjà sur votre disposition AZERTY actuelle, la disposition AZERTY-NF supporte un grand nombre d’accents et de diacritiques, moins fréquemment utilisés en France, mais permettant néanmoins la saisie, notamment, de la plupart des langues latines des pays européens.
 
@@ -49,9 +65,9 @@ De manière similaires à la touche <kbd>^</kbd> que vous connaissez, les accent
 
 Par exemple, taper le caractère `Ÿ` est maintenant possible, via la combinaison des touches <kbd>¨</kbd>, <kbd>Maj.</kbd>+<kbd>Y</kbd>.
 
-Si, après avoir appuyé sur la touche morte correspondant à un accent ou une marque diacritique, aucune correspondant n’est trouvée pour produire un caractère accentué, le signe diacritique lui-même, est produit. Cependant, quelques signes diacritiques n’ont pas d’équivalent visuels dit « non combinant ». Dans ce cas, la disposition AZERTY-NF a fait le choix de produire un caractère dont l'aspect visuel rappelle le signe diacritique concerné.
+Si, après avoir appuyé sur la touche morte correspondant à un accent ou une marque diacritique, aucune correspondance n’est trouvée pour produire un caractère accentué, le signe diacritique, lui-même, est produit. Cependant, quelques signes diacritiques n’ont pas d’équivalent visuel dit « non combinant ». Dans ce cas, la disposition AZERTY-NF a fait le choix de produire un caractère dont l'aspect visuel rappelle le signe diacritique concerné.
 
-Les accents et diacritiques suivants présents sont référencés dans le tableau ci-dessous. Pour les touches mortes existant déjà sur la disposition AZERTY traditionnelle, l’ancienne position est rappelée pour référence. De même, figurent dans le tableaux les points de codage Unicode des caractères produits lorsqu’ils ne sont pas combinés avec un autre caractère.
+Les accents et diacritiques présents sont référencés dans le tableau ci-dessous. Pour les touches mortes, existant déjà sur la disposition AZERTY traditionnelle, l’ancienne position est rappelée pour référence. De même, figurent dans le tableaux les points de codage Unicode des caractères produits lorsqu’ils ne sont pas combinés avec un autre caractère.
 
 |Position|Diacritique|Ancienne position|Point de codage Unicode|Exemples|
 |---|---|--|---|---|
@@ -84,9 +100,9 @@ Les accents et diacritiques suivants présents sont référencés dans le tablea
 ⁵ Le signe diacritique 'VIRGULE SOUSCRITE' ne possède par de représentation non combinante. Il est donc remplacé par la 'VIRGULE' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.
 </sup></sup>
 
-La disposition AZERTY-NF diffère de manière subtile de la disposition traditionnelle à laquelle vous êtes habitué. En effet, de nombreux langues européennes font usage de caractères accentués ou affublés de signes diacritiques qui ne sont pas d’un usage courant en français. Pour supporter la saisie de ces caractères, la disposition AZERTY-NF met également en œuvre un mécanisme de _signes diacritiques combinants_, qui sont appliqués _a posteriori_ au caractère qui le précede dans la saisie de texte.
+La disposition AZERTY-NF diffère de manière subtile de la disposition traditionnelle à laquelle vous êtes habitué. En effet, de nombreuses langues européennes font usage de caractères accentués ou affublés de signes diacritiques qui ne sont pas d’un usage courant en français. Pour supporter la saisie de ces caractères, la disposition AZERTY-NF met également en œuvre un mécanisme de _signes diacritiques combinants_, qui sont appliqués _a posteriori_ au caractère qui les précede dans la saisie de texte.
 
-Un signe diacritique combinant est produit tout simplement en répétant l’appui sur la touche morte correspondante.
+Un signe diacritique combinant est produit, tout simplement, en répétant l’appui sur la touche morte correspondante.
 
 Par exemple : 
 
@@ -94,8 +110,8 @@ Par exemple :
 
 Veuillez noter que l’utilisation d’un signe diacritique combinant diffère de l’utilisation de la touche morte correspondante. En effet :
 
-- Un signe diacritique combinant doit être tapé _après_ la saisie du caractère de base sur lequel il doit être appliqué, alors que la touche morte qui permet de composer un caractère doit être tapée _avant_ celui-ci.
-- L’utilisation d’un signe diacritique combinant _produit un point de codage Unicode supplémentaire_ dans le texte, ce qui permet de « modifier » le caractère de base saisi précédemment. À l’inverse, une touche morte suivie d’un caractère à composer ne produit qu’un seul point de codage Unicode, correspondant à une version [précomposée](https://fr.wikipedia.org/wiki/Caract%C3%A8re_pr%C3%A9compos%C3%A9) du caractère en question.
+- Un signe diacritique combinant doit être tapé __après__ la saisie du caractère de base sur lequel il doit être appliqué, alors que la touche morte qui permet de composer un caractère doit être tapée _avant_ celui-ci.
+- L’utilisation d’un signe diacritique combinant __produit un point de codage Unicode supplémentaire__ dans le texte, ce qui permet de « modifier » le caractère de base saisi précédemment. À l’inverse, une touche morte suivie d’un caractère à composer ne produit qu’un seul point de codage Unicode, correspondant à une version [précomposée](https://fr.wikipedia.org/wiki/Caract%C3%A8re_pr%C3%A9compos%C3%A9) du caractère en question.
 
 Par exemple, les combinaisons de touches suivantes produisent toutes les deux la lettre `é`. Pourtant, la séquence de points de codage Unicode produits dans le texte diffère d’un cas à l’autre.
 
@@ -167,7 +183,7 @@ Par exemple, une touche morte, suivie de la touche <kbd>Retour Arr.</kbd> doit f
 
 Il est donc nécessaire de choisir, pour chaque touche morte, un caractère approprié, pour ne pas créer de surprise ou de confusion lors de la saisie.
 
-- Pour la plupart des accents et signes diacritiques, le caractère non combinant correspondant est choisi. Cela permet, d’une part, de conserver le fonctionnement auquel les utilsiateurs sont habitués. Cela permet également de saisir, particulièrement, le signe 'ACCENT GRAVE' (U+0060), curieusement absent de la norme !
+- Pour la plupart des accents et signes diacritiques, le caractère non combinant correspondant est choisi. Cela permet, d’une part, de conserver le fonctionnement auquel les utilisateurs sont habitués. En outre, cela permet de saisir, particulièrement, le signe 'ACCENT GRAVE' (U+0060), curieusement absent de la norme !
 - Pour certains signes qui n’ont pas d’équivalent non combinant, la disposition AZERTY-NF a fait le choix de sélectionner des caractères dont le dessin est une approximation visuelle.
 - Pour la sélection des symboles monétaires ou grecs, la norme impose de choisir, respectivement, le caractère 'SYMBOLE DEVISE' (U+00B4) et le 'SIGNE MICRON' (U+00B5).
 - Enfin, reste le choix du caractère associé à la sélection des caractères européens. Pour les raisons exposées ci-après, la disposition AZERTY-NF a choisi le caractère `ſ` 'LETTRE LATINE LONG S' (U+01EF).
