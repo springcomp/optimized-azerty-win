@@ -83,7 +83,7 @@ Les accents et diacritiques présents sont référencés dans le tableau ci-dess
 | <kbd>AltGr</kbd>+<kbd>Maj.</kbd>+<kbd>)</kbd>, <kbd>Espace</kbd> | `˵` | N/A | DOUBLE ACCENT GRAVE (U+02F5)¹ | Ȁȁ Ȅȅ Ȉȉ Ȍȍ Ȑȑ Ȕȕ |
 | <kbd>AltGr</kbd>+<kbd>‘</kbd>, <kbd>Espace</kbd> | `¯` | N/A | MACRON (U+00AF) | Āā Ēē Ḡḡ² Īī Ōō Ūū Ȳȳ Ǣǣ |
 | <kbd>AltGr</kbd>+<kbd>"</kbd>, <kbd>Espace</kbd> | `˚` | N/A | ANNEAU EN CHEF (U+02DA) | Åå Ůů ẘ ẙ|
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>Espace</kbd> | `ˇ` | N/A | CARON (U+02C7) | Ǎǎ Čč Ďď Ěě Ǧǧ Ȟȟ Ǐǐ ǰ Ǩǩ Ľľ Ǒǒ Řř Šš Ťť Ǔǔ Žž Ǯǯ |
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>Espace</kbd> | `ˇ` | N/A | CARON (U+02C7) | Ǎǎ Čč Ďď Ěě Ǧǧ Ȟȟ Ǐǐ ǰ Ǩǩ Ľľ Ňň Ǒǒ Řř Šš Ťť Ǔǔ Žž Ǯǯ |
 | <kbd>AltGr</kbd>+<kbd>i</kbd>, <kbd>Espace</kbd> | `˙` | N/A | POINT EN CHEF (U+02D9) | Ȧȧ Ḃḃ Ċċ Ḋḋ Ėė Ḟḟ Ġġ Ḣḣ İı³ Ŀŀ Ṁṁ Ṅṅ Ȯȯ Ṗṗ Ṙṙ Ṡṡ Ṫṫ Ẇẇ Ẋẋ Ẏẏ Żż ẛ |
 | <kbd>AltGr</kbd>+<kbd>H</kbd>, <kbd>Espace</kbd> | `ˍ` | N/A | MACRON SOUSCRIT (U+02CD) | Ḇḇ Ḏḏ ẖ Ḵḵ Ḻḻ Ṉṉ Ṟṟ Ṯṯ Ẕẕ |
 | <kbd>AltGr</kbd>+<kbd>#</kbd>, <kbd>Espace</kbd> | `°` | N/A | SYMBOLE DEGRÉ (U+00B0)⁴ | Ȃȃ Ȇȇ Ȋȋ Ȏȏ Ȓȓ Ȗȗ|
