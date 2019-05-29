@@ -8,6 +8,7 @@ title: Disposition de Clavier Bureautique AZERTY Normalisée (AFNOR)
 ![Bandeau](assets/images/banner-996x450.png)
 
 
+<a name="overview"></a>
 ## Vue d’ensemble
 
 Récemment, l’organisme de certification AFNOR a publié [la norme NF Z71-300](https://www.boutique.afnor.org/norme/nf-z71-300/interfaces-utilisateurs-dispositions-de-clavier-bureautique-francais/article/901594/fa188960) portant sur deux dispositions de claviers bureautiques pour l’écriture du français. Cette norme établit les règles de gravure des claviers physiques ainsi que les caractères qui doivent être pris en charge par les pilotes pour les systèmes d’exploitation concernés.
@@ -16,6 +17,7 @@ Parmi les dispositions proposées par la norme, la disposition AZERTY – appel�
 
 Pourtant, l’utilisation de cette disposition reste intuitive car 93% des positions sont partagées par la disposition AZERTY « traditionnelle ». Les positions modifiées sont rendues intuitives par un groupement logique de certains caractères, comme les parenthèses, ou les signes mathématiques.
 
+Une documentation rapide de la disposition est disponible [ci-dessous](#usage).
 
 ### Libre de droit
 
@@ -37,9 +39,10 @@ Si vous souhaitez changer les touches de votre clavier mécanique, je vous propo
 
  - [Gabarit vectoriel](https://github.com/springcomp/wasd-iso-104-fr/blob/nf-z71-300/wasd-inkscape-104.88-iso.fr%20%28nf%20z71-300%29.svg) pour le logiciel Inkscape.
 
-<img src="/assets/images/wasd-inkscape-105.88-iso.fr-nf-z71-300.svg" width="996">
+![](/assets/images/wasd-inkscape-105.88-iso.fr-nf-z71-300.png)
 
 
+<a name="usage"></a>
 ## Utilisation
 
 Tout d’abord, la disposition a été pensée pour ne pas trop bouleverser les habitudes des utilisateurs. Vous devriez y trouver tous les caractères nécessaires à la bonne écriture du français. Avec un peu d’habitude, les réflexes reviennent assez vite.
@@ -178,7 +181,7 @@ Les combinaisons suivantes sont disponibles :
 - <kbd>AltGr</kbd>+<kbd>i</kbd>, <kbd>AltGr</kbd>+<kbd>Eu</kbd> produces `ẛ` 'LETTRE LATINE MINUSCULE LONG S WITH DOT ABOVE' (U+1E9B)
 
 
-
+<a name="known-issues"></a>
 ## Problèmes connus
 
 Dans certains cas, la disposition AZERTY-NF ne respecte pas complètement tous les points de la norme AFNOR.
