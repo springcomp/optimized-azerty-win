@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Disposition AZERTY Normalisée
+title: Disposition de Clavier Bureautique AZERTY Normalisée (AFNOR)
 ---
 
 # {{ page.title }}
@@ -10,7 +10,7 @@ title: Disposition AZERTY Normalisée
 
 ## Vue d’ensemble
 
-Récemment, l’organisme de certification AFNOR a publié la norme NF Z71-300 portant sur deux dispositions de claviers bureautiques pour l’écriture du français. Cette norme établit les règles de gravure des claviers physiques ainsi que les caractères qui doivent être pris en charge par les pilotes pour les systèmes d’exploitation concernés.
+Récemment, l’organisme de certification AFNOR a publié [la norme NF Z71-300](https://www.boutique.afnor.org/norme/nf-z71-300/interfaces-utilisateurs-dispositions-de-clavier-bureautique-francais/article/901594/fa188960) portant sur deux dispositions de claviers bureautiques pour l’écriture du français. Cette norme établit les règles de gravure des claviers physiques ainsi que les caractères qui doivent être pris en charge par les pilotes pour les systèmes d’exploitation concernés.
 
 Parmi les dispositions proposées par la norme, la disposition AZERTY – appelée AZERTY-NF dans la suite – a été repensée pour inclure l’intégralité des caractères nécessaires à l’écriture du français, comme, par exemple les caractères `É`, `œ` et `«`. Elle inclue également de nombreux caractères et signes de ponctuation utilisés dans les langues européennes, y compris les caractères grecs courants.
 
