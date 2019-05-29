@@ -111,7 +111,7 @@ Les accents et diacritiques présents sont référencés dans le tableau ci-dess
 ³ Le signe diacritique 'POINT EN CHEF' sert également à saisir la 'LETTRE LATINE I MINUSCULE SANS POINT', courante en Turquie. Ce symbole est également disponible via la couche des caractères européens, accessible via la combinaison <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>i</kbd>.  
 ⁴ Le signe diacritique 'BRÈVE INVERSÉE' ne possède pas de réprésentation non combinante. Il est donc remplacé par le 'SYMBOLE DEGRÉ' lorsqu’il n’est pas associé à un caractère approprié.  
 ⁵ Le signe diacritique 'POINT SOUSCRIT' ne possède pas de représentation non combinante. Il est donc remplacé par le 'POINT FINAL' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.  
-⁶ Le signe diacritique 'BARRE COUVRANTE' ne posséde pas de représentation non combinante. Il est donc remplacé par le 'SIGNE MOINS - TRAIT D’UNION' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.
+⁶ Le signe diacritique 'BARRE COUVRANTE' ne posséde pas de représentation non combinante. Il est donc remplacé par le 'SIGNE MOINS - TRAIT D’UNION' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.  
 ⁷ Le signe diacritique 'VIRGULE SOUSCRITE' ne possède par de représentation non combinante. Il est donc remplacé par la 'VIRGULE' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.
 </sup></sup>
 
