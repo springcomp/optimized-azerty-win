@@ -1,9 +1,9 @@
-[![GitHub license](https://img.shields.io/github/license/tbolon/optimized-azerty-win.svg)](https://github.com/tbolon/optimized-azerty-win/blob/master/LICENCE.txt)
+[![GitHub license](https://img.shields.io/github/license/springcomp/optimized-azerty-win.svg)](https://github.com/springcomp/optimized-azerty-win/blob/master/LICENCE.txt)
 
-[![GitHub issues](https://img.shields.io/github/issues/tbolon/optimized-azerty-win.svg)](https://github.com/tbolon/optimized-azerty-win/issues)
-[![Build status](https://ci.appveyor.com/api/projects/status/agve42knfy5eri07?svg=true)](https://ci.appveyor.com/project/tbolon/optimized-azerty-win)
+[![GitHub issues](https://img.shields.io/github/issues/springcomp/optimized-azerty-win.svg)](https://github.com/springcomp/optimized-azerty-win/issues)
+[![Build status](https://ci.appveyor.com/api/projects/status/agve42knfy5eri07?svg=true)](https://ci.appveyor.com/project/springcomp/optimized-azerty-win)
 
-![](./refs/french.png) Veuillez consulter [la documentation en français](https://tbolon.github.io/optimized-azerty-win/). 
+![](./refs/french.png) Veuillez consulter [la documentation en français](https://springcomp.github.io/optimized-azerty-win/). 
 
 ## Content
 
@@ -15,7 +15,7 @@ to add a custom layout on Windows supporting a recently standardized azerty keyb
 
 ## Installation
 
-See the [Releases](https://github.com/tbolon/optimized-azerty-win/releases) tab to download the last setup.
+See the [Releases](https://github.com/springcomp/optimized-azerty-win/releases) tab to download the last setup.
 
 When the keyboard layout is installed, you will certainly have to restart Windows to allow the new layout to be displayed on the language setup screen.
 
