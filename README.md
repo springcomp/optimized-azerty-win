@@ -1,7 +1,7 @@
 [![GitHub license](https://img.shields.io/github/license/springcomp/optimized-azerty-win.svg)](https://github.com/springcomp/optimized-azerty-win/blob/master/LICENCE.txt)
 
 [![GitHub issues](https://img.shields.io/github/issues/springcomp/optimized-azerty-win.svg)](https://github.com/springcomp/optimized-azerty-win/issues)
-[![Build status](https://ci.appveyor.com/api/projects/status/agve42knfy5eri07?svg=true)](https://ci.appveyor.com/project/springcomp/optimized-azerty-win)
+[![Build status](https://ci.appveyor.com/api/projects/status/baoggbidv649cw69?svg=true)](https://ci.appveyor.com/project/springcomp/optimized-azerty-win)
 
 ![](./refs/french.png) Veuillez consulter [la documentation en français](https://springcomp.github.io/optimized-azerty-win/). 
 
