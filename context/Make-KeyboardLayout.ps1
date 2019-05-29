@@ -1,7 +1,37 @@
-[CmdletBinding()]
-param()
+﻿[CmdletBinding()]
+param([string] $version = "1.0.3.40")
 
-PROCESS{
+BEGIN {
+    Function Make-Version {
+        [CmdletBinding()]
+        param(
+            [string]$number,
+            [switch]$spaces
+        )
+
+        $result = $number.Replace(".", ",")
+        if ($spaces.IsPresent) {
+            $result = $result.Replace(",", ", ")
+        }
+        Write-Output $result
+    }
+
+    ## This scripts accepts an argument
+    ## for testing purposes
+    ## When launched from a Docker container
+    ## via AppVeyor, we use an environment
+    ## variable to specify our requestion version number.
+
+    if ($version = "1.0.3.40"){
+        $version = $Env:KBFRZ71_VERSION
+        if (-not $version){
+            $version = "1.0.3.40"
+        }
+    }
+
+}
+
+PROCESS {
 
     Push-Location -Path "C:\sources"
 
@@ -24,6 +54,40 @@ PROCESS{
     C:\MSKLC\bin\i386\kbdutool.exe -u -s KBFRZ71.klc | Out-Null
 
     ## Restore corrupted accented characters
+
+    Set-Content -Path KBFRZ71.C -Encoding UTF8 -Value `
+    (Get-Content `
+            -Path KBFRZ71.C `
+            -Encoding UTF8 `
+            -Raw).Replace(
+                "�", "é"
+            ).Replace(
+                "échap", "Échap"
+            )
+
+    ## Update version in RC source file
+    ## MSKLC creates a DLL with version fixed to 1.0.3.40.
+    ## We need to patch the file to update our version
+
+    $defaultVersion = "1.0.3.40"
+    $defCommas = Make-Version -Number $defaultVersion
+    $defSpaces = Make-Version -Number $defaultVersion -Spaces
+
+    $requestedVersion = $version
+    $reqCommas = Make-Version -Number $requestedVersion
+    $reqSpaces = Make-Version -Number $requestedVersion -Spaces
+
+    Set-Content -Path KBFRZ71.RC -Encoding Unicode -Value `
+    (Get-Content `
+            -Path .\KBFRZ71.RC `
+            -Encoding Unicode `
+            -Raw).Replace(
+                "kbfrz71 (3.40)", "kbfrz71"
+            ).Replace(
+                $defCommas, $reqCommas
+            ).Replace(
+                $defSpaces, $reqSpaces
+            )
 
     ## Protect the files to prevent kbdutool from overwriting them
 

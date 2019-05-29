@@ -5,12 +5,25 @@ branches:
     - master
     - continuous_integration
 
+init:
+  - ps: |
+      if ($env:APPVEYOR_REPO_TAG -eq "true") {
+        $requestedVersion = "$($env:APPVEYOR_REPO_TAG_NAME.TrimStart("v"))"
+        Update-AppveyorBuild -Version $requestedVersion
+      }
+
 before_build:
   - ps: docker build --cache-from sprinccompdocker/msklc:1.4 --tag private/msklc:1.4 --file .\Dockerfile .\context\
 
 build_script:
+  - ps: dir env:\
   - ps: Set-Content -Path ".\bin\KBFRZ71.klc" -Encoding Unicode -Value (Get-Content -Path ".\KBFRZ71.klc" -Raw -Encoding UTF8)
-  - ps: docker run --rm --mount "type=bind,source=C:\projects\optimized-azerty-win\bin,target=C:\sources" private/msklc:1.4 > build.log
+  - ps: |
+      docker run `
+        --rm `
+        --mount "type=bind,source=C:\projects\optimized-azerty-win\bin,target=C:\sources" `
+        --env "KBFRZ71_VERSION=1.0.3.40" `
+        private/msklc:1.4 > build.log
   - ps: |
       $content = (Get-Content -Path ".\build.log" -Raw)
       Write-Host "`r`n"
