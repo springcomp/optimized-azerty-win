@@ -31,6 +31,14 @@ La disposition AZERTY-NF distribuée sous license [Creative Commons CC-BY](https
 
 Vos contributions sont bienvenues.
 
+### Ressources
+
+Si vous souhaitez changer les touches de votre clavier mécanique, je vous propose un gabarit vectoriel prêt à l’emploi qui vous permettra de créer un jeu de touches personnalisées conforme aux règles de gravure recommandées par la norme. Je m’en suis servi pour mon propre clavier mécanique WASD  et je ne peux que le recommander pour les plus passionnés.
+
+ - [Gabarit vectoriel](https://github.com/springcomp/wasd-iso-104-fr/blob/nf-z71-300/wasd-inkscape-104.88-iso.fr%20%28nf%20z71-300%29.svg) pour le logiciel Inkscape.
+
+<img src="/assets/images/wasd-inkscape-105.88-iso.fr-nf-z71-300.svg" width="996">
+
 
 ## Utilisation
 
