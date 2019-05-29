@@ -102,6 +102,8 @@ Les accents et diacritiques présents sont référencés dans le tableau ci-dess
 ⁵ Le signe diacritique 'VIRGULE SOUSCRITE' ne possède par de représentation non combinante. Il est donc remplacé par la 'VIRGULE' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.
 </sup></sup>
 
+![](/assets/images/diacriticals.png)
+
 La disposition AZERTY-NF diffère de manière subtile de la disposition traditionnelle à laquelle vous êtes habitué. En effet, de nombreuses langues européennes font usage de caractères accentués ou affublés de signes diacritiques qui ne sont pas d’un usage courant en français. Pour supporter la saisie de ces caractères, la disposition AZERTY-NF met également en œuvre un mécanisme de _signes diacritiques combinants_, qui sont appliqués _a posteriori_ au caractère qui les précede dans la saisie de texte.
 
 Un signe diacritique combinant est produit, tout simplement, en répétant l’appui sur la touche morte correspondante.
