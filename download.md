@@ -18,7 +18,8 @@ Si vous éprouvez des difficultés, veuillez suivre la procédure détaillée ci
 La procédure qui suit est volontairement très détaillée.
 Néanmoins, si vous éprouvez encore des difficultés, n’hésitez pas à me faire part de vos commentaires pour l’améliorer [en ouvrant un ticket](https://github.com/springcomp/optimized-azerty-win/issues) sur la page du projet.
 
-L’installation est découpée en trois étapes simples:
+L’installation est découpée en quatre étapes simples:
+
 - [Téléchargement](#download) de l’archive depuis la page GitHub.
 - [Extraction](#extraction) des fichiers d’installation.
 - [Installation](#installation) de la disposition proprement dite.
