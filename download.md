@@ -13,6 +13,21 @@ Cette procédure nécessite les droits d’administration sur la machine.
 
 Si vous éprouvez des difficultés, veuillez suivre la procédure détaillée ci-dessous.
 
+### Installation avec PowerShell
+
+Vous pouvez installer la disposition directement sous Windows® PowerShell en lançant la séquence de commandes suivante :
+
+<span class="tooltip">Script copié avec succès</span>  
+
+{: .powershell}
+    Set-ExecutionPolicy ByPass -Scope Process -Force;
+    (New-Object System.Net.WebClient).DownloadFile("https://bit.ly/2W7zmWR", "$Env:TEMP\kb.zip")
+    Expand-Archive -Path "$Env:TEMP\kb.zip" -Force -DestinationPath "$Env:TEMP\kb"
+    . $Env:TEMP\kb\setup.exe
+
+<input class="clipboard" type="button" value="Copy" onclick="copyCodeElementToClipboard('powershell')" />
+
+
 ## Procédure détaillée
 
 La procédure qui suit est volontairement très détaillée.
