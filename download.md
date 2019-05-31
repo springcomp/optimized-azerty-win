@@ -74,8 +74,8 @@ Un avertissement indiquant qu’un programme est sur le point d’apporter des m
 ![Installation effectuée avec succès](assets/images/success.png)
 
 
-<a name="installation"></a>
-### Installation
+<a name="configuration"></a>
+### Configuration
 
 Une fois l’installation effectuée avec succès, vous devez paramétrer Windows pour utiliser la disposition.
 Cliquez avec le bouton droit de la souris sur le Menu Démarrer situé en bas à gauche de l’écran, et sélectionner l’options « `Paramètres` ».
