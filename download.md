@@ -91,3 +91,5 @@ Dans la fenêtre des paramètres de langue et de clavier, cliquer sur « `Fran�
 ![Options linguistiques de Windows](assets/images/add_language.png)
 
 Une fois la disposition choisie, il est recommandé de se déconnecter de Windows, puis d’ouvrir de nouveau une session sur l’ordinateur pour la prise en compte de la nouvelle disposition.
+
+N’hésitez pas à consulter [la documentation détaillée](/index.html#usage) pour la prise en main de la disposition.

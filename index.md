@@ -21,8 +21,6 @@ Une documentation rapide de la disposition est disponible [ci-dessous](#usage).
 
 ### Libre de droit
 
-<a href="https://github.com/springcomp/optimized-azerty-win"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_green_007200.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
-
 [![GitHub license](https://img.shields.io/github/license/springcomp/optimized-azerty-win.svg)](https://github.com/springcomp/optimized-azerty-win/blob/master/LICENCE.txt)
 
 
