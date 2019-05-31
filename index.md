@@ -27,6 +27,7 @@ Une documentation rapide de la disposition est disponible [ci-dessous](#usage).
 
 
 - [Essayez la disposition](https://github.com/springcomp/optimized-azerty-win/releases) sous Windows®.
+- [Consulter l’aide à l’installation](download.md) pour plus de détails.
 - [Faîtes-nous part](https://github.com/springcomp/optimized-azerty-win/issues) de vos commentaires et suggestions d’amélioration.
 
 La disposition AZERTY-NF distribuée sous license [Creative Commons CC-BY](https://creativecommons.org/licenses/by/4.0/) qui vous permet de copier et redistribuer la disposition sur tout support. Elle permet également l’utilisation de la disposition dans un contexte commercial.
@@ -84,36 +85,35 @@ Les accents et diacritiques présents sont référencés dans le tableau ci-dess
 
 |Position|Diacritique|Ancienne position|Point de codage Unicode|Exemples|
 |---|---|--|---|---|
-| <kbd>AltGr</kbd>+<kbd>è</kbd>, <kbd>Espace</kbd> | `` ` `` | <kbd>AltGr</kbd>+<kbd>7</kbd>, <kbd>Espace</kbd> | ACCENT GRAVE (U+0060) | Àà Èè Ìì Ǹǹ Òò Ùù Ẁẁ Ỳỳ |
-| <kbd>^</kbd>, <kbd>Espace</kbd> | `^` |  (touche déplacée) | ACCENT CIRCONFLEXE (U+005E) | Ââ Ĉĉ Êê Ĝĝ Ĥĥ Îî Ĵĵ Ôô Ŝŝ Ûû Ŷŷ Ẑẑ |
-| <kbd>Maj.</kbd>+<kbd>^</kbd>, <kbd>Espace</kbd> | `¨` |  (touche déplacée) | TRÉMA (U+00A8) | Ää Ëë Ḧḧ Ïï Öö ẗ Üü Ẅẅ Ẍẍ Ÿÿ |
-| <kbd>AltGr</kbd>+<kbd>n</kbd>, <kbd>Espace</kbd> | `~` | <kbd>AltGr</kbd>+<kbd>2</kbd>, <kbd>Espace</kbd> | TILDE (U+007E) | Ãã Ẽẽ Ĩĩ Ññ Õõ Ũũ Ṽṽ Ỹỹ |
-| <kbd>AltGr</kbd>+<kbd>@</kbd>, <kbd>Espace</kbd> | `˘` | N/A | BRÈVE (U+02D8) | Ăă Ĕĕ Ğğ Ĭĭ Ŏŏ Ŭŭ |
-| <kbd>AltGr</kbd>+<kbd>é</kbd>, <kbd>Espace</kbd> | `´` | N/A | ACCENT AIGU (U+00B4) | Áá Ćć Éé Ǵǵ Íí Ḱḱ Ĺĺ Ḿḿ Ńń Óó Ṕṕ Ŕŕ Śś Úú Ẃẃ Ýý Źź Ǽǽ |
-| <kbd>AltGr</kbd>+<kbd>Maj.</kbd>+<kbd>(</kbd>, <kbd>Espace</kbd> | `˝` | N/A | DOUBLE ACCENT AIGU (U+02DD) | Őő Űű |
-| <kbd>AltGr</kbd>+<kbd>Maj.</kbd>+<kbd>)</kbd>, <kbd>Espace</kbd> | `˵` | N/A | DOUBLE ACCENT GRAVE (U+02F5)¹ | Ȁȁ Ȅȅ Ȉȉ Ȍȍ Ȑȑ Ȕȕ |
-| <kbd>AltGr</kbd>+<kbd>‘</kbd>, <kbd>Espace</kbd> | `¯` | N/A | MACRON (U+00AF) | Āā Ēē Ḡḡ² Īī Ōō Ūū Ȳȳ Ǣǣ |
-| <kbd>AltGr</kbd>+<kbd>"</kbd>, <kbd>Espace</kbd> | `˚` | N/A | ANNEAU EN CHEF (U+02DA) | Åå Ůů ẘ ẙ|
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>Espace</kbd> | `ˇ` | N/A | CARON (U+02C7) | Ǎǎ Čč Ďď Ěě Ǧǧ Ȟȟ Ǐǐ ǰ Ǩǩ Ľľ Ňň Ǒǒ Řř Šš Ťť Ǔǔ Žž Ǯǯ |
-| <kbd>AltGr</kbd>+<kbd>i</kbd>, <kbd>Espace</kbd> | `˙` | N/A | POINT EN CHEF (U+02D9) | Ȧȧ Ḃḃ Ċċ Ḋḋ Ėė Ḟḟ Ġġ Ḣḣ İı³ Ŀŀ Ṁṁ Ṅṅ Ȯȯ Ṗṗ Ṙṙ Ṡṡ Ṫṫ Ẇẇ Ẋẋ Ẏẏ Żż ẛ |
-| <kbd>AltGr</kbd>+<kbd>H</kbd>, <kbd>Espace</kbd> | `ˍ` | N/A | MACRON SOUSCRIT (U+02CD) | Ḇḇ Ḏḏ ẖ Ḵḵ Ḻḻ Ṉṉ Ṟṟ Ṯṯ Ẕẕ |
-| <kbd>AltGr</kbd>+<kbd>#</kbd>, <kbd>Espace</kbd> | `°` | N/A | SYMBOLE DEGRÉ (U+00B0)⁴ | Ȃȃ Ȇȇ Ȋȋ Ȏȏ Ȓȓ Ȗȗ|
-| <kbd>AltGr</kbd>+<kbd>I</kbd>, <kbd>Espace</kbd> | `.` | N/A | POINT FINAL (U+002E)⁵ | Ạạ Ḅḅ Ḍḍ Ẹẹ Ḥḥ Ịị Ḳḳ Ḷḷ Ṃṃ Ṇṇ Ọọ Ṛṛ Ṣṣ Ṭṭ Ụụ Ṿṿ Ẉẉ Ỵỵ Ẓẓ |
-| <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>Espace</kbd> | `/` | N/A | BARRE OBLIQUE (U+002F) | Ⱥ Ȼȼ Ɇɇ Łł Øø Ⱦ ẜ |
-| <kbd>AltGr</kbd>+<kbd>v</kbd>, <kbd>Espace</kbd> | `¸` | N/A | CÉDILLE (U+00B8) | Çç Ḑḑ Ȩȩ Ģģ Ḩḩ Ķķ Ļļ Ņņ Ŗŗ Şş Ţţ |
-| <kbd>AltGr</kbd>+<kbd>V</kbd>, <kbd>Espace</kbd> | `˛` | N/A | OGONEK (U+02DB) | Ąą Ęę Įį Ǫǫ Ųų |
-| <kbd>AltGr</kbd>+<kbd>b</kbd>, <kbd>Espace</kbd> | `-` | N/A | SIGNE MOINS - TRAIT D’UNION (U+002D)⁶ | Ƀƀ Ðđ Ǥǥ Ħħ Ɨ Ɉɉ Ƚƚ Ɍɍ Ŧŧ Ʉ Ɏɏ Ƶƶ |
-| <kbd>AltGr</kbd>+<kbd>!</kbd>, <kbd>Espace</kbd> | `,` | N/A | VIRGULE (U+002C)⁷ | Șș Țț |
+| <kbd>AltGr</kbd>+<kbd>è</kbd>, <kbd>Espace</kbd> | `` ` `` | <kbd>AltGr</kbd>+<kbd>7</kbd>, <kbd>Espace</kbd> | ACCENT GRAVE (U+0060) | `Àà Èè Ìì Ǹǹ Òò Ùù Ẁẁ Ỳỳ` |
+| <kbd>^</kbd>, <kbd>Espace</kbd> | `^` |  (touche déplacée) | ACCENT CIRCONFLEXE (U+005E) | `Ââ Ĉĉ Êê Ĝĝ Ĥĥ Îî Ĵĵ Ôô Ŝŝ Ûû Ŷŷ Ẑẑ` |
+| <kbd>¨</kbd>, <kbd>Espace</kbd> | `¨` |  (touche déplacée) | TRÉMA (U+00A8) | `Ää Ëë Ḧḧ Ïï Öö ẗ Üü Ẅẅ Ẍẍ Ÿÿ` |
+| <kbd>AltGr</kbd>+<kbd>n</kbd>, <kbd>Espace</kbd> | `~` | <kbd>AltGr</kbd>+<kbd>2</kbd>, <kbd>Espace</kbd> | TILDE (U+007E) | `Ãã Ẽẽ Ĩĩ Ññ Õõ Ũũ Ṽṽ Ỹỹ` |
+| <kbd>AltGr</kbd>+<kbd>é</kbd>, <kbd>Espace</kbd> | `´` | N/A | ACCENT AIGU (U+00B4) | `Áá Ćć Éé Ǵǵ Íí Ḱḱ Ĺĺ Ḿḿ Ńń Óó Ṕṕ Ŕŕ Śś Úú Ẃẃ Ýý Źź Ǽǽ` |
+| <kbd>AltGr</kbd>+<kbd>v</kbd>, <kbd>Espace</kbd> | `¸` | N/A | CÉDILLE (U+00B8) | `Çç Ḑḑ Ȩȩ Ģģ Ḩḩ Ķķ Ļļ Ņņ Ŗŗ Şş Ţţ` |
+| <kbd>AltGr</kbd>+<kbd>V</kbd>, <kbd>Espace</kbd> | `˛` | N/A | OGONEK (U+02DB) | `Ąą Ęę Įį Ǫǫ Ųų` |
+| <kbd>AltGr</kbd>+<kbd>‘</kbd>, <kbd>Espace</kbd> | `¯` | N/A | MACRON (U+00AF) | `Āā Ēē Ḡḡ Īī Ōō Ūū Ȳȳ Ǣǣ` |
+| <kbd>AltGr</kbd>+<kbd>H</kbd>, <kbd>Espace</kbd> | `ˍ` | N/A | MACRON SOUSCRIT (U+02CD) | `Ḇḇ Ḏḏ ẖ Ḵḵ Ḻḻ Ṉṉ Ṟṟ Ṯṯ Ẕẕ` |
+| <kbd>AltGr</kbd>+<kbd>"</kbd>, <kbd>Espace</kbd> | `˚` | N/A | ANNEAU EN CHEF (U+02DA) | `Åå Ůů ẘ ẙ` |
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>Espace</kbd> | `ˇ` | N/A | CARON (U+02C7) | `Ǎǎ Čč Ďď Ěě Ǧǧ Ȟȟ Ǐǐ ǰ Ǩǩ Ľľ Ňň Ǒǒ Řř Šš Ťť Ǔǔ Žž Ǯǯ` |
+| <kbd>Maj.</kbd>+<kbd>AltGr</kbd>+<kbd>(</kbd>, <kbd>Espace</kbd> | `˝` | N/A | DOUBLE ACCENT AIGU (U+02DD) | `Őő Űű` |
+| <kbd>Maj.</kbd>+<kbd>AltGr</kbd>+<kbd>)</kbd>, <kbd>Espace</kbd> | `˵` | N/A | DOUBLE ACCENT GRAVE (U+02F5)¹ | `Ȁȁ Ȅȅ Ȉȉ Ȍȍ Ȑȑ Ȕȕ` |
+| <kbd>AltGr</kbd>+<kbd>i</kbd>, <kbd>Espace</kbd> | `˙` | N/A | POINT EN CHEF (U+02D9) | `Ȧȧ Ḃḃ Ċċ Ḋḋ Ėė Ḟḟ Ġġ Ḣḣ İı`² `Ŀŀ Ṁṁ Ṅṅ Ȯȯ Ṗṗ Ṙṙ Ṡṡ Ṫṫ Ẇẇ Ẋẋ Ẏẏ Żż ẛ` |
+| <kbd>AltGr</kbd>+<kbd>I</kbd>, <kbd>Espace</kbd> | `.` | N/A | point souscrit, figuré par le POINT FINAL (U+002E)³ | `Ạạ Ḅḅ Ḍḍ Ẹẹ Ḥḥ Ịị Ḳḳ Ḷḷ Ṃṃ Ṇṇ Ọọ Ṛṛ Ṣṣ Ṭṭ Ụụ Ṿṿ Ẉẉ Ỵỵ Ẓẓ` |
+| <kbd>AltGr</kbd>+<kbd>@</kbd>, <kbd>Espace</kbd> | `˘` | N/A | BRÈVE (U+02D8) | `Ăă Ĕĕ Ğğ Ĭĭ Ŏŏ Ŭŭ` |
+| <kbd>AltGr</kbd>+<kbd>#</kbd>, <kbd>Espace</kbd> | `°` | N/A | brève inversée, figurée par le SYMBOLE DEGRÉ (U+00B0)⁴ | `Ȃȃ Ȇȇ Ȋȋ Ȏȏ Ȓȓ Ȗȗ` |
+| <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>Espace</kbd> | `/` | N/A | BARRE OBLIQUE (U+002F) | `Ⱥ Ȼȼ Ɇɇ Łł Øø Ⱦ ẜ` |
+| <kbd>AltGr</kbd>+<kbd>b</kbd>, <kbd>Espace</kbd> | `-` | N/A | barre couvrante, figurée par le SIGNE MOINS - TRAIT D’UNION (U+002D)⁵ | `Ƀƀ Ðđ Ǥǥ Ħħ Ɨ Ɉɉ Ƚƚ Ɍɍ Ŧŧ Ʉ Ɏɏ Ƶƶ` |
+| <kbd>AltGr</kbd>+<kbd>!</kbd>, <kbd>Espace</kbd> | `,` | N/A | virgule souscrite, figurée par la VIRGULE (U+002C)⁶ | `Șș Țț` |
 
-<sup><sup>
+{: .footnotes}
 ¹ Le caractère 'DOUBLE ACCENT GRAVE' est placé sur la ligne de texte et non pas au-dessus.  
-² Le document de travail que j’ai consulté mentionne la possibilité de saisir les deux lettres latines F minuscule et majuscule avec macron. Il semble que ce soit une erreur, car seules les lettres latines G minuscule et majuscule sont précomposées dans la norme Unicode.  
-³ Le signe diacritique 'POINT EN CHEF' sert également à saisir la 'LETTRE LATINE I MINUSCULE SANS POINT', courante en Turquie. Ce symbole est également disponible via la couche des caractères européens, accessible via la combinaison <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>i</kbd>.  
+² Le signe diacritique 'POINT EN CHEF' sert également à saisir la 'LETTRE LATINE I MINUSCULE SANS POINT', courante en Turquie. Ce symbole est également disponible via la couche des caractères européens, accessible via la combinaison <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>i</kbd>.  
+³ Le signe diacritique 'POINT SOUSCRIT' ne possède pas de représentation non combinante. Il est donc remplacé par le 'POINT FINAL' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.  
 ⁴ Le signe diacritique 'BRÈVE INVERSÉE' ne possède pas de réprésentation non combinante. Il est donc remplacé par le 'SYMBOLE DEGRÉ' lorsqu’il n’est pas associé à un caractère approprié.  
-⁵ Le signe diacritique 'POINT SOUSCRIT' ne possède pas de représentation non combinante. Il est donc remplacé par le 'POINT FINAL' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.  
-⁶ Le signe diacritique 'BARRE COUVRANTE' ne posséde pas de représentation non combinante. Il est donc remplacé par le 'SIGNE MOINS - TRAIT D’UNION' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.  
-⁷ Le signe diacritique 'VIRGULE SOUSCRITE' ne possède par de représentation non combinante. Il est donc remplacé par la 'VIRGULE' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.
-</sup></sup>
+⁵ Le signe diacritique 'BARRE COUVRANTE' ne posséde pas de représentation non combinante. Il est donc remplacé par le 'SIGNE MOINS - TRAIT D’UNION' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.  
+⁶ Le signe diacritique 'VIRGULE SOUSCRITE' ne possède par de représentation non combinante. Il est donc remplacé par la 'VIRGULE' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.
+
 
 ![](/assets/images/diacriticals.png)
 
@@ -146,7 +146,7 @@ Traditionnellement, la touche <kbd>Verr. Maj.</kbd> agit comme si l’on restait
 
 Ainsi, en activant <kbd>Verr. Maj.</kbd> et en tapant la séquence <kbd>à</kbd>, <kbd>é</kbd>, <kbd>ê</kbd>, <kbd>è</kbd>, <kbd>^</kbd>, <kbd>i</kbd>, <kbd>^</kbd>, <kbd>o</kbd>, <kbd>ù</kbd>, le texte produit est `ÀÉÊÈÎÔÙ`.
 
-De manière plus réaliste, il est possible d’activer <kbd>Verr. Maj.</kbd> et de taper la séquence <kbd>c</kbd>, <kbd>’</kbd>, <kbd>e</kbd>, <kbd>s</kbd>, <kbd>t</kbd>, <kbd>Espace</kbd>, <kbd>à</kbd>, <kbd>Espace</kbd>, <kbd>d</kbd>, <kbd>i</kbd>, <kbd>r</kbd>, <kbd>e</kbd>, pour produire le texte `C'EST À DIRE`. Remarquez que ni le caractère apostrophe (`’`) ni le caractère accentué (`à`) n’ont nécessité de précautions particulière au moment de la saisie.
+De manière plus réaliste, il est possible d’activer <kbd>Verr. Maj.</kbd> et de taper la séquence <kbd>c</kbd>, <kbd>’</kbd>, <kbd>e</kbd>, <kbd>s</kbd>, <kbd>t</kbd>, <kbd>Espace</kbd>, <kbd>à</kbd>, <kbd>Espace</kbd>, <kbd>d</kbd>, <kbd>i</kbd>, <kbd>r</kbd>, <kbd>e</kbd>, pour produire le texte `C'EST À DIRE`. Remarquez que ni le caractère apostrophe (`’`) ni le caractère accentué (`à`) n’ont nécessité de précaution particulière au moment de la saisie.
 
 
 ### Caractères des langues européennes
@@ -159,15 +159,15 @@ Le tableau ci-dessous reprend les caractères disponibles. D’autres signes de 
 |---|---|---|
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>a</kbd> | `ª` | INDICATEUR D’ORDRE FÉMININ (U+00AA) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>d</kbd> | `ð` | LETTRE LATINE ETH MINUSCULE (U+0000) |
-| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>d</kbd> | `Ð` | LETTRE LATINE ETH MAJUSCULE (U+00D0) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>D</kbd> | `Ð` | LETTRE LATINE ETH MAJUSCULE (U+00D0) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>e</kbd> | `ə` | LETTRE LATINE SCHWA MINUSCULE (U+0259) |
-| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>e</kbd> | `Ə` | LETTRE LATINE SCHWA MAJUSCULE (U+018F) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>E</kbd> | `Ə` | LETTRE LATINE SCHWA MAJUSCULE (U+018F) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>g</kbd> | `ŋ` | LETTRE LATINE ENG MINUSCULE (U+014B) |
-| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>g</kbd> | `Ŋ` | LETTRE LATINE ENG MAJUSCULE (U+014A) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>G</kbd> | `Ŋ` | LETTRE LATINE ENG MAJUSCULE (U+014A) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>i</kbd> | `ı` | LETTRE LATINE I MINUSCULE SANS POINT (U+0131) |
-| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>i</kbd> | `İ` | LETTRE LATINE I MAJUSCULE POINT EN CHEF (U+0130) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>I</kbd> | `İ` | LETTRE LATINE I MAJUSCULE POINT EN CHEF (U+0130) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>j</kbd> | `ĳ` | LIGATURE LATINE IJ MINUSCULE (U+0133) |
-| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>j</kbd> | `Ĳ` | LIGATURE LATINE IJ MAJUSCULE (U+0132) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>J</kbd> | `Ĳ` | LIGATURE LATINE IJ MAJUSCULE (U+0132) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>o</kbd> | `º` | INDICATEUR D’ORDRE MASCULIN (U+00BA) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>s</kbd> | `ſ` | LETTRE LATINE LONG S (U+017F) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>t</kbd> | `þ` | LETTRE LATINE THORN MINUSCULE (U+00FE) |

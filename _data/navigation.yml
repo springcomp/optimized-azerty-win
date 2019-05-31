@@ -1,0 +1,7 @@
+pages:
+
+    - name: Accueil
+      url: index.html
+
+    - name: Téléchargement
+      url: download.html
