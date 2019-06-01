@@ -179,6 +179,17 @@ Les combinaisons suivantes sont disponibles :
 - <kbd>AltGr</kbd>+<kbd>i</kbd>, <kbd>AltGr</kbd>+<kbd>Eu</kbd> produces `ẛ` 'LETTRE LATINE MINUSCULE LONG S WITH DOT ABOVE' (U+1E9B)
 
 
+Avec la carte de base, la couche des caractères européens permet de saisir du texte dans un grand nombre de langues:
+
+|Langue|Exemple|Caractères utilisés|
+|---|---|---|
+| Allemand | `„Gänsefüßchen”` | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>9</kbd> pour `„` <br> <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>0</kbd> pour `“` <br> <kbd>AltGr</kbd>+<kbd>s</kbd> pour `ß` |
+| Catalan | `Paral·lel és una estació de Barcelona` | <kbd>AltGr</kbd>+<kbd>:</kbd> pour `·` (_punt volat_) |
+| Espagnol | `¿qué haces hoy? ¡¡¡No lo creo!!!` | <kbd>AltGr</kbd>+<kbd>?</kbd> pour `¿` <br> <kbd>AltGr</kbd>+<kbd>!</kbd> pour `¡` |
+| Hollandais | `Het Rĳksmuseum in Amsterdam` | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>j</kbd> pour `ĳ` |
+| Italien | `La 4ª puntata` | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>a</kbd> pour `ª` |
+| Norvégien | `Ångstrøm` | <kbd>AltGr</kbd>+<kbd>"</kbd>, <kbd>A</kbd> pour `Å` <br> <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>o</kbd> pour `ø` |
+
 <a name="known-issues"></a>
 ## Problèmes connus
 
