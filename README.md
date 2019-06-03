@@ -123,15 +123,15 @@ The following table shows some characters available from the European Extended C
 |---|---|---|
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>a</kbd> | `ª` | FEMININE ORDINAL INDICATOR (U+00AA) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>d</kbd> | `ð` | LATIN SMALL LETTER ETH (U+0000) |
-| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>d</kbd> | `Ð` | LATIN CAPITAL LETTER ETH (U+00D0) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>D</kbd> | `Ð` | LATIN CAPITAL LETTER ETH (U+00D0) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>e</kbd> | `ə` | LATIN SMALL LETTER SCHWA (U+0259) |
-| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>e</kbd> | `Ə` | LATIN CAPITAL LETTER SCHWA (U+018F) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>E</kbd> | `Ə` | LATIN CAPITAL LETTER SCHWA (U+018F) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>g</kbd> | `ŋ` | LATIN SMALL LETTER ENG (U+014B) |
-| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>g</kbd> | `Ŋ` | LATIN CAPITAL LETTER ENG (U+014A) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>G</kbd> | `Ŋ` | LATIN CAPITAL LETTER ENG (U+014A) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>i</kbd> | `ı` | LATIN SMALL LETTER DOTLESS I (U+0131) |
-| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>i</kbd> | `İ` | LATIN CAPITAL LETTER I WITH DOT ABOVE (U+0130) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>I</kbd> | `İ` | LATIN CAPITAL LETTER I WITH DOT ABOVE (U+0130) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>j</kbd> | `ĳ` | LATIN SMALL LIGATURE IJ (U+0133) |
-| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>j</kbd> | `Ĳ` | LATIN CAPITAL LIGATURE IJ (U+0132) |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>J</kbd> | `Ĳ` | LATIN CAPITAL LIGATURE IJ (U+0132) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>o</kbd> | `º` | MASCULINE ORDINAL INDICATOR (U+00BA) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>s</kbd> | `ſ` | LATIN SMALL LETTER LONG S (U+017F) |
 | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>t</kbd> | `þ` | LATIN SMALL LETTER THORN (U+00FE) |
@@ -161,7 +161,6 @@ Unfortunately, due to the behavior described in the preceding section, this feat
 ## Links
 
 - [Le nouvel AZERTY](http://norme-azerty.fr/)
-- [Annonce AFNOR](https://www.afnor.org/presse_avril2019/clavier-francais-norme-volontaire-pour-faciliter-ecriture/)
 - [Norme AFNOR](https://www.boutique.afnor.org/norme/nf-z71-300/interfaces-utilisateurs-dispositions-de-clavier-bureautique-francais/article/901594/fa188960)
 
 
