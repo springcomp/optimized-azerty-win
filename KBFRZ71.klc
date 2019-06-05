@@ -21,7 +21,7 @@ SHIFTSTATE
 
 LAYOUT		;an extra '@' at the end is a dead key
 
-//SC	VK_		Cap	0	1	2	3	6	7
+//SC	VK_		Cap	4	5	6	7	8	9
 //--	----		----	----	----	----	----	----	----
 
 29	OEM_7		0	0040	0023	-1	-1	02d8@	00b0@		// @ #   ˘ 
@@ -43,7 +43,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 0d	OEM_PLUS	0	005e@	00a8@	-1	001e	02c7@	-1		// ^ ¨   ˇ   
 10	A		5	a	A	-1	-1	00e6	00c6		// a A   æ Æ
 11	Z		1	z	Z	-1	-1	00a3	-1		// z Z   £   
-12	E		1	e	E	-1	-1	20ac	-1		// e E   €   
+12	E		1	e	E	-1	-1	20ac	0000@		// e E   €   
 13	R		1	r	R	-1	-1	00ae	-1		// r R   ®   
 14	T		1	t	T	-1	-1	007b	2122		// t T   { ™ 
 15	Y		1	y	Y	-1	-1	007d	-1		// y Y   }   
@@ -79,6 +79,10 @@ LAYOUT		;an extra '@' at the end is a dead key
 39	SPACE		0	0020	0020	2003	-1	202f	00a0		//         
 53	DECIMAL		0	002e	002e	-1	-1	-1	-1		// . . 
 
+
+DEADKEY 0000
+
+0045	00a4	// E -> ¤
 
 DEADKEY 002c
 
@@ -890,6 +894,7 @@ KEYNAME_EXT
 
 KEYNAME_DEAD
 
+0000	"NULL"
 002c	"COMMA"
 002d	"HYPHEN MINUS"
 002e	"FULL STOP"
