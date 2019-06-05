@@ -193,7 +193,19 @@ Avec la carte de base, la couche des caractères européens permet de saisir du 
 <a name="known-issues"></a>
 ## Problèmes connus
 
-Dans certains cas, la disposition AZERTY-NF ne respecte pas complètement tous les points de la norme AFNOR.
+Dans certains cas, la disposition AZERTY-NF [ne respecte pas complètement](https://github.com/springcomp/optimized-azerty-win-compliance) tous les points de la norme AFNOR.
+
+### SGCaps
+
+Comme expliqué plus haut, la fonctionnalité SGCaps est choisie pour permettre la saisie des majuscules accentuées
+directement lorsque la touche <kbd>Verr. Maj.</kbd> est enclenchée. Ce fonctionnement est très populaire, mais ne
+correspond malheureusement pas à la norme qui préfère reproduire le fonctionnement de la disposition AZERTY traditionnelle
+sur ce point.
+
+La norme autorise les dispositions personnalisées qui s‘inspirent de la norme dans de tels cas.
+
+Nous souhaitons également produire une disposition strictement normalisée si la demande est assez forte.
+Merci d’indiquer vos souhaits sur la page [correspondante](https://github.com/springcomp/optimized-azerty-win/issues/55).
 
 ### Signes diacritiques ‘souscrits’
 
