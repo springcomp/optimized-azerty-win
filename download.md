@@ -21,7 +21,7 @@ Vous pouvez installer la disposition directement sous Windows® PowerShell en la
 
 {: .powershell}
     Set-ExecutionPolicy ByPass -Scope Process -Force;
-    (New-Object System.Net.WebClient).DownloadFile("https://bit.ly/2W7zmWR", "$Env:TEMP\kb.zip")
+    (New-Object System.Net.WebClient).DownloadFile("https://bit.ly/2WnR8KJ", "$Env:TEMP\kb.zip")
     Expand-Archive -Path "$Env:TEMP\kb.zip" -Force -DestinationPath "$Env:TEMP\kb"
     . $Env:TEMP\kb\setup.exe
 
