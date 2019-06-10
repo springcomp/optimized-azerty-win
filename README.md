@@ -149,14 +149,9 @@ The following two combinations are available:
 
 ## Known issues
 
-### Diacritical marks and 'below' variants
+### SGCaps
 
-The standard mandates that repeating the dead-key associated with a diacritical mark should select the 'BELOW' variant of said diacritical mark.
-
-For instance, typing <kbd>AltGr</kbd>+<kbd>7</kbd> (MACRON) twice should select the `MACRON BELOW` diacritical mark.
-
-Unfortunately, due to the behavior described in the preceding section, this feature is not currently supported in the present layout.
-
+The SGCaps feature is a popular option that, unfortunately, contradicts the standard. We are considering publishing a stricly compliant layout depending upon users' preferences. Please, [let us known](https://github.com/springcomp/optimized-azerty-win/issues/55) what is your preference.
 
 ## Links
 
