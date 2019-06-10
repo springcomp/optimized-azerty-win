@@ -207,12 +207,6 @@ La norme autorise les dispositions personnalisées qui s‘inspirent de la norme
 Nous souhaitons également produire une disposition strictement normalisée si la demande est assez forte.
 Merci d’indiquer vos souhaits sur la page [correspondante](https://github.com/springcomp/optimized-azerty-win/issues/55).
 
-### Signes diacritiques ‘souscrits’
-
-La norme recommande qu’un signe diacritique souscrit puisse être accessible directement via la position dévolue à la version ‘en chef’ du signe diacritique, tout simplement par un appui répété de la touche morte correspondante. Par exemple, pour sélectionner le signe diacritique 'MACRON SOUSCRIT', la séquence <kbd>AltGr</kbd>+<kbd>7</kbd>, <kbd>AltGr</kbd>+<kbd>7</kbd> – correspondant au signe diacritique 'MACRON' – pourrait être utilisée.
-
-La disposition AZERTY-NF a cependant fait le choix de sélectionner le signe diacritique combinant correspondant par un appui répété de la touche morte. En conséquence, la sélection d’un signe diacritique ‘souscrit’ n’est malheureusement pas disponible dans ces conditions.
-
 ### Caractères indésirables
 
 Une limitation technique liée à l’élaboration de disposition de clavier force une touche morte à produire une caractère visible lorsqu’aucune correspondance n’est trouvée pour la composition d’un caractère suivante la touche morte.
