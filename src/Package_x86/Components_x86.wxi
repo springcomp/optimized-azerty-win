@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+
+  <Component Id="Component.x86.KBFRZ71_caps" Guid="07C83047-A24A-46C2-B783-C120AB7C5591" Win64="no">
+    <Condition><![CDATA[ 1 = 1 ]]></Condition>
+    <File Id="File.x86.KBFRZ71.dll" Source="$(var.Setup.ProjectDir)..\Package_x86\bin\KBFRZ71.dll" KeyPath="yes" />
+  </Component>
+
+</Include>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+
+  <?if $(var.Platform) = x64 ?>
+
+  <Feature Id="F_CA8158D1_4371_4866_B39E_8A199A62131F" Title="AZERTY NF Z71-300 (SGCaps)" Level="1" TypicalDefault="install" InstallDefault="local" AllowAdvertise="no" Absent="disallow">
+    <ComponentRef Id="Component.x86.KBFRZ71_caps" />
+    <ComponentRef Id="Component.x64.KBFRZ71_caps" />
+  </Feature>
+
+  <?else?>
+
+  <Feature Id="F_CA8158D1_4371_4866_B39E_8A199A62131F" Title="AZERTY NF Z71-300 (SGCaps)" Level="1" TypicalDefault="install" InstallDefault="local" AllowAdvertise="no" Absent="disallow">
+    <ComponentRef Id="Component.x86.KBFRZ71_caps" />
+  </Feature>
+
+  <?endif?>
+
+</Include>

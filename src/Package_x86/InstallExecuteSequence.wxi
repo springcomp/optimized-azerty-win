@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+
+  <?if $(var.Platform) = x64 ?>
+
+  <InstallExecuteSequence>
+    <Custom Action="SetFilePath.x64" Sequence="4030"> <![CDATA[ 1 = 1 ]]></Custom>
+
+    <Custom Action="RemoveKeyboardFromLangBar" Sequence="4040"><![CDATA[ $Component.x64.KBFRZ71_caps = 2 ]]></Custom>
+    <Custom Action="UnregisterKeyboard" Sequence="4060"><![CDATA[ $Component.x64.KBFRZ71_caps = 2 ]]></Custom>
+    <Custom Action="RegisterKeyboard" Sequence="4050"><![CDATA[ $Component.x64.KBFRZ71_caps > 2 ]]></Custom>
+    <Custom Action="AddKeyboardToLangBar" Sequence="4065"><![CDATA[ $Component.x64.KBFRZ71_caps > 2 ]]></Custom>
+  </InstallExecuteSequence>
+
+  <?else?>
+
+  <InstallExecuteSequence>
+    <Custom Action="SetFilePath.x86" Sequence="4030"> <![CDATA[ 1 = 1 ]]></Custom>
+
+    <Custom Action="RemoveKeyboardFromLangBar" Sequence="4040"><![CDATA[ $Component.x86.KBFRZ71_caps = 2 ]]></Custom>
+    <Custom Action="UnregisterKeyboard" Sequence="4060"><![CDATA[ $Component.x86.KBFRZ71_caps = 2 ]]></Custom>
+    <Custom Action="RegisterKeyboard" Sequence="4050"><![CDATA[ $Component.x86.KBFRZ71_caps > 2 ]]></Custom>
+    <Custom Action="AddKeyboardToLangBar" Sequence="4065"><![CDATA[ $Component.x86.KBFRZ71_caps > 2 ]]></Custom>
+  </InstallExecuteSequence>
+
+  <?endif?>
+
+</Include>

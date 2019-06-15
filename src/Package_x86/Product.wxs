@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+  <!--
+    -  IMPORTANT: using the following guidelines to enable
+    -             patches and upgrades of this product
+    -             https://msdn.microsoft.com/en-us/library/windows/desktop/aa370579(v=vs.85).aspx
+    -             
+    -     This msi is uniquely identified with the following properties:
+    -
+    -     - Product Code      (/Wix/Product/@Id)
+    -     - Product Version   (/Wix/Product/@Version)
+    -     - Package Code      (/Wix/Product/Package/@Id)
+    -
+    -     There are three kinds of upgrades:
+    -
+    -     - small update: only changing the Package Code, for hotfixes and QFEs.
+    -     - minor upgrade: change the Package Code and Product Version.
+    -     - major upgrade: change the Package Code, Product Version and Product Code.
+    -
+    -     For some reason, only MajorUpgrades are easily supported in Wix
+    -     http://wixtoolset.org/documentation/manual/v3/howtos/updates/major_upgrade.html
+    -
+    -  TL;DR;           
+    -  
+    -     Only perform Major Upgrade:
+    -     - increment the Product Version number $(var.ProductVersion)
+    -     - increment the Product Code (both x86 and x64 values) $(var.ProductCode)
+    -
+    -->
+
+  <!-- Common variables -->
+
+  <?define ProductName = "AZERTY NF Z71-300" ?>
+  <?define ProductDisplayName = "AZERTY NF Z71-300" ?>
+  <?define Manufacturer = "Creative Commons" ?>
+
+  <?if $(var.ProductVersion) = "" ?>
+  <?define ProductVersion) = "1.0.3.40" ?>
+  <?endif?>
+
+  <!-- Platform-specific variables -->
+  <?if $(var.Platform) = x64 ?>
+  <?define Win64 = "yes" ?>
+  <?define Architecture = "x64" ?>
+  <?define PackageCode = "869b5448-4fe1-4dc6-b0cf-e8eeaa68e57c" ?>
+  <?define ProductCode = "2039b65d-eec4-4fc4-92b6-e0f3d51ee7c8" ?>
+  <?define ProductUpgradeCode = "a8604125-c4ab-40cc-b1cf-10df9c068253" ?>
+  <?else ?>
+  <?define Win64 = "no" ?>
+  <?define Architecture = "x86" ?>
+  <?define PackageCode = "0c877d40-061a-4c57-9ab2-c07e88e8da9c" ?>
+  <?define ProductCode = "479f1746-9eea-46d3-8c61-36dc58b5a4bf" ?>
+  <?define ProductUpgradeCode = "a8604125-c4ab-40cc-b1cf-10df9c068253" ?>
+  <?endif ?>
+
+  <!-- Windows Installer package -->
+
+  <Product Id="$(var.ProductCode)"
+           Name="$(var.ProductDisplayName)"
+           Language="1036"
+           Codepage="1252"
+           Version="$(var.ProductVersion)"
+           Manufacturer="$(var.Manufacturer)"
+           UpgradeCode="$(var.ProductUpgradeCode)"
+           >
+
+    <Package Id="$(var.PackageCode)" InstallerVersion="200" Compressed="yes" InstallPrivileges="elevated" Platform="$(var.Architecture)" Languages="1036" />
+    <Media Id="1" Cabinet="media1.cab" EmbedCab="yes" />
+
+    <?include "Properties.wxi" ?>
+    <?include "Conditions.wxi" ?>
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+
+      <?if $(var.Platform) = x64 ?>
+
+      <Directory Id="System64Folder">
+        <?include "Components_x64.wxi" ?>
+      </Directory>
+
+      <?endif ?>
+
+      <Directory Id="SystemFolder">
+        <?include "Components_x86.wxi" ?>
+      </Directory>
+    </Directory>
+
+    <?include "Features.wxi" ?>
+    <?include "InstallExecuteSequence.wxi" ?>
+
+  </Product>
+
+</Wix>

@@ -10,19 +10,18 @@ init:
       if ($env:APPVEYOR_REPO_TAG -eq "true") {
         $Env:KBFRZ71_VERSION = "$($env:APPVEYOR_REPO_TAG_NAME.TrimStart("v"))"
       } else {
-        $Env:KBFRZ71_VERSION = ""
+        $Env:KBFRZ71_VERSION = "1.0.3.40"
       }
 
 before_build:
   - ps: docker build --cache-from sprinccompdocker/msklc:1.4 --tag private/msklc:1.4 --file .\Dockerfile .\context\
 
 build_script:
-  - ps: dir env:\
-  - ps: Set-Content -Path ".\bin\KBFRZ71.klc" -Encoding Unicode -Value (Get-Content -Path ".\KBFRZ71.klc" -Raw -Encoding UTF8)
+  - ps: Set-Content -Path ".\src\KBFRZ71.klc" -Encoding Unicode -Value (Get-Content -Path ".\KBFRZ71.klc" -Raw -Encoding UTF8)
   - ps: |
       docker run `
         --rm `
-        --mount "type=bind,source=C:\projects\optimized-azerty-win\bin,target=C:\sources" `
+        --mount "type=bind,source=C:\projects\optimized-azerty-win\src,target=C:\sources" `
         --env "KBFRZ71_VERSION=$Env:KBFRZ71_VERSION" `
         private/msklc:1.4 > build.log
   - ps: |
@@ -36,9 +35,13 @@ build_script:
         Write-Host $content -ForegroundColor Green
         Remove-Item -Path ".\KBFRZ71.klc"
       }
+  - ps: nuget restore .\src\Setup.sln
+  - ps: msbuild .\src\Setup.sln /p:Configuration=Release /p:SolutionDir=.\src /p:ProductVersion=$Env:KBFRZ71_VERSION
 
 after_build:
-  - ps: 7z a artifacts\setup.zip C:\projects\optimized-azerty-win\bin\* -xr!artifacts
+  - ps: 7z a artifacts\setup.zip C:\projects\optimized-azerty-win\src\Setup\bin\x86\Release\net452\*.msi
+  - ps: 7z a artifacts\setup.zip C:\projects\optimized-azerty-win\src\Setup\bin\x86\Release\net452\*.exe 
+  - ps: 7z a artifacts\setup.zip C:\projects\optimized-azerty-win\src\Setup\bin\x86\Release\net452\*.config
 
 artifacts:
   - path: artifacts\setup.zip
