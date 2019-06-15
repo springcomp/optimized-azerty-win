@@ -146,6 +146,11 @@ Ainsi, en activant <kbd>Verr. Maj.</kbd> et en tapant la séquence <kbd>à</kbd>
 
 De manière plus réaliste, il est possible d’activer <kbd>Verr. Maj.</kbd> et de taper la séquence <kbd>c</kbd>, <kbd>’</kbd>, <kbd>e</kbd>, <kbd>s</kbd>, <kbd>t</kbd>, <kbd>Espace</kbd>, <kbd>à</kbd>, <kbd>Espace</kbd>, <kbd>d</kbd>, <kbd>i</kbd>, <kbd>r</kbd>, <kbd>e</kbd>, pour produire le texte `C'EST À DIRE`. Remarquez que ni le caractère apostrophe (`’`) ni le caractère accentué (`à`) n’ont nécessité de précaution particulière au moment de la saisie.
 
+Notez que ce fonctionnement n’est pas strictement conforme à la norme qui impose un accès direct aux chiffres de 0 à 9 sur la rangée supérieure lorsque la touche
+<kbd>Verr. Maj</kbd> est activée.
+
+Si vous souhaitez utiliser un pilote strictement conforme, choisissez le pilote
+"AZERTY NF Z71-300 (Numérique)" qui l'accompagne.
 
 ### Caractères des langues européennes
 
@@ -192,20 +197,6 @@ Avec la carte de base, la couche des caractères européens permet de saisir du 
 
 <a name="known-issues"></a>
 ## Problèmes connus
-
-Dans certains cas, la disposition AZERTY-NF [ne respecte pas complètement](https://github.com/springcomp/optimized-azerty-win-compliance) tous les points de la norme AFNOR.
-
-### SGCaps
-
-Comme expliqué plus haut, la fonctionnalité SGCaps est choisie pour permettre la saisie des majuscules accentuées
-directement lorsque la touche <kbd>Verr. Maj.</kbd> est enclenchée. Ce fonctionnement est très populaire, mais ne
-correspond malheureusement pas à la norme qui préfère reproduire le fonctionnement de la disposition AZERTY traditionnelle
-sur ce point.
-
-La norme autorise les dispositions personnalisées qui s‘inspirent de la norme dans de tels cas.
-
-Nous souhaitons également produire une disposition strictement normalisée si la demande est assez forte.
-Merci d’indiquer vos souhaits sur la page [correspondante](https://github.com/springcomp/optimized-azerty-win/issues/55).
 
 ### Caractères indésirables
 
