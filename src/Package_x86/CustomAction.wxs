@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+  <Fragment>
+
+    <?if $(var.Platform) = x64 ?>
+
+    <CustomAction Id="SetFilePath.x64" Property="RegisterKeyboard" Value="[#File.x64.KBFRZ71.dll]|[LCIDValue]" Execute="immediate" />
+
+    <?else?>
+
+    <CustomAction Id="SetFilePath.x86" Property="RegisterKeyboard" Value="[#File.x86.KBFRZ71.dll]|[LCIDValue]" Execute="immediate" />
+
+    <?endif?>
+
+    <CustomAction Id="RegisterKeyboard" BinaryKey="KbdMsi" DllEntry="CA01" Execute="deferred" Impersonate="no" Return="check" />
+    <CustomAction Id="UnregisterKeyboard" BinaryKey="KbdMsi" DllEntry="CA02" Execute="deferred" Impersonate="no" Return="check" />
+
+    <CustomAction Id="AddKeyboardToLangBar" BinaryKey="KbdMsi" DllEntry="CA03" Execute="deferred" Return="check" />
+    <CustomAction Id="RemoveKeyboardFromLangBar" BinaryKey="KbdMsi" DllEntry="CA04" Execute="deferred" Return="check" />
+
+    <Binary Id="KbdMsi" SourceFile="$(var.Setup.ProjectDir)..\Package_x86\bin\KbdMsi.dll" />
+
+  </Fragment>
+
+</Wix>

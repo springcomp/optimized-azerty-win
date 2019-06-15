@@ -10,7 +10,7 @@ init:
       if ($env:APPVEYOR_REPO_TAG -eq "true") {
         $Env:KBFRZ71_VERSION = "$($env:APPVEYOR_REPO_TAG_NAME.TrimStart("v"))"
       } else {
-        $Env:KBFRZ71_VERSION = ""
+        $Env:KBFRZ71_VERSION = "1.0.3.40"
       }
 
 before_build:

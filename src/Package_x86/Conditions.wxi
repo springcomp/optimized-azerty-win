@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+
+  <MajorUpgrade
+    AllowDowngrades="no" DowngradeErrorMessage="Une version précédente de ce produit est déjà installée. Supprimer la version précédente avant de poursuivre l'installation."
+    AllowSameVersionUpgrades="no"
+    />
+
+  <Condition Message="La disposition de clavier AZERTY NF Z71-300 (KBFRZ71.DLL) est déjà installée sur cet ordinateur. L’installation ne peut pas se poursuivre.">
+    <![CDATA[ KEYBOARD_ALREADY_PRESENT = "" OR Installed ]]>
+  </Condition>
+
+  <Condition Message="La disposition de clavier AZERTY NF Z71-300 ne peut pas être installée sur Windows95, Windows98 ou Windows Me. L’installation ne peut pas se poursuivre.">
+    <![CDATA[ Version9X = "" ]]>
+  </Condition>
+
+  <?if $(var.Platform) = x64 ?>
+
+  <Condition Message="L’installation de ce package n’est pas supportée sur une machine dotée d’un processeur de ce type.">
+    <![CDATA[ NOT Intel64 ]]>
+  </Condition>
+
+  <?endif?>
+
+</Include>

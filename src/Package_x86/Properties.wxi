@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+
+  <Property Id="KEYBOARD_ALREADY_PRESENT">
+    <DirectorySearch Id="SystemFolder" Path="[SystemFolder]" AssignToProperty="yes">
+      <FileSearch Id="KeyboardFile" Name="KBFRZ71.DLL" />
+    </DirectorySearch>
+  </Property>
+
+  <Property Id="LCIDValue">040c</Property>
+
+</Include>
