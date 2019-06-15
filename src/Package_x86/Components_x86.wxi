@@ -6,4 +6,9 @@
     <File Id="File.x86.KBFRZ71.dll" Source="$(var.Setup.ProjectDir)..\Package_x86\bin\KBFRZ71.dll" KeyPath="yes" />
   </Component>
 
+  <Component Id="Component.x86.KBFRZ71" Guid="16194ADD-6F99-4CB6-B6D2-5233D8549BFF" Win64="no">
+    <Condition><![CDATA[ 1 = 1 ]]></Condition>
+    <File Id="File.x86.KBFRZ71N.dll" Source="$(var.Setup.ProjectDir)..\Package_x86\bin\KBFRZ71N.dll" KeyPath="yes" />
+  </Component>
+
 </Include>
