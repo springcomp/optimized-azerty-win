@@ -1,2 +1,10 @@
+\.vs/
+\.vscode/
+
 [Bb]in/
 [Oo]bj/
+*.klc
+*.C
+*.H
+*.DEF
+*.RES
