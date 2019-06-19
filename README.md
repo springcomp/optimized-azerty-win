@@ -111,6 +111,8 @@ Thus, enabling <kbd>Caps Lock</kbd> and typing <kbd>à</kbd>, <kbd>é</kbd>, <kb
 
 More realistically, enabling <kbd>Caps Lock</kbd> and typing <kbd>c</kbd>, <kbd>'</kbd>, <kbd>e</kbd>, <kbd>s</kbd>, <kbd>t</kbd>, <kbd>Space</kbd>, <kbd>à</kbd>, <kbd>Space</kbd>, <kbd>d</kbd>, <kbd>i</kbd>, <kbd>r</kbd>, <kbd>e</kbd> produces `C'EST À DIRE`. Notice that neither the apostrophe (`'`) nor the accented character (`à`) did require extra precautions. This would not be normally feasible on a traditional AZERTY layout.
 
+The SGCaps feature is a popular option that, unfortunately, contradicts the standard. If you run a laptop computer without a numeric keypad, please, consider installing the standard-compliant `AZERTY NF Z71-300 (Numérique)` layout instead. It is also installed alonside the AZERTY-NF layout.
+
 ### Extended characters
 
 The AZERTY-NF contains a 'European Extended Characters' layer that is accessible after pressing <kbd>AltGr</kbd>+<kbd>Eu</kbd>.
@@ -149,9 +151,7 @@ The following two combinations are available:
 
 ## Known issues
 
-### SGCaps
-
-The SGCaps feature is a popular option that, unfortunately, contradicts the standard. We are considering publishing a stricly compliant layout depending upon users' preferences. Please, [let us known](https://github.com/springcomp/optimized-azerty-win/issues/55) what is your preference.
+N/A.
 
 ## Links
 
