@@ -24,7 +24,6 @@ LAYOUT		;an extra '@' at the end is a dead key
 //SC	VK_		Cap	4	5	6	7	8	9
 //--	----		----	----	----	----	----	----	----
 
-29	OEM_7		0	0040	0023	-1	-1	02d8@	00b0@		// @ #   ˘ 
 02	1		SGCap	00e0	1	-1	-1	00a7	00c0		// à 1   § À 
 -1	-1		0	1	00e0						// 1 à
 03	2		SGCap	00e9	2	-1	-1	00b4@	00c9		// é 2   ´ É 
@@ -54,7 +53,6 @@ LAYOUT		;an extra '@' at the end is a dead key
 14	T		1	t	T	-1	-1	007b	2122		// t T   { ™ 
 15	Y		1	y	Y	-1	-1	007d	-1		// y Y   }   
 16	U		5	u	U	-1	-1	00f9	00d9		// u U   ù Ù 
-17	I		1	i	I	-1	-1	02d9@	002e@		// i I   ˙ . 
 18	O		5	o	O	-1	-1	0153	0152		// o O   œ Œ 
 19	P		1	p	P	-1	-1	0025	2030		// p P   % ‰ 
 1a	OEM_6		0	002d	2013	-1	-1	2212	2011		// - –   − ‑ 
@@ -66,7 +64,6 @@ LAYOUT		;an extra '@' at the end is a dead key
 22	G		1	g	G	-1	-1	00b5@	-1		// g G   µ   
 23	H		1	h	H	-1	-1	017f@	02cd@		// h H   
 24	J		1	j	J	-1	-1	-1	-1		// j J       
-25	K		1	k	K	-1	-1	002f@	-1		// k K   / 
 26	L		1	l	L	-1	-1	007c	-1		// l L   |   
 27	M		1	m	M	-1	-1	221e	-1		// m M   ∞   
 28	OEM_3		0	002f	005c	-1	001c	00f7	221a		// / \   ÷ √ 
@@ -85,6 +82,15 @@ LAYOUT		;an extra '@' at the end is a dead key
 39	SPACE		0	0020	0020	2003	-1	202f	00a0		//         
 53	DECIMAL		0	002e	002e	-1	-1	-1	-1		// . . 
 
+// The following three keys are specifically set last in the layout
+// to prevent the Win32 VkKeyScanEx function to report an incorrect
+// scan code for the '.', '/' and '°' characters that double as
+//
+// See https://github.com/springcomp/optimized-azerty-win/issues/73.
+
+29	OEM_7		0	0040	0023	-1	-1	02d8@	00b0@		// @ #   ˘ 
+17	I		1	i	I	-1	-1	02d9@	002e@		// i I   ˙ . 
+25	K		1	k	K	-1	-1	002f@	-1		// k K   / 
 
 DEADKEY 0000
 
