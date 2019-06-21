@@ -15,6 +15,8 @@ BEGIN {
 
     if (-not $output) {
         $output = Join-Path -Path $folder -ChildPath $klc
+    } else {
+        $output = (Resolve-Path -Path $output).ProviderPath
     }
 
     if (Test-Path -Path $output) {
