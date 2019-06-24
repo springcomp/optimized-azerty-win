@@ -22,6 +22,7 @@ Une documentation rapide de la disposition est disponible [ci-dessous](#usage).
 ### Libre de droit
 
 [![GitHub license](https://img.shields.io/github/license/springcomp/optimized-azerty-win.svg)](https://github.com/springcomp/optimized-azerty-win/blob/master/LICENCE.txt)
+[![](https://img.shields.io/badge/compliance-100%25-brightgreen.svg)](https://github.com/springcomp/optimized-azerty-win-compliance)
 
 
 - [Essayez la disposition](https://github.com/springcomp/optimized-azerty-win/releases) sous Windows®.
