@@ -80,7 +80,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 34	OEM_2		0	003a	2026	-1	-1	00b7	-1		// : …   ·   
 35	OEM_8		0	003b	003d	-1	-1	2243	2260		// ; =   ≃ ≠ 
 39	SPACE		0	0020	0020	2003	-1	202f	00a0		//         
-53	DECIMAL		0	002e	002e	-1	-1	-1	-1		// . . 
+53	DECIMAL		0	002c	002c	-1	-1	-1	-1		// , , 
 
 // The following three keys are specifically set last in the layout
 // to prevent the Win32 VkKeyScanEx function to report an incorrect
