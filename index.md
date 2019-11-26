@@ -204,7 +204,7 @@ Un observateur attentif aura remarqué que le caractère `²`, qui figurait sur 
 
 Cette touche est maintenant affectée, notamment, à la saisie des caractères, `@` et `#` bien plus fréquemment utilisés.
 
-Pour autant, ce caractère peut être saisi très simplement sur la disposition AZERTY-NF. En fait, tous les chiffres, situés en exposant, peuvent être saisie de la sorte, après un appui sur la touche <kbd>^</kbd>.
+Pour autant, ce caractère peut être saisi très simplement sur la disposition AZERTY-NF. En fait, tous les chiffres, situés en exposant, peuvent être saisis de la sorte, après un appui sur la touche <kbd>^</kbd>.
 
 |Position|Point de codate Unicode | Caractère|
 |---|---|---|
