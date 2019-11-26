@@ -202,7 +202,7 @@ Avec la carte de base, la couche des caractères européens permet de saisir du 
 
 Un observateur attentif aura remarqué que le caractère `²`, qui figurait sur la disposition AZERTY traditionnelle sur la touche immédiatement située à gauche de la touche numérique `1` a disparu de la disposition.
 
-Cette est affectée, notamment, à la saisie des caractères, `@` et `#` bien plus fréquemment utilisés.
+Cette touche est maintenant affectée, notamment, à la saisie des caractères, `@` et `#` bien plus fréquemment utilisés.
 
 Pour autant, ce caractère peut être saisi très simplement sur la disposition AZERTY-NF. En fait, tous les chiffres, situés en exposant, peuvent être saisie de la sorte, après un appui sur la touche <kbd>^</kbd>.
 
@@ -278,7 +278,7 @@ Les quatre opérateurs sont regroupés à la droite du clavier:
 | <kbd>AltGr</kbd>+<kbd>/</kbd> | SIGNE DIVISION (U+00F7) | `÷` |
 
 {: .footnotes} 
-¹ Le SIGNE PLUS (U+002B) est saisi par appui direct sur la touche correspondante.
+¹ Le SIGNE PLUS (U+002B) est saisi par appui direct sur la touche correspondante.  
 ² Le SIGNE MOINS (U+2212) diffère du caractère saisi par l'appui de la même touche – plus connu sous son ancien nom « _tiret du six_ » mais officiellement appelé TRAIT D'UNION - SIGNE MOINS (U+002d).
 
 De même, les signe de comparaison suivants sont dsponibles:
