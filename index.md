@@ -196,9 +196,9 @@ Avec la carte de base, la couche des caractères européens permet de saisir du 
 | Italien | `La 4ª puntata` | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>a</kbd> pour `ª` |
 | Norvégien | `Ångstrøm` | <kbd>AltGr</kbd>+<kbd>"</kbd>, <kbd>A</kbd> pour `Å` <br> <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>o</kbd> pour `ø` |
 
-## Publication Scientifique
+### Publication Scientifique
 
-### Fraction / Références
+#### Fraction / Références
 
 Un observateur attentif aura remarqué que le caractère `²`, qui figurait sur la disposition AZERTY traditionnelle sur la touche immédiatement située à gauche de la touche numérique `1` a disparu de la disposition.
 
@@ -253,7 +253,7 @@ Noter que les fractions courantes suivantes peuvent être saisies directement:
 | <kbd>Shift</kbd>+<kbd>*</kbd> | FRACTION USUELLE UN-DEMI (U+00BD) | `½` |
 | <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>*</kbd> | FRACTION USUELLE UN-QUART (U+2082) | `¼` |
 
-### Symboles chimiques
+#### Symboles chimiques
 
 En plus de la saisie de ces caractères, préconisés par la norme, la disposition AZERTY-NF ajoute le support des caractères `+`, `-` et `=`, ainsi que les parenthèses `(` et `)`.
 
@@ -264,7 +264,7 @@ Cela permet de saisir, notamment, quelques symboles chimiques – ce qui reste l
 - Un molécule d’eau à pour formule H₂O.
 - 2·H₂SO₄ == H₃SO₄⁺ + HSO₄⁻ 
 
-### Opérations mathématiques
+#### Opérations mathématiques
 
 La disposition AZERTY-NF a également été conçue pour permettre une saisie simple des opérations mathématiques courantes.
 
