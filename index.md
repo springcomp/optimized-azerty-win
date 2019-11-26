@@ -78,7 +78,7 @@ De manière similaires à la touche <kbd>^</kbd> que vous connaissez, les accent
 
 Par exemple, taper le caractère `Ÿ` est maintenant possible, via la combinaison des touches <kbd>¨</kbd>, <kbd>Maj.</kbd>+<kbd>Y</kbd>.
 
-Si, après avoir appuyé sur la touche morte correspondant à un accent ou une marque diacritique, aucune correspondance n’est trouvée pour produire un caractère accentué, le signe diacritique, lui-même, est produit. Cependant, quelques signes diacritiques n’ont pas d’équivalent visuel dit « non combinant ». Dans ce cas, la disposition AZERTY-NF a fait le choix de produire un caractère dont l'aspect visuel rappelle le signe diacritique concerné.
+Après avoir appuyé sur la touche morte correspondant à un accent ou une marque diacritique, si aucune correspondance n’est trouvée pour produire un caractère accentué, le signe diacritique, lui-même, est produit. Cependant, quelques signes diacritiques n’ont pas d’équivalent visuel dit « non combinant ». Dans ce cas, la disposition AZERTY-NF a fait le choix de produire un caractère dont l'aspect visuel rappelle le signe diacritique concerné.
 
 Les accents et diacritiques présents sont référencés dans le tableau ci-dessous. Pour les touches mortes, existant déjà sur la disposition AZERTY traditionnelle, l’ancienne position est rappelée pour référence. De même, figurent dans le tableaux les points de codage Unicode des caractères produits lorsqu’ils ne sont pas combinés avec un autre caractère.
 
@@ -114,7 +114,7 @@ Les accents et diacritiques présents sont référencés dans le tableau ci-dess
 ⁶ Le signe diacritique 'VIRGULE SOUSCRITE' ne possède par de représentation non combinante. Il est donc remplacé par la 'VIRGULE' qui en fournit une approximation visuelle lorsqu’il n’est pas associé à un caractère approprié.
 
 
-![](/assets/images/diacriticals.png)
+![](assets/images/diacriticals.png)
 
 La disposition AZERTY-NF diffère de manière subtile de la disposition traditionnelle à laquelle vous êtes habitué. En effet, de nombreuses langues européennes font usage de caractères accentués ou affublés de signes diacritiques qui ne sont pas d’un usage courant en français. Pour supporter la saisie de ces caractères, la disposition AZERTY-NF met également en œuvre un mécanisme de _signes diacritiques combinants_, qui sont appliqués _a posteriori_ au caractère qui les précede dans la saisie de texte.
 
@@ -195,6 +195,112 @@ Avec la carte de base, la couche des caractères européens permet de saisir du 
 | Hollandais | `Het Rĳksmuseum in Amsterdam` | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>j</kbd> pour `ĳ` |
 | Italien | `La 4ª puntata` | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>a</kbd> pour `ª` |
 | Norvégien | `Ångstrøm` | <kbd>AltGr</kbd>+<kbd>"</kbd>, <kbd>A</kbd> pour `Å` <br> <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>o</kbd> pour `ø` |
+
+## Publication Scientifique
+
+### Fraction / Références
+
+Un observateur attentif aura remarqué que le caractère `²`, qui figurait sur la disposition AZERTY traditionnelle sur la touche immédiatement située à gauche de la touche numérique `1` a disparu de la disposition.
+
+Cette est affectée, notamment, à la saisie des caractères, `@` et `#` bien plus fréquemment utilisés.
+
+Pour autant, ce caractère peut être saisi très simplement sur la disposition AZERTY-NF. En fait, tous les chiffres, situés en exposant, peuvent être saisie de la sorte, après un appui sur la touche <kbd>^</kbd>.
+
+|Position|Point de codate Unicode | Caractère|
+|---|---|---|
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>1</kbd> | EXPOSANT UN (U+00B9) | `¹` |
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>1</kbd> | EXPOSANT DEUX (U+00B2) | `²` |
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>1</kbd> | EXPOSANT TROIS (U+00B3) | `³` |
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>0</kbd> | EXPOSANT QUATRE (U+2074) | `⁴` |
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>0</kbd> | EXPOSANT CINQ (U+2075) | `⁵` |
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>0</kbd> | EXPOSANT SIX (U+2076) | `⁶` |
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>0</kbd> | EXPOSANT SEPT (U+2077) | `⁷` |
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>0</kbd> | EXPOSANT HUIT (U+2078) | `⁸` |
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>0</kbd> | EXPOSANT NEUF (U+2079) | `⁹` |
+| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>0</kbd> | EXPOSANT ZERO (U+2070) | `⁰` |
+
+L'utilisation de ces chiffres en exposant est courante pour saisir des références à des notes de bas de page ou des renvois à un index bibliographique.
+
+Mais les exposants servent également à saisir les unités de surface, par exemple: `km²`.
+
+De même, tous les chiffres, situés en indice, peuvent également être saisis très simplement, après un appui sur la touche <kbd>AltGr</kbd>+<kbd>ˇ</kbd>.
+
+|Position|Point de codate Unicode | Caractère|
+|---|---|---|
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>1</kbd> | INDICE UN (U+2081) | `₁` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>1</kbd> | INDICE DEUX (U+2082) | `₂` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>1</kbd> | INDICE TROIS (U+2083) | `₃` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE QUATRE (U+2084) | `₄` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE CINQ (U+2085) | `₅` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE SIX (U+2086) | `₆` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE SEPT (U+2087) | `₇` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE HUIT (U+2088) | `₈` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE NEUF (U+2089) | `₉` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE ZERO (U+2080) | `₉` |
+
+Les indices sont d’usage moins fréquents en typographie, mais ils interviennent fréquemment dans la saisie des fractions.
+
+À titre d’exemples:
+
+- ³/₄
+- ⁴/₅
+- etc.
+
+Noter que les fractions courantes suivantes peuvent être saisies directement:
+
+|Position|Point de codate Unicode | Caractère|
+|---|---|---|
+| <kbd>Shift</kbd>+<kbd>*</kbd> | FRACTION USUELLE UN-DEMI (U+00BD) | `½` |
+| <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>*</kbd> | FRACTION USUELLE UN-QUART (U+2082) | `¼` |
+
+### Symboles chimiques
+
+En plus de la saisie de ces caractères, préconisés par la norme, la disposition AZERTY-NF ajoute le support des caractères `+`, `-` et `=`, ainsi que les parenthèses `(` et `)`.
+
+Cela permet de saisir, notamment, quelques symboles chimiques – ce qui reste l’esprit de la norme de vouloir faciliter la saisie du français dans des publications scientifiques.
+
+À titre d’exemples:
+
+- Un molécule d’eau à pour formule H₂O.
+- 2·H₂SO₄ == H₃SO₄⁺ + HSO₄⁻ 
+
+### Opérations mathématiques
+
+La disposition AZERTY-NF a également été conçue pour permettre une saisie simple des opérations mathématiques courantes.
+
+Les quatre opérateurs sont regroupés à la droite du clavier:
+
+|Position|Point de codate Unicode | Caractère|
+|---|---|---|
+| <kbd>+</kbd> | SIGNE PLUS (U+002B)¹ | `+` |
+| <kbd>AltGr</kbd>+<kbd>-</kbd> | SIGNE MOINS (U+2212)² | `–` |
+| <kbd>AltGr</kbd>+<kbd>*</kbd> | SIGNE MULTIPLICATION (U+00E7) | `×` |
+| <kbd>AltGr</kbd>+<kbd>/</kbd> | SIGNE DIVISION (U+00F7) | `÷` |
+
+{: .footnotes} 
+¹ Le SIGNE PLUS (U+002B) est saisi par appui direct sur la touche correspondante.
+² Le SIGNE MOINS (U+2212) diffère du caractère saisi par l'appui de la même touche – plus connu sous son ancien nom « _tiret du six_ » mais officiellement appelé TRAIT D'UNION - SIGNE MOINS (U+002d).
+
+De même, les signe de comparaison suivants sont dsponibles:
+
+|Position|Point de codate Unicode | Caractère|
+|---|---|---|
+| <kbd>+</kbd> | SIGNE PLUS (U+002B)¹ | `+` |
+| <kbd>AltGr</kbd>+<kbd>-</kbd> | SIGNE MOINS (U+2212)² | `–` |
+| <kbd>AltGr</kbd>+<kbd>*</kbd> | SIGNE MULTIPLICATION (U+00E7) | `×` |
+| <kbd>AltGr</kbd>+<kbd>/</kbd> | SIGNE DIVISION (U+00F7) | `÷` |
+
+
+Les signes de comparaisons suivants sont églement disponibles:
+
+|Position|Point de codate Unicode | Caractère|
+|---|---|---|
+| <kbd>AltGr</kbd>+<kbd><</kbd> | SIGNE MOINS-QUE OU ÉGAL INCLINÉ (U+2A7D) | `⩽` |
+| <kbd>AltGr</kbd>+<kbd>></kbd> | SIGNE PLUS-GRAND-QUE OU ÉGAL INCLINÉ (U+2A7E) | `⩾` |
+| <kbd>AltGr</kbd>+<kbd>;</kbd> | SIGNE ASYMPTOTIQUEMENT ÉGAL À (U+2243) | `≃` |
+| <kbd>AltGr</kbd>+<kbd>=</kbd> | SIGNE NON ÉGAL À (U+2260) | `≠` |
+
+Si on ajoute les caractères grecs, disponible sur la couche <kbd>AltrGr</kbd>+<kbd>µ</kbd>, on voit que la saisie de texte à caractère scientifique est facilitée par la disposition.
 
 <a name="known-issues"></a>
 ## Problèmes connus
