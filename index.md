@@ -285,16 +285,6 @@ De même, les signe de comparaison suivants sont dsponibles:
 
 |Position|Point de codate Unicode | Caractère|
 |---|---|---|
-| <kbd>+</kbd> | SIGNE PLUS (U+002B)¹ | `+` |
-| <kbd>AltGr</kbd>+<kbd>-</kbd> | SIGNE MOINS (U+2212)² | `–` |
-| <kbd>AltGr</kbd>+<kbd>*</kbd> | SIGNE MULTIPLICATION (U+00E7) | `×` |
-| <kbd>AltGr</kbd>+<kbd>/</kbd> | SIGNE DIVISION (U+00F7) | `÷` |
-
-
-Les signes de comparaisons suivants sont églement disponibles:
-
-|Position|Point de codate Unicode | Caractère|
-|---|---|---|
 | <kbd>AltGr</kbd>+<kbd><</kbd> | SIGNE MOINS-QUE OU ÉGAL INCLINÉ (U+2A7D) | `⩽` |
 | <kbd>AltGr</kbd>+<kbd>></kbd> | SIGNE PLUS-GRAND-QUE OU ÉGAL INCLINÉ (U+2A7E) | `⩾` |
 | <kbd>AltGr</kbd>+<kbd>;</kbd> | SIGNE ASYMPTOTIQUEMENT ÉGAL À (U+2243) | `≃` |
