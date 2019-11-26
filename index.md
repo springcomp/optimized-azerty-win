@@ -228,14 +228,14 @@ De même, tous les chiffres, situés en indice, peuvent également être saisis 
 |Position|Point de codate Unicode | Caractère|
 |---|---|---|
 | <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>1</kbd> | INDICE UN (U+2081) | `₁` |
-| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>1</kbd> | INDICE DEUX (U+2082) | `₂` |
-| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>1</kbd> | INDICE TROIS (U+2083) | `₃` |
-| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE QUATRE (U+2084) | `₄` |
-| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE CINQ (U+2085) | `₅` |
-| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE SIX (U+2086) | `₆` |
-| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE SEPT (U+2087) | `₇` |
-| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE HUIT (U+2088) | `₈` |
-| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE NEUF (U+2089) | `₉` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>2</kbd> | INDICE DEUX (U+2082) | `₂` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>3</kbd> | INDICE TROIS (U+2083) | `₃` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>4</kbd> | INDICE QUATRE (U+2084) | `₄` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>5</kbd> | INDICE CINQ (U+2085) | `₅` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>6</kbd> | INDICE SIX (U+2086) | `₆` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>7</kbd> | INDICE SEPT (U+2087) | `₇` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>8</kbd> | INDICE HUIT (U+2088) | `₈` |
+| <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>9</kbd> | INDICE NEUF (U+2089) | `₉` |
 | <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>0</kbd> | INDICE ZERO (U+2080) | `₉` |
 
 Les indices sont d’usage moins fréquents en typographie, mais ils interviennent fréquemment dans la saisie des fractions.
