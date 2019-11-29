@@ -68,7 +68,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 27	M		1	m	M	-1	-1	221e	-1		// m M   ∞   
 28	OEM_3		0	002f	005c	-1	001c	00f7	221a		// / \   ÷ √ 
 2b	OEM_5		0	002a	00bd	-1	-1	00d7	00bc		// * ½   × ¼ 
-56	OEM_102		0	003c	003e	-1	-1	2a7d	2a7e		// < >   ⩽ ⩾ 
+56	OEM_102		0	003c	003e	-1	-1	2264	2265		// < >   ≤ ≥ 
 2c	W		5	w	W	-1	-1	0292	01b7		// w W   ʒ Ʒ 
 2d	X		1	x	X	-1	-1	00a9	-1		// x X   ©   
 2e	C		5	c	C	-1	-1	00e7	00c7		// c C   ç Ç 
