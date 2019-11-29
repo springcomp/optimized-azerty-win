@@ -285,8 +285,8 @@ De même, les signe de comparaison suivants sont dsponibles:
 
 |Position|Point de codate Unicode | Caractère|
 |---|---|---|
-| <kbd>AltGr</kbd>+<kbd><</kbd> | SIGNE MOINS-QUE OU ÉGAL INCLINÉ (U+2A7D) | `⩽` |
-| <kbd>AltGr</kbd>+<kbd>></kbd> | SIGNE PLUS-GRAND-QUE OU ÉGAL INCLINÉ (U+2A7E) | `⩾` |
+| <kbd>AltGr</kbd>+<kbd><</kbd> | SIGNE MOINS-QUE OU ÉGAL (U+2264) | `≤` |
+| <kbd>AltGr</kbd>+<kbd>></kbd> | SIGNE PLUS-GRAND-QUE OU ÉGAL (U+2265) | `≥` |
 | <kbd>AltGr</kbd>+<kbd>;</kbd> | SIGNE ASYMPTOTIQUEMENT ÉGAL À (U+2243) | `≃` |
 | <kbd>AltGr</kbd>+<kbd>=</kbd> | SIGNE NON ÉGAL À (U+2260) | `≠` |
 
