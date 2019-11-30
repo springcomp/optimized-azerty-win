@@ -302,7 +302,7 @@ Les quatre opérateurs sont regroupés à la droite du clavier:
 ¹ Le SIGNE PLUS (U+002B) est saisi par appui direct sur la touche correspondante.  
 ² Le SIGNE MOINS (U+2212) diffère du caractère saisi par l'appui de la même touche – plus connu sous son ancien nom « _tiret du six_ » mais officiellement appelé TRAIT D'UNION - SIGNE MOINS (U+002d).
 
-De même, les signe de comparaison suivants sont dsponibles:
+De même, les signe de comparaison suivants sont disponibles:
 
 |Position|Point de codate Unicode | Caractère|
 |---|---|---|
@@ -320,6 +320,7 @@ En tirant parti du signe diacritique <kbd>AltGr</kbd>+<kbd>k</kbd> BARRE OBLIQUE
 | <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd><</kbd> | SIGNE NI INFÉRIEUR NI ÉGAL À (U+2270) | `≰` |
 | <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd>></kbd> | SIGNE NI SUPÉRIEUR NI ÉGAL À (U+2271) | `≱` |
 | <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>=</kbd> | SIGNE NON ÉGAL À (U+2260) | `≠` |
+| <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd>;</kbd> | SIGNE NON ASYMPTOTIQUEMENT ÉGAL À (U+2244) | `≄` |
 
 Noter que le signe `≠` est directement accessible sur la carte de base, comme vu précédemment, à l’aide de la combinaison <kbd>AltGr</kbd>+<kbd>=</kbd> (ou <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>;</kbd>). Il est également accessible sur cette position par souci de cohérence.
 
