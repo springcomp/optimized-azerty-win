@@ -45,10 +45,21 @@ Si vous souhaitez changer les touches de votre clavier mécanique, je vous propo
 <a name="usage"></a>
 ## Utilisation
 
+- [Majuscules accentuées](#upper-case-accents)
+- [Caractères accentués et signes diacritiques](#diacriticals)
+- [Verr. Maj.](#sgcaps)
+- [Caractères des langues européennes](#european-characters)
+- [Publication scientifique](#science)
+  - [Fractions](#fractions)
+  - [Symboles chimiques](#chemical-symbols)
+  - [Opérations mathématiques](#math)
+
 Tout d’abord, la disposition a été pensée pour ne pas trop bouleverser les habitudes des utilisateurs. Vous devriez y trouver tous les caractères nécessaires à la bonne écriture du français. Avec un peu d’habitude, les réflexes reviennent assez vite.
 
 ![](assets/images/base.png)
 
+
+<a name="upper-case-accents"></a>
 ### Majuscules accentuées
 
 L’une des critiques principales vis-à-vis de la disposition AZERTY actuelle est la difficulté de saisir des majuscules accentuées. La disposition AZERTY-NF résoud ce problème en proposant, en accès rapide, sur des positions intuitives, les majuscules suivantes :
@@ -70,6 +81,7 @@ On trouvera également les deux ligatures courantes du français :
 | <kbd>AltGr</kbd>+<kbd>Maj.</kbd>+<kbd>o</kbd> | `Œ` |
 
 
+<a name="diacriticals"></a>
 ### Caractères accentués et signes diacritiques
 
 L’une des particularité de la disposition est d’être résolument moderne et de permettre la saisie d’un très grand nombre de caractères accentués. En plus des accents et diacritiques `accent grave`, `accent circonflexe`, `tréma` et `tilde` que vous connaissez déjà sur votre disposition AZERTY actuelle, la disposition AZERTY-NF supporte un grand nombre d’accents et de diacritiques, moins fréquemment utilisés en France, mais permettant néanmoins la saisie, notamment, de la plupart des langues latines des pays européens.
@@ -137,6 +149,7 @@ Par exemple, les combinaisons de touches suivantes produisent toutes les deux la
 Comme expliqué plus haut, il est possible de saisir le signe diacritique non combiné – s’il existe – en faisant suivre la touche morte correspondante de la touche <kbd>Espace</kbd>, selon la correspondance établie dans le tableau qui figure plus haut.
 
 
+<a name="sgcaps"></a>
 ### Verr. Maj.
 
 La disposition AZERTY-NF inclue également le support des majuscules accentuées à l’aide de la touche <kbd>Verr. Maj.</kbd>. Utilisée principalement sur la disposition suisse-alémanique, cette fonctionnalité est également très populaire sur les dispositions alternatives proposées sur le système d’exploitation Linux.
@@ -153,6 +166,8 @@ Notez que ce fonctionnement n’est pas strictement conforme à la norme qui imp
 Si vous souhaitez utiliser un pilote strictement conforme, choisissez le pilote
 "AZERTY NF Z71-300 (Numérique)" qui l'accompagne.
 
+
+<a name="european-characters"></a>
 ### Caractères des langues européennes
 
 La disposition AZERTY-NF expose une couche supplémentaire – accessible via <kbd>AltGr</kbd>+<kbd>Eu</kbd> – sur laquelle on trouve un petit nombre de caractères peu fréquemment utilisés en français, mais utiles pour certaines langues européennes.
@@ -196,9 +211,12 @@ Avec la carte de base, la couche des caractères européens permet de saisir du 
 | Italien | `La 4ª puntata` | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>a</kbd> pour `ª` |
 | Norvégien | `Ångstrøm` | <kbd>AltGr</kbd>+<kbd>"</kbd>, <kbd>A</kbd> pour `Å` <br> <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>o</kbd> pour `ø` |
 
+
+<a name="science"></a>
 ### Publication Scientifique
 
-#### Fraction / Références
+<a name="fractions"></a>
+#### Fractions
 
 Un observateur attentif aura remarqué que le caractère `²`, qui figurait sur la disposition AZERTY traditionnelle sur la touche immédiatement située à gauche de la touche numérique `1` a disparu de la disposition.
 
@@ -253,6 +271,7 @@ Noter que les fractions courantes suivantes peuvent être saisies directement:
 | <kbd>Shift</kbd>+<kbd>*</kbd> | FRACTION USUELLE UN-DEMI (U+00BD) | `½` |
 | <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>*</kbd> | FRACTION USUELLE UN-QUART (U+2082) | `¼` |
 
+<a name="chemical-symbols"></a>
 #### Symboles chimiques
 
 En plus de la saisie de ces caractères, préconisés par la norme, la disposition AZERTY-NF ajoute le support des caractères `+`, `-` et `=`, ainsi que les parenthèses `(` et `)`.
@@ -264,6 +283,8 @@ Cela permet de saisir, notamment, quelques symboles chimiques – ce qui reste l
 - Un molécule d’eau à pour formule H₂O.
 - 2·H₂SO₄ == H₃SO₄⁺ + HSO₄⁻ 
 
+
+<a name="math"></a>
 #### Opérations mathématiques
 
 La disposition AZERTY-NF a également été conçue pour permettre une saisie simple des opérations mathématiques courantes.
