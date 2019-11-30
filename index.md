@@ -311,6 +311,27 @@ De même, les signe de comparaison suivants sont dsponibles:
 | <kbd>AltGr</kbd>+<kbd>;</kbd> | SIGNE ASYMPTOTIQUEMENT ÉGAL À (U+2243) | `≃` |
 | <kbd>AltGr</kbd>+<kbd>=</kbd> | SIGNE NON ÉGAL À (U+2260) | `≠` |
 
+En tirant parti du signe diacritique <kbd>AltGr</kbd>+<kbd>k</kbd> BARRE OBLIQUE COUVRANTE, les caractères suivants peuvent être saisis:
+
+|Position|Point de codate Unicode | Caractère|
+|---|---|---|
+| <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd><</kbd> | SIGNE NON INFÉRIEUR À (U+226E) | `≮` |
+| <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>></kbd> | SIGNE NON SUPÉRIEUR À (U+226F) | `≯` |
+| <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd><</kbd> | SIGNE NI INFÉRIEUR NI ÉGAL À (U+2270) | `≰` |
+| <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd>></kbd> | SIGNE NI SUPÉRIEUR NI ÉGAL À (U+2271) | `≱` |
+| <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>=</kbd> | SIGNE NON ÉGAL À (U+2260) | `≠` |
+
+Noter que le signe `≠` est directement accessible sur la carte de base, comme vu précédemment, à l’aide de la combinaison <kbd>AltGr</kbd>+<kbd>=</kbd> (ou <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>;</kbd>). Il est également accessible sur cette position par souci de cohérence.
+
+En tirant parti du signe diacritique <kbd>AltGr</kbd>+<kbd>n</kbd> TILDE, les caractères suivants peuvent être saisis:
+
+|Position|Point de codate Unicode | Caractère|
+|---|---|---|
+| <kbd>AltGr</kbd>+<kbd>n</kbd>, <kbd><</kbd> | SIGNE INFÉRIEUR OU ÉQUIVALENT À (U+2272) | `≲` |
+| <kbd>AltGr</kbd>+<kbd>n</kbd>, <kbd>></kbd> | SIGNE SUPÉRIEUR OU ÉQUIVALENT À (U+2273) | `≳` |
+| <kbd>AltGr</kbd>+<kbd>n</kbd>, <kbd>-</kbd> | ASYMPTOTIQUEMENT ÉGAL À (U+2243) | `≃` |
+| <kbd>AltGr</kbd>+<kbd>n</kbd>, <kbd>=</kbd> | SIGNE À PEU PRÈS ÉGAL À (U+2248) | `≈` |
+
 Si on ajoute les caractères grecs, disponible sur la couche <kbd>AltrGr</kbd>+<kbd>µ</kbd>, on voit que la saisie de texte à caractère scientifique est facilitée par la disposition.
 
 <a name="known-issues"></a>
