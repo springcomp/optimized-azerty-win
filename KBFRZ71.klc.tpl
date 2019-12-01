@@ -40,6 +40,8 @@ LAYOUT		;an extra '@' at the end is a dead key
 0b	0		0	00bb	0	-1	-1	201d	203a		// » 0   ” › 
 0c	OEM_4		0	0027	0022	-1	-1	00b0	02da@		// ' "   ° ˚ 
 0d	OEM_6		0	005e@	00a8@	-1	001e	02c7@	-1		// ^ ¨   ˇ   
+
+<? Get-Content -Path .\KBFRZ71_base.inc ?>
 10	A		5	a	A	-1	-1	00e6	00c6		// a A   æ Æ
 11	Z		1	z	Z	-1	-1	00a3	-1		// z Z   £   
 12	E		1	e	E	-1	-1	20ac	0000@		// e E   €   
