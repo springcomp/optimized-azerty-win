@@ -41,11 +41,11 @@ LAYOUT		;an extra '@' at the end is a dead key
 0c	OEM_4		0	0027	0022	-1	-1	00b0	02da@		// ' "   ° ˚ 
 0d	OEM_6		0	005e@	00a8@	-1	001e	02c7@	-1		// ^ ¨   ˇ   
 
-<? Get-Content -Path .\KBFRZ71_base.inc ?>
+<? .\automation\make-base-layout.ps1 ?>
 
 <? .\automation\make-dead-tables.ps1 ?>
 
-<? Get-Content -Path .\KBFRZ71_key_names.inc ?>
+<? .\automation\make-keynames.ps1 ?>
 
 <? .\automation\make-keynames-dead.ps1 ?>
 
