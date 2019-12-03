@@ -1,1 +1,1 @@
-Get-Content -Path KBFRZ71_base.inc
+Get-Content -Path KBFRZ71_base.inc -Encoding UTF8 -Raw

@@ -52,7 +52,6 @@ LAYOUT		;an extra '@' at the end is a dead key
 <? .\automation\make-dead-tables.ps1 ?>
 
 <? .\automation\make-keynames.ps1 ?>
-
 <? .\automation\make-keynames-dead.ps1 ?>
 
 DESCRIPTIONS

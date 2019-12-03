@@ -17,8 +17,8 @@ before_build:
   - ps: docker build --cache-from sprinccompdocker/msklc:1.4 --tag private/msklc:1.4 --file .\Dockerfile .\context\
 
 build_script:
-  - ps: .\Make-KLC.ps1 -Path .\KBFRZ71.klc.tpl -Output .\KBFRZ71.klc -Force
-  - ps: .\Make-KLC.ps1 -Path .\KBFRZ71N.klc.tpl -Output .\KBFRZ71N.klc -Force
+  - ps: .\Make-KLC.ps1 -Name KBFRZ71 -Force
+  - ps: .\Make-KLC.ps1 -Name KBFRZ71N -Force
   - ps: Set-Content -Path ".\src\KBFRZ71.klc" -Encoding Unicode -Value (Get-Content -Path ".\KBFRZ71.klc" -Raw -Encoding UTF8)
   - ps: Set-Content -Path ".\src\KBFRZ71N.klc" -Encoding Unicode -Value (Get-Content -Path ".\KBFRZ71N.klc" -Raw -Encoding UTF8)
   - ps: |
