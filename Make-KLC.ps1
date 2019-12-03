@@ -1,13 +1,23 @@
 [CmdletBinding()]
 param(
-    [Parameter(Mandatory = $true, Position = 0)]
+    [Parameter(Mandatory = $true, Position = 0, ParameterSetName = "Paths")]
     [string] $path,
+    [Parameter(Position = 1, ParameterSetName = "Paths")]
     [string] $output,
+
+    [Parameter(Mandatory = $true, ParameterSetName = "Name")]
+    [string] $name,
+
     [string] $encoding = "UTF8",
     [switch] $force = $false
 )
 
 BEGIN {
+
+    if ($name -ne $null){
+        $path = ".\$($name).klc.tpl"
+        $output = ".\$($name).klc"
+    }
 
     $path = (Resolve-Path -Path $path).ProviderPath
     $folder = Split-Path -Path $path -Parent
