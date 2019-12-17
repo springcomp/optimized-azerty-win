@@ -99,6 +99,9 @@ BEGIN {
         )
 
         $codePoint = Get-CodePoint -Char $char
+        if ($codePoint -eq 0x2400) {
+            $codePoint = 0x0000
+        }
         $mappedCodePoint = Get-CodePoint -Char $mapped
         if ($mappedCodePoint -eq 0x2400) {
             $mappedCodePoint = 0x0000
