@@ -45,12 +45,13 @@ after_build:
   - ps: 7z a artifacts\setup.zip .\src\Setup\bin\x86\Release\net452\*.msi
   - ps: 7z a artifacts\setup.zip .\src\Setup\bin\x86\Release\net452\*.exe 
   - ps: 7z a artifacts\setup.zip .\src\Setup\bin\x86\Release\net452\*.config
+  - ps: copy .\src\Setup\bin\x86\Release\net452\*.msi .\artifacts\
 
 artifacts:
   - path: artifacts\setup.zip
     name: setup
     type: file
-  - path: 'src\Setup\bin\x86\Release\net452\*.msi'
+  - path: 'artifacts\*.msi'
     type: file
 
 deploy:
@@ -58,8 +59,9 @@ deploy:
     release: $(APPVEYOR_REPO_TAG_NAME)
     description: AZERTY NF Z71-300 Keyboard Layout
     auth_token:
-      secure: QxXD5boO1cRwZNpg17XsXqC1kxznj5IhNa1m4TvpuUzl6BSErb99eM0+wMbE5dv8
-    artifact: artifacts\setup.zip
+      secure: gbK9PQz8fOF6CMmbIe+3FRaHjWXmyTgXCiGhBK6bt9I0lv3m889NSxiy7oROpGst
+#      secure: QxXD5boO1cRwZNpg17XsXqC1kxznj5IhNa1m4TvpuUzl6BSErb99eM0+wMbE5dv8
+    artifact: /.*\.(msi|zip)$/
     prerelease: true
     on:
       branch: master # only release from master branch
