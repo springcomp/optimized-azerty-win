@@ -42,13 +42,15 @@ build_script:
   - ps: msbuild .\src\Setup.sln /p:Configuration=Release /p:SolutionDir=.\src /p:ProductVersion=$Env:KBFRZ71_VERSION
 
 after_build:
-  - ps: 7z a artifacts\setup.zip C:\projects\optimized-azerty-win\src\Setup\bin\x86\Release\net452\*.msi
-  - ps: 7z a artifacts\setup.zip C:\projects\optimized-azerty-win\src\Setup\bin\x86\Release\net452\*.exe 
-  - ps: 7z a artifacts\setup.zip C:\projects\optimized-azerty-win\src\Setup\bin\x86\Release\net452\*.config
+  - ps: 7z a artifacts\setup.zip .\src\Setup\bin\x86\Release\net452\*.msi
+  - ps: 7z a artifacts\setup.zip .\src\Setup\bin\x86\Release\net452\*.exe 
+  - ps: 7z a artifacts\setup.zip .\src\Setup\bin\x86\Release\net452\*.config
 
 artifacts:
   - path: artifacts\setup.zip
     name: setup
+    type: file
+  - path: 'src\Setup\bin\x86\Release\net452\*.msi'
     type: file
 
 deploy:
