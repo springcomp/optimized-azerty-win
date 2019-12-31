@@ -59,8 +59,7 @@ deploy:
     release: $(APPVEYOR_REPO_TAG_NAME)
     description: AZERTY NF Z71-300 Keyboard Layout
     auth_token:
-      secure: gbK9PQz8fOF6CMmbIe+3FRaHjWXmyTgXCiGhBK6bt9I0lv3m889NSxiy7oROpGst
-#      secure: QxXD5boO1cRwZNpg17XsXqC1kxznj5IhNa1m4TvpuUzl6BSErb99eM0+wMbE5dv8
+      secure: QxXD5boO1cRwZNpg17XsXqC1kxznj5IhNa1m4TvpuUzl6BSErb99eM0+wMbE5dv8
     artifact: /.*\.(msi|zip)$/
     prerelease: true
     on:
