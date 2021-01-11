@@ -226,16 +226,16 @@ Pour autant, ce caractère peut être saisi très simplement sur la disposition 
 
 |Position|Point de codate Unicode | Caractère|
 |---|---|---|
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>1</kbd> | EXPOSANT UN (U+00B9) | `¹` |
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>2</kbd> | EXPOSANT DEUX (U+00B2) | `²` |
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>3</kbd> | EXPOSANT TROIS (U+00B3) | `³` |
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>4</kbd> | EXPOSANT QUATRE (U+2074) | `⁴` |
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>5</kbd> | EXPOSANT CINQ (U+2075) | `⁵` |
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>6</kbd> | EXPOSANT SIX (U+2076) | `⁶` |
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>7</kbd> | EXPOSANT SEPT (U+2077) | `⁷` |
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>8</kbd> | EXPOSANT HUIT (U+2078) | `⁸` |
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>9</kbd> | EXPOSANT NEUF (U+2079) | `⁹` |
-| <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>0</kbd> | EXPOSANT ZERO (U+2070) | `⁰` |
+| <kbd>1</kbd> | EXPOSANT UN (U+00B9) | `¹` |
+| <kbd>2</kbd> | EXPOSANT DEUX (U+00B2) | `²` |
+| <kbd>3</kbd> | EXPOSANT TROIS (U+00B3) | `³` |
+| <kbd>4</kbd> | EXPOSANT QUATRE (U+2074) | `⁴` |
+| <kbd>5</kbd> | EXPOSANT CINQ (U+2075) | `⁵` |
+| <kbd>6</kbd> | EXPOSANT SIX (U+2076) | `⁶` |
+| <kbd>7</kbd> | EXPOSANT SEPT (U+2077) | `⁷` |
+| <kbd>8</kbd> | EXPOSANT HUIT (U+2078) | `⁸` |
+| <kbd>9</kbd> | EXPOSANT NEUF (U+2079) | `⁹` |
+| <kbd>0</kbd> | EXPOSANT ZERO (U+2070) | `⁰` |
 
 L'utilisation de ces chiffres en exposant est courante pour saisir des références à des notes de bas de page ou des renvois à un index bibliographique.
 
