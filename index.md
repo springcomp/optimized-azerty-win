@@ -274,7 +274,7 @@ Noter que les fractions courantes suivantes peuvent être saisies directement:
 <a name="chemical-symbols"></a>
 #### Symboles chimiques
 
-En plus de la saisie de ces caractères, préconisés par la norme, la disposition AZERTY-NF ajoute le support des caractères `+`, `-` et `=`, ainsi que les parenthèses `(` et `)`.
+En plus de la saisie de ces caractères, préconisés par la norme, la disposition AZERTY-NF ajoute le support des caractères `+`, `-` et `=`, ainsi que les parenthèses `(` et `)` en indice ou en exposant.
 
 Cela permet de saisir, notamment, quelques symboles chimiques – ce qui reste l’esprit de la norme de vouloir faciliter la saisie du français dans des publications scientifiques.
 
