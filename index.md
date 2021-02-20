@@ -280,7 +280,7 @@ Cela permet de saisir, notamment, quelques symboles chimiques – ce qui reste l
 
 À titre d’exemples:
 
-- Un molécule d’eau à pour formule H₂O.
+- Une molécule d’eau a pour formule H₂O.
 - 2·H₂SO₄ == H₃SO₄⁺ + HSO₄⁻ 
 
 
