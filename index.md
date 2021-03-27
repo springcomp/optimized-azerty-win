@@ -224,7 +224,7 @@ Cette touche est maintenant affectée, notamment, à la saisie des caractères, 
 
 Pour autant, ce caractère peut être saisi très simplement sur la disposition AZERTY-NF. En fait, tous les chiffres, situés en exposant, peuvent être saisis de la sorte, après un appui sur la touche <kbd>^</kbd>.
 
-|Position|Point de codate Unicode | Caractère|
+|Position|Point de codage Unicode | Caractère|
 |---|---|---|
 | <kbd>^</kbd>, <kbd>1</kbd> | EXPOSANT UN (U+00B9) | `¹` |
 | <kbd>^</kbd>, <kbd>2</kbd> | EXPOSANT DEUX (U+00B2) | `²` |
@@ -243,7 +243,7 @@ Mais les exposants servent également à saisir les unités de surface, par exem
 
 De même, tous les chiffres, situés en indice, peuvent également être saisis très simplement, après un appui sur la touche <kbd>AltGr</kbd>+<kbd>ˇ</kbd>.
 
-|Position|Point de codate Unicode | Caractère|
+|Position|Point de codage Unicode | Caractère|
 |---|---|---|
 | <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>1</kbd> | INDICE UN (U+2081) | `₁` |
 | <kbd>AltGr</kbd>+<kbd>ˇ</kbd>, <kbd>2</kbd> | INDICE DEUX (U+2082) | `₂` |
@@ -302,7 +302,7 @@ Les quatre opérateurs sont regroupés à la droite du clavier:
 ¹ Le SIGNE PLUS (U+002B) est saisi par appui direct sur la touche correspondante.  
 ² Le SIGNE MOINS (U+2212) diffère du caractère saisi par l'appui de la même touche – plus connu sous son ancien nom « _tiret du six_ » mais officiellement appelé TRAIT D'UNION - SIGNE MOINS (U+002d).
 
-De même, les signe de comparaison suivants sont disponibles:
+De même, les signes de comparaison suivants sont disponibles:
 
 |Position|Point de codate Unicode | Caractère|
 |---|---|---|
@@ -333,7 +333,7 @@ En tirant parti du signe diacritique <kbd>AltGr</kbd>+<kbd>n</kbd> TILDE, les ca
 | <kbd>AltGr</kbd>+<kbd>n</kbd>, <kbd>-</kbd> | ASYMPTOTIQUEMENT ÉGAL À (U+2243) | `≃` |
 | <kbd>AltGr</kbd>+<kbd>n</kbd>, <kbd>=</kbd> | SIGNE À PEU PRÈS ÉGAL À (U+2248) | `≈` |
 
-Si on ajoute les caractères grecs, disponible sur la couche <kbd>AltrGr</kbd>+<kbd>µ</kbd>, on voit que la saisie de texte à caractère scientifique est facilitée par la disposition.
+Si on ajoute les caractères grecs, disponibles sur la couche <kbd>AltrGr</kbd>+<kbd>µ</kbd>, on voit que la saisie de texte à caractère scientifique est facilitée par la disposition.
 
 <a name="known-issues"></a>
 ## Problèmes connus
