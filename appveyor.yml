@@ -2,7 +2,7 @@ image: Visual Studio 2017
 
 branches:
   only:
-    - master
+    - main
     - /^v\d+\.\d+\.\d+\.\d+$/
 
 init:
@@ -63,5 +63,5 @@ deploy:
     artifact: /.*\.(msi|zip)$/
     prerelease: true
     on:
-      branch: master # only release from master branch
+      branch: main # only release from main branch
       APPVEYOR_REPO_TAG: true # only release on new tag
