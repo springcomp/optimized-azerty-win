@@ -53,6 +53,7 @@ Si vous souhaitez changer les touches de votre clavier mécanique, je vous propo
   - [Fractions](#fractions)
   - [Symboles chimiques](#chemical-symbols)
   - [Opérations mathématiques](#math)
+- [Problèmes connus](#known-issues)
 
 Tout d’abord, la disposition a été pensée pour ne pas trop bouleverser les habitudes des utilisateurs. Vous devriez y trouver tous les caractères nécessaires à la bonne écriture du français. Avec un peu d’habitude, les réflexes reviennent assez vite.
 
@@ -274,14 +275,15 @@ Noter que les fractions courantes suivantes peuvent être saisies directement:
 <a name="chemical-symbols"></a>
 #### Symboles chimiques
 
-En plus de la saisie de ces caractères, préconisés par la norme, la disposition AZERTY-NF ajoute le support des caractères `+`, `-` et `=`, ainsi que les parenthèses `(` et `)` en indice ou en exposant.
+En plus de la saisie de ces caractères, préconisés par la norme, la disposition AZERTY-NF ajoute le support des caractères `+`, `-` et `=`, les parenthèses `(` et `)`, ainsi que la lettre `x` en indice ou en exposant.
 
-Cela permet de saisir, notamment, quelques symboles chimiques – ce qui reste l’esprit de la norme de vouloir faciliter la saisie du français dans des publications scientifiques.
+Cela permet de saisir, notamment, quelques symboles chimiques ou formules mathématiques – ce qui reste l’esprit de la norme de vouloir faciliter la saisie du français dans des publications scientifiques.
 
 À titre d’exemples:
 
 - Une molécule d’eau a pour formule H₂O.
 - 2·H₂SO₄ == H₃SO₄⁺ + HSO₄⁻ 
+- 5ˣ
 
 
 <a name="math"></a>
@@ -306,10 +308,17 @@ De même, les signes de comparaison suivants sont disponibles:
 
 |Position|Point de codate Unicode | Caractère|
 |---|---|---|
-| <kbd>AltGr</kbd>+<kbd><</kbd> | SIGNE MOINS-QUE OU ÉGAL (U+2264) | `≤` |
-| <kbd>AltGr</kbd>+<kbd>></kbd> | SIGNE PLUS-GRAND-QUE OU ÉGAL (U+2265) | `≥` |
+| <kbd>AltGr</kbd>+<kbd><</kbd> | SIGNE MOINS-QUE OU ÉGAL À INCLINÉ (U+2270) | `⩽` |
+| <kbd>AltGr</kbd>+<kbd>></kbd> | SIGNE PLUS-GRAND-QUE OU ÉGAL À INCLINÉ (U+2271) | `⩾` |
 | <kbd>AltGr</kbd>+<kbd>;</kbd> | SIGNE ASYMPTOTIQUEMENT ÉGAL À (U+2243) | `≃` |
 | <kbd>AltGr</kbd>+<kbd>=</kbd> | SIGNE NON ÉGAL À (U+2260) | `≠` |
+
+Par souci de compatibilité, une variante des deux premiers signes est disponible sur la couche des [caractères européens](#european-characters):
+
+|Position|Point de codate Unicode | Caractère|
+|---|---|---|
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd><</kbd> | SIGNE MOINS-QUE OU ÉGAL (U+2264) | `≤` |
+| <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>></kbd> | SIGNE PLUS-GRAND-QUE OU ÉGAL (U+2265) | `≥` |
 
 En tirant parti du signe diacritique <kbd>AltGr</kbd>+<kbd>k</kbd> BARRE OBLIQUE COUVRANTE, les caractères suivants peuvent être saisis:
 
