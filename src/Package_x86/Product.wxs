@@ -44,13 +44,13 @@
   <?define Win64 = "yes" ?>
   <?define Architecture = "x64" ?>
   <?define PackageCode = "869b5448-4fe1-4dc6-b0cf-e8eeaa68e57c" ?>
-  <?define ProductCode = "2039b65d-eec4-4fc4-92b6-e0f3d51ee7c8" ?>
+  <?define ProductCode = "09ef0cdc-b8e6-45df-b0ee-3ebb2855b537" ?>
   <?define ProductUpgradeCode = "a8604125-c4ab-40cc-b1cf-10df9c068253" ?>
   <?else ?>
   <?define Win64 = "no" ?>
   <?define Architecture = "x86" ?>
   <?define PackageCode = "0c877d40-061a-4c57-9ab2-c07e88e8da9c" ?>
-  <?define ProductCode = "479f1746-9eea-46d3-8c61-36dc58b5a4bf" ?>
+  <?define ProductCode = "9f95dc9e-d501-4244-bd83-8dc8844ab739" ?>
   <?define ProductUpgradeCode = "a8604125-c4ab-40cc-b1cf-10df9c068253" ?>
   <?endif ?>
 
