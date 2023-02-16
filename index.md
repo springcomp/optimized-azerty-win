@@ -53,6 +53,7 @@ Si vous souhaitez changer les touches de votre clavier mécanique, je vous propo
   - [Fractions](#fractions)
   - [Symboles chimiques](#chemical-symbols)
   - [Opérations mathématiques](#math)
+- [C0 control characters](#controls)
 - [Problèmes connus](#known-issues)
 
 Tout d’abord, la disposition a été pensée pour ne pas trop bouleverser les habitudes des utilisateurs. Vous devriez y trouver tous les caractères nécessaires à la bonne écriture du français. Avec un peu d’habitude, les réflexes reviennent assez vite.
@@ -343,6 +344,24 @@ En tirant parti du signe diacritique <kbd>AltGr</kbd>+<kbd>n</kbd> TILDE, les ca
 | <kbd>AltGr</kbd>+<kbd>n</kbd>, <kbd>=</kbd> | SIGNE À PEU PRÈS ÉGAL À (U+2248) | `≈` |
 
 Si on ajoute les caractères grecs, disponibles sur la couche <kbd>AltrGr</kbd>+<kbd>µ</kbd>, on voit que la saisie de texte à caractère scientifique est facilitée par la disposition.
+
+<a name="controls"></a>
+### Caractères de contrôle C0
+
+Bien que leur usage devienne anecdotique, la disposition AZERTY-NF garde, par souci de compatibilité, la possibilité d’émettre les [caractères de contrôle](https://fr.wikipedia.org/wiki/Caract%C3%A8re_de_contr%C3%B4le) suivants:
+
+|Position|Point de codate Unicode | Caractère|
+|---|---|---|
+| <kbd>Ctrl</kbd>+<kbd>-</kbd> | ÉCHAP (U+001B) | `␛`
+| <kbd>Ctrl</kbd>+<kbd>*</kbd> | SÉPARATEUR DE FICHIER (U+001C) | `␜`
+| <kbd>Ctrl</kbd>+<kbd><</kbd> | SÉPARATEUR DE FICHIER (U+001C) |`␜` 
+| <kbd>Ctrl</kbd>+<kbd>+</kbd> | SÉPARATEUR DE GROUPE (U+001D) | `␝`
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>0</kbd> | NUL (U+0000) | `␀`
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>^</kbd> | SÉPARATEUR D’ENREGISTREMENT (U+001E) | `␞`
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>-</kbd> | SÉPARATEUR D’UNITÉ (U+001F) | `␟`
+
+La plupart des caractères de contrôle ne peuvent plus être exploités convenablement sur les systèmes d’exploitation modernes, car ils peuvent correspondre à des raccourcis claviers qui sont interceptés par les applications.
+
 
 <a name="known-issues"></a>
 ## Problèmes connus
