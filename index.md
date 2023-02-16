@@ -358,7 +358,7 @@ Il est donc nécessaire de choisir, pour chaque touche morte, un caractère appr
 - Pour la plupart des accents et signes diacritiques, le caractère non combinant correspondant est choisi. Cela permet, d’une part, de conserver le fonctionnement auquel les utilisateurs sont habitués. En outre, cela permet de saisir, particulièrement, le signe 'ACCENT GRAVE' (U+0060), curieusement absent de la norme !
 - Pour certains signes qui n’ont pas d’équivalent non combinant, la disposition AZERTY-NF a fait le choix de sélectionner des caractères dont le dessin est une approximation visuelle.
 - Pour la sélection des symboles monétaires ou grecs, la norme impose de choisir, respectivement, le caractère 'SYMBOLE DEVISE' (U+00B4) et le 'SIGNE MICRON' (U+00B5).
-- Enfin, reste le choix du caractère associé à la sélection des caractères européens. Pour les raisons exposées ci-après, la disposition AZERTY-NF a choisi le caractère `ſ` 'LETTRE LATINE LONG S' (U+01EF).
+- Enfin, reste le choix du caractère associé à la sélection des caractères européens. Pour les raisons exposées ci-après, la disposition AZERTY-NF a choisi le caractère `ſ` 'LETTRE LATINE LONG S' (U+017F).
 
 Comme expliqué dans la section précédente relative aux caractères européens, la 'LETTRE LATINE LONG S' accepte deux variantes affublés des signes diacritiques 'POINT EN CHEF' et 'BARRE OBLIQUE COUVRANTE'. Normalement, la combinaison de touches nécessaires pour obtenir, par exemple, la 'LETTRE LATINE LONG S DIAGONALE COUVRANTE' ferait obtenir deux touches mortes successives <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>s</kbd>. Pour des raisons de simplicité, ce sont plutôt les séquences mentionnées plus haut qui sont proposées par la disposition AZERTY-NF.
 
