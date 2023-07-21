@@ -297,7 +297,7 @@ Les quatre opérateurs sont regroupés à la droite du clavier:
 |---|---|---|
 | <kbd>+</kbd> | SIGNE PLUS (U+002B)¹ | `+` |
 | <kbd>AltGr</kbd>+<kbd>-</kbd> | SIGNE MOINS (U+2212)² | `–` |
-| <kbd>AltGr</kbd>+<kbd>*</kbd> | SIGNE MULTIPLICATION (U+00E7) | `×` |
+| <kbd>AltGr</kbd>+<kbd>*</kbd> | SIGNE MULTIPLICATION (U+00D7) | `×` |
 | <kbd>AltGr</kbd>+<kbd>/</kbd> | SIGNE DIVISION (U+00F7) | `÷` |
 
 {: .footnotes} 
