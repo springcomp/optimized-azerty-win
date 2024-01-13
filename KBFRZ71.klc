@@ -46,7 +46,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 
 10	A		5	a	A	-1	-1	00e6	00c6		// a A   æ Æ
 11	Z		1	z	Z	-1	-1	00a3	-1		// z Z   £   
-12	E		1	e	E	-1	-1	20ac	0000@		// e E   €   
+12	E		1	e	E	-1	-1	20ac	-1		// e E   €
 13	R		1	r	R	-1	-1	00ae	-1		// r R   ®   
 14	T		1	t	T	-1	-1	007b	2122		// t T   { ™ 
 15	Y		1	y	Y	-1	-1	007d	-1		// y Y   }   
@@ -89,10 +89,6 @@ LAYOUT		;an extra '@' at the end is a dead key
 29	OEM_7		0	0040	0023	-1	-1	02d8@	00b0@		// @ #   ˘ 
 17	I		1	i	I	-1	-1	02d9@	002e@		// i I   ˙ . 
 25	K		1	k	K	-1	-1	002f@	-1		// k K   / 
-
-DEADKEY 0000
-
-0045	00a4	// E -> ¤
 
 DEADKEY 002c
 
@@ -980,7 +976,6 @@ KEYNAME_EXT
 
 KEYNAME_DEAD
 
-0000	"NULL"
 002c	"COMMA BELOW"
 002d	"SHORT STROKE OVERLAY"
 002e	"DOT BELOW"
