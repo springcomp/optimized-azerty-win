@@ -218,13 +218,13 @@ Avec la carte de base, la couche des caractères européens permet de saisir du 
 <a name="typography"></a>
 ### Support Typographique
 
-La disposition permet de saisir les deux caractères suivants, utilisés en typographie:
+La disposition permet de saisir les caractères d’espacement typographiques suivants:
 
 |Position|Point de codage Unicode
 |---|---
 |<kbd>AltGr</kbd>+<kbd>Espace</kbd>|ESPACE INSÉCABLE (U+00A0)
 |<kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>Espace</kbd>|ESPACE INSÉCABLE FIN (U+202F)
-|<kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>Espace</kbd>|ESPACE DEMI-CADRATIN (U+2002)
+|<kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>AltGr</kbd>+<kbd>Espace</kbd>|ESPACE CADRATIN (U+2003)
 |<kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>Espace</kbd>|ESPACE DEMI-CADRATIN (U+2002)
 
 
