@@ -214,6 +214,19 @@ Avec la carte de base, la couche des caractères européens permet de saisir du 
 | Norvégien | `Ångstrøm` | <kbd>AltGr</kbd>+<kbd>"</kbd>, <kbd>A</kbd> pour `Å` <br> <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>o</kbd> pour `ø` |
 
 
+<a name="typography"></a>
+### Support Typographique
+
+La disposition permet de saisir les deux caractères suivants, utilisés en typographie:
+
+|Position|Point de codage Unicode
+|---|---
+|<kbd>AltGr</kbd>+<kbd>Espace</kbd>|ESPACE INSÉCABLE (U+00A0)
+|<kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>Espace</kbd>|ESPACE INSÉCABLE FIN (U+202F)
+|<kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>Espace</kbd>|ESPACE DEMI-CADRATIN (U+2002)
+|<kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>Espace</kbd>|ESPACE DEMI-CADRATIN (U+2002)
+
+
 <a name="science"></a>
 ### Publication Scientifique
 
