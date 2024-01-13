@@ -77,7 +77,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 33	OEM_COMMA	0	002c	0021	-1	-1	00a1	002c@		// , !   ¡ , 
 34	OEM_2		0	003a	2026	-1	-1	00b7	-1		// : …   ·   
 35	OEM_8		0	003b	003d	-1	-1	2243	2260		// ; =   ≃ ≠ 
-39	SPACE		0	0020	0020	2003	-1	00a0	202f		//          
+39	SPACE		0	0020	0020	-1	-1	00a0	202f		//          
 53	DECIMAL		0	002c	002c	-1	-1	-1	-1		// , , 
 
 // The following three keys are specifically set last in the layout
@@ -643,11 +643,13 @@ DEADKEY 017f
 006f	00ba	// o -> º
 0073	017f	// s -> ſ
 0074	00fe	// t -> þ
+00a0	2003	//   ->  
 00ab	201e	// « -> „
 00bb	201f	// » -> ‟
 017f	0000	// ſ -> ␀
 2018	201a	// ‘ -> ‚
 2019	201b	// ’ -> ‛
+202f	2002	//   ->  
 00a4	0000	// ¤ -> ␀
 00b5	0000	// µ -> ␀
 00a0	0000	//   -> ␀
