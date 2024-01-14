@@ -112,7 +112,7 @@ Les accents et diacritiques présents sont référencés dans le tableau ci-dess
 | <kbd>AltGr</kbd>+<kbd>^</kbd>, <kbd>Espace</kbd> | `ˇ` | N/A | CARON (U+02C7) | `Ǎǎ Čč Ďď Ěě Ǧǧ Ȟȟ Ǐǐ ǰ Ǩǩ Ľľ Ňň Ǒǒ Řř Šš Ťť Ǔǔ Žž Ǯǯ` |
 | <kbd>Maj.</kbd>+<kbd>AltGr</kbd>+<kbd>(</kbd>, <kbd>Espace</kbd> | `˝` | N/A | DOUBLE ACCENT AIGU (U+02DD) | `Őő Űű` |
 | <kbd>Maj.</kbd>+<kbd>AltGr</kbd>+<kbd>)</kbd>, <kbd>Espace</kbd> | `˵` | N/A | DOUBLE ACCENT GRAVE (U+02F5)¹ | `Ȁȁ Ȅȅ Ȉȉ Ȍȍ Ȑȑ Ȕȕ` |
-| <kbd>AltGr</kbd>+<kbd>i</kbd>, <kbd>Espace</kbd> | `˙` | N/A | POINT EN CHEF (U+02D9) | `Ȧȧ Ḃḃ Ċċ Ḋḋ Ėė Ḟḟ Ġġ Ḣḣ İı`² `Ŀŀ Ṁṁ Ṅṅ Ȯȯ Ṗṗ Ṙṙ Ṡṡ Ṫṫ Ẇẇ Ẋẋ Ẏẏ Żż ẛ` |
+| <kbd>AltGr</kbd>+<kbd>i</kbd>, <kbd>Espace</kbd> | `˙` | N/A | POINT EN CHEF (U+02D9)² | `Ȧȧ Ḃḃ Ċċ Ḋḋ Ėė Ḟḟ Ġġ Ḣḣ İı`² `Ŀŀ Ṁṁ Ṅṅ Ȯȯ Ṗṗ Ṙṙ Ṡṡ Ṫṫ Ẇẇ Ẋẋ Ẏẏ Żż ẛ` |
 | <kbd>AltGr</kbd>+<kbd>I</kbd>, <kbd>Espace</kbd> | `.` | N/A | point souscrit, figuré par le POINT FINAL (U+002E)³ | `Ạạ Ḅḅ Ḍḍ Ẹẹ Ḥḥ Ịị Ḳḳ Ḷḷ Ṃṃ Ṇṇ Ọọ Ṛṛ Ṣṣ Ṭṭ Ụụ Ṿṿ Ẉẉ Ỵỵ Ẓẓ` |
 | <kbd>AltGr</kbd>+<kbd>@</kbd>, <kbd>Espace</kbd> | `˘` | N/A | BRÈVE (U+02D8) | `Ăă Ĕĕ Ğğ Ĭĭ Ŏŏ Ŭŭ` |
 | <kbd>AltGr</kbd>+<kbd>#</kbd>, <kbd>Espace</kbd> | `°` | N/A | brève inversée, figurée par le SYMBOLE DEGRÉ (U+00B0)⁴ | `Ȃȃ Ȇȇ Ȋȋ Ȏȏ Ȓȓ Ȗȗ` |
