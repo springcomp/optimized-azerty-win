@@ -95,7 +95,7 @@ Par exemple, taper le caractère `Ÿ` est maintenant possible, via la combinaiso
 
 Après avoir appuyé sur la touche morte correspondant à un accent ou une marque diacritique, si aucune correspondance n’est trouvée pour produire un caractère accentué, le signe diacritique, lui-même, est produit. Cependant, quelques signes diacritiques n’ont pas d’équivalent visuel dit « non combinant ». Dans ce cas, la disposition AZERTY-NF a fait le choix de produire un caractère dont l'aspect visuel rappelle le signe diacritique concerné.
 
-Les accents et diacritiques présents sont référencés dans le tableau ci-dessous. Pour les touches mortes, existant déjà sur la disposition AZERTY traditionnelle, l’ancienne position est rappelée pour référence. De même, figurent dans le tableaux les points de codage Unicode des caractères produits lorsqu’ils ne sont pas combinés avec un autre caractère.
+Les accents et diacritiques présents sont référencés dans le tableau ci-dessous. Pour les touches mortes, existant déjà sur la disposition AZERTY traditionnelle, l’ancienne position est rappelée pour référence. De même, figurent dans le tableau les points de codage Unicode des caractères produits lorsqu’ils ne sont pas combinés avec un autre caractère.
 
 |Position|Diacritique|Ancienne position|Point de codage Unicode|Exemples|
 |---|---|--|---|---|
@@ -223,9 +223,9 @@ La disposition permet de saisir les caractères d’espacement typographiques su
 |Position|Point de codage Unicode
 |---|---
 |<kbd>AltGr</kbd>+<kbd>Espace</kbd>|ESPACE INSÉCABLE (U+00A0)
-|<kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>Espace</kbd>|ESPACE INSÉCABLE FIN (U+202F)
+|<kbd>AltGr</kbd>+<kbd>Maj.</kbd>+<kbd>Espace</kbd>|ESPACE INSÉCABLE FIN (U+202F)
 |<kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>AltGr</kbd>+<kbd>Espace</kbd>|ESPACE CADRATIN (U+2003)
-|<kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>Espace</kbd>|ESPACE DEMI-CADRATIN (U+2002)
+|<kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>AltGr</kbd>+<kbd>Maj.</kbd>+<kbd>Espace</kbd>|ESPACE DEMI-CADRATIN (U+2002)
 
 
 <a name="science"></a>
@@ -284,8 +284,8 @@ Noter que les fractions courantes suivantes peuvent être saisies directement:
 
 |Position|Point de codate Unicode | Caractère|
 |---|---|---|
-| <kbd>Shift</kbd>+<kbd>*</kbd> | FRACTION USUELLE UN-DEMI (U+00BD) | `½` |
-| <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>*</kbd> | FRACTION USUELLE UN-QUART (U+2082) | `¼` |
+| <kbd>Maj.</kbd>+<kbd>*</kbd> | FRACTION USUELLE UN-DEMI (U+00BD) | `½` |
+| <kbd>AltGr</kbd>+<kbd>Maj.</kbd>+<kbd>*</kbd> | FRACTION USUELLE UN-QUART (U+2082) | `¼` |
 
 <a name="chemical-symbols"></a>
 #### Symboles chimiques
@@ -317,7 +317,7 @@ Les quatre opérateurs sont regroupés à la droite du clavier:
 
 {: .footnotes} 
 ¹ Le SIGNE PLUS (U+002B) est saisi par appui direct sur la touche correspondante.  
-² Le SIGNE MOINS (U+2212) diffère du caractère saisi par l'appui de la même touche – plus connu sous son ancien nom « _tiret du six_ » mais officiellement appelé TRAIT D'UNION - SIGNE MOINS (U+002d).
+² Le SIGNE MOINS (U+2212) diffère du caractère saisi par l'appui de la même touche – plus connu sous son ancien nom « _tiret du six_ » mais officiellement appelé TRAIT D'UNION - SIGNE MOINS (U+002D).
 
 De même, les signes de comparaison suivants sont disponibles:
 
@@ -346,7 +346,7 @@ En tirant parti du signe diacritique <kbd>AltGr</kbd>+<kbd>k</kbd> BARRE OBLIQUE
 | <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>=</kbd> | SIGNE NON ÉGAL À (U+2260) | `≠` |
 | <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>AltGr</kbd>+<kbd>;</kbd> | SIGNE NON ASYMPTOTIQUEMENT ÉGAL À (U+2244) | `≄` |
 
-Noter que le signe `≠` est directement accessible sur la carte de base, comme vu précédemment, à l’aide de la combinaison <kbd>AltGr</kbd>+<kbd>=</kbd> (ou <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>;</kbd>). Il est également accessible sur cette position par souci de cohérence.
+Noter que le signe `≠` est directement accessible sur la carte de base, comme vu précédemment, à l’aide de la combinaison <kbd>AltGr</kbd>+<kbd>=</kbd> (ou <kbd>AltGr</kbd>+<kbd>Maj.</kbd>+<kbd>;</kbd>). Il est également accessible sur cette position par souci de cohérence.
 
 En tirant parti du signe diacritique <kbd>AltGr</kbd>+<kbd>n</kbd> TILDE, les caractères suivants peuvent être saisis:
 
@@ -370,9 +370,9 @@ Bien que leur usage devienne anecdotique, la disposition AZERTY-NF garde, par so
 | <kbd>Ctrl</kbd>+<kbd>*</kbd> | SÉPARATEUR DE FICHIER (U+001C) | `␜`
 | <kbd>Ctrl</kbd>+<kbd><</kbd> | SÉPARATEUR DE FICHIER (U+001C) |`␜` 
 | <kbd>Ctrl</kbd>+<kbd>+</kbd> | SÉPARATEUR DE GROUPE (U+001D) | `␝`
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>0</kbd> | NUL (U+0000) | `␀`
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>^</kbd> | SÉPARATEUR D’ENREGISTREMENT (U+001E) | `␞`
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>-</kbd> | SÉPARATEUR D’UNITÉ (U+001F) | `␟`
+| <kbd>Ctrl</kbd>+<kbd>Maj.</kbd>+<kbd>0</kbd> | NUL (U+0000) | `␀`
+| <kbd>Ctrl</kbd>+<kbd>Maj.</kbd>+<kbd>^</kbd> | SÉPARATEUR D’ENREGISTREMENT (U+001E) | `␞`
+| <kbd>Ctrl</kbd>+<kbd>Maj.</kbd>+<kbd>-</kbd> | SÉPARATEUR D’UNITÉ (U+001F) | `␟`
 
 La plupart des caractères de contrôle ne peuvent plus être exploités convenablement sur les systèmes d’exploitation modernes, car ils peuvent correspondre à des raccourcis claviers qui sont interceptés par les applications.
 
