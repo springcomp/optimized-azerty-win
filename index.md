@@ -49,7 +49,7 @@ Si vous souhaitez changer les touches de votre clavier mécanique, je vous propo
 - [Caractères accentués et signes diacritiques](#diacriticals)
 - [Verr. Maj.](#sgcaps)
 - [Caractères des langues européennes](#european-characters)
-- [Typograhie](#typography)
+- [Typographie](#typography)
 - [Publication scientifique](#science)
   - [Fractions](#fractions)
   - [Symboles chimiques](#chemical-symbols)
