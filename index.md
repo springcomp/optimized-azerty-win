@@ -49,6 +49,7 @@ Si vous souhaitez changer les touches de votre clavier mécanique, je vous propo
 - [Caractères accentués et signes diacritiques](#diacriticals)
 - [Verr. Maj.](#sgcaps)
 - [Caractères des langues européennes](#european-characters)
+- [Caractères grecs](#greek-characters)
 - [Typographie](#typography)
 - [Publication scientifique](#science)
   - [Fractions](#fractions)
@@ -213,6 +214,69 @@ Avec la carte de base, la couche des caractères européens permet de saisir du 
 | Hollandais | `Het Rĳksmuseum in Amsterdam` | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>j</kbd> pour `ĳ` |
 | Italien | `La 4ª puntata` | <kbd>AltGr</kbd>+<kbd>Eu</kbd>, <kbd>a</kbd> pour `ª` |
 | Norvégien | `Ångstrøm` | <kbd>AltGr</kbd>+<kbd>"</kbd>, <kbd>A</kbd> pour `Å` <br> <kbd>AltGr</kbd>+<kbd>k</kbd>, <kbd>o</kbd> pour `ø` |
+
+
+<a name="european-characters"></a>
+### Caractères grecs
+
+La disposition AZERTY-NF expose une couche supplémentaire – accessible via <kbd>AltGr</kbd>+<kbd>µ</kbd> – sur laquelle on trouve les caractères grecs.
+
+Le tableau ci-dessous reprend les caractères disponibles.
+
+|Position|Caractère|Point de codage Unicode
+|---|---|---
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>a</kbd> | `α` | LETTRE MINUSCULE GRECQUE ALPHA (U+03B1)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>b</kbd> | `β` | LETTRE MINUSCULE GRECQUE BÊTA (U+03B2)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>g</kbd> | `γ` | LETTRE MINUSCULE GRECQUE GAMMA (U+03B3)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>d</kbd> | `δ` | LETTRE MINUSCULE GRECQUE DELTA (U+03B4)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>e</kbd> | `ε` | LETTRE MINUSCULE GRECQUE ESPILON (U+03B5)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>z</kbd> | `ζ` | LETTRE MINUSCULE GRECQUE ZÊTA (U+03B6)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>h</kbd> | `η` | LETTRE MINUSCULE GRECQUE ÊTA (U+03B7)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>u</kbd> | `θ` | LETTRE MINUSCULE GRECQUE THÊTA (U+03B8)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>i</kbd> | `ι` | LETTRE MINUSCULE GRECQUE IOTA (U+03B9)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>k</kbd> | `κ` | LETTRE MINUSCULE GRECQUE KAPPA (U+03BA)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>l</kbd> | `λ` | LETTRE MINUSCULE GRECQUE LAMBDA (U+03BB)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>m</kbd> | `μ` | LETTRE MINUSCULE GRECQUE MU (U+03BC)¹
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>n</kbd> | `ν` | LETTRE MINUSCULE GRECQUE NU (U+03BD)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>j</kbd> | `ξ` | LETTRE MINUSCULE GRECQUE XI (U+03BE)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>o</kbd> | `ο` | LETTRE MINUSCULE GRECQUE OMICRON (U+03BF)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>p</kbd> | `π` | LETTRE MINUSCULE GRECQUE PI (U+03C0)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>r</kbd> | `ρ` | LETTRE MINUSCULE GRECQUE RHÔ (U+03C1)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>s</kbd> | `σ` | LETTRE MINUSCULE GRECQUE SIGMA (U+03C3)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>w</kbd> | `ς` | LETTRE MINUSCULE GRECQUE SIGMA FINAL (U+03C2)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>t</kbd> | `τ` | LETTRE MINUSCULE GRECQUE TAU (U+03C4)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>y</kbd> | `υ` | LETTRE MINUSCULE GRECQUE UPSILON (U+03C5)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>f</kbd> | `φ` | LETTRE MINUSCULE GRECQUE PHI (U+03C6)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>x</kbd> | `χ` | LETTRE MINUSCULE GRECQUE CHI (U+03C7)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>c</kbd> | `ψ` | LETTRE MINUSCULE GRECQUE PSI (U+03C8)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>v</kbd> | `ω` | LETTRE MINUSCULE GRECQUE OMÉGA (U+03C9)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>A</kbd> | `Α` | LETTRE MAJUSCULE GRECQUE ALPHA (U+0391)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>B</kbd> | `Β` | LETTRE MAJUSCULE GRECQUE BÊTA (U+0392)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>G</kbd> | `Γ` | LETTRE MAJUSCULE GRECQUE GAMMA (U+0393)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>D</kbd> | `Δ` | LETTRE MAJUSCULE GRECQUE DELTA (U+0394)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>E</kbd> | `Ε` | LETTRE MAJUSCULE GRECQUE EPSILON (U+0395)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>Z</kbd> | `Ζ` | LETTRE MAJUSCULE GRECQUE ZÊTA (U+0396)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>H</kbd> | `Η` | LETTRE MAJUSCULE GRECQUE ÊTA (U+0397)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>U</kbd> | `Θ` | LETTRE MAJUSCULE GRECQUE THÊTA (U+0398)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>I</kbd> | `Ι` | LETTRE MAJUSCULE GRECQUE IOTA (U+0399)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>K</kbd> | `Κ` | LETTRE MAJUSCULE GRECQUE KAPPA (U+039A)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>L</kbd> | `Λ` | LETTRE MAJUSCULE GRECQUE LAMBDA (U+039B)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>M</kbd> | `Μ` | LETTRE MAJUSCULE GRECQUE MU (U+039C)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>N</kbd> | `Ν` | LETTRE MAJUSCULE GRECQUE NU (U+039D)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>J</kbd> | `Ξ` | LETTRE MAJUSCULE GRECQUE XI (U+039E)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>O</kbd> | `Ο` | LETTRE MAJUSCULE GRECQUE OMICRON (U+039F)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>P</kbd> | `Π` | LETTRE MAJUSCULE GRECQUE PI (U+03A0)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>R</kbd> | `Ρ` | LETTRE MAJUSCULE GRECQUE RHÔ (U+03A1)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>S</kbd> | `Σ` | LETTRE MAJUSCULE GRECQUE SIGMA (U+03A3)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>T</kbd> | `Τ` | LETTRE MAJUSCULE GRECQUE TAU (U+03A4)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>Y</kbd> | `Υ` | LETTRE MAJUSCULE GRECQUE UPSILON (U+03A5)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>F</kbd> | `Φ` | LETTRE MAJUSCULE GRECQUE PHI (U+03A6)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>X</kbd> | `Χ` | LETTRE MAJUSCULE GRECQUE CHI (U+03A7)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>C</kbd> | `Ψ` | LETTRE MAJUSCULE GRECQUE PSI (U+03A8)
+<kbd>AltGr</kbd>+<kbd>µ</kbd>, <kbd>Maj.</kbd>+<kbd>V</kbd> | `Ω` | LETTRE MAJUSCULE GRECQUE OMÉGA (U+03A9)
+
+{: .footnotes}
+¹ Noter que le caractère `µ` SIGNE MICRON (U+00B5) diffère du caractère  `μ` LETTRE GRÈCQUE MINUSCULE MU (U+03BC). Il peut être saisi en utilisant la touche morte permettant d’accèder à la couche des caractères grecs, soient à l’aide de la séquences de touche <kbd>AltGr</kbd>+<kbd>Maj.</kbd>+<kbd>µ</kbd>, <kbd>Espace</kbd>.
 
 
 <a name="typography"></a>
