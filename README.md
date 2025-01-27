@@ -8,7 +8,7 @@
 
 ## Content
 
-This repository contains a simple .klc file which can be used with [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
+This repository contains a simple .klc file which can be used with [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
 to add a custom layout on Windows supporting a recently standardized azerty keyboard layout.
 
 ![](./refs/base.png)
