@@ -13,14 +13,17 @@ VERSION	1.0
 ATTRIBUTES
 ALTGR
 
+MODIFIERS
+RMENU	8
+
 SHIFTSTATE
 
 0	//Column 4
 1	//Column 5 : Shft
 2	//Column 6 :       Ctrl
 3	//Column 7 : Shft  Ctrl
-6	//Column 8 :       Ctrl Alt
-7	//Column 9 : Shft  Ctrl Alt
+6	//Column 8 :       AltGr
+7	//Column 9 : Shft  AltGr
 
 LAYOUT		;an extra '@' at the end is a dead key
 
