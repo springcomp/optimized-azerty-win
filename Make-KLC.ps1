@@ -19,6 +19,9 @@ BEGIN {
         $output = ".\$($name).klc"
     }
 
+    Write-Host $path
+    Write-Host $output
+
     $path = (Resolve-Path -Path $path).ProviderPath
     $folder = Split-Path -Path $path -Parent
     $klc = [IO.Path]::GetFileNameWithoutExtension($path)
@@ -26,7 +29,7 @@ BEGIN {
     if (-not $output) {
         $output = Join-Path -Path $folder -ChildPath $klc
     } else {
-        $output = (Resolve-Path -Path $output).ProviderPath
+        $output = Resolve-PSPath -Path $output
     }
 
     if (Test-Path -Path $output) {
@@ -60,6 +63,23 @@ BEGIN {
             Pop-Location
         }
     }
+
+    Function Resolve-PSPath {
+      [CmdletBinding()]
+      param (
+          [string] $path
+      )
+
+      $resolved = Resolve-Path $path `
+        -ErrorAction SilentlyContinue `
+        -ErrorVariable _rperror
+
+      if (-not($resolved)) {
+          $resolved = $_rperror[0].TargetObject
+      }
+
+    return $resolved
+  }
 }
 PROCESS {
 

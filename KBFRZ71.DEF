@@ -1,0 +1,4 @@
+LIBRARY KBFRZ71
+ 
+ EXPORTS 
+    KbdLayerDescriptor @1
