@@ -21,7 +21,7 @@ BEGIN {
             [string] $name
         )
 
-        BEGIN { 
+        BEGIN {
 
             Function Compile-Layout {
                 param(
@@ -31,17 +31,16 @@ BEGIN {
                     [switch] $quiet = $false
                 )
 
-                $expression = "C:\MSKLC\bin\i386\kbdutool.exe -v -w -u $option `"$name.klc`""
-                Invoke-Expression -Command $expression | ? {
-                    -not $_.Contains("can't open for write.")
-                } | % {
-                    if (-not $quiet.IsPresent) {
-                        Write-Host $_
-                    }
-                } 
+                Push-Location "src/$($name)/"
 
-                New-Item -Path $target -ItemType Directory -EA SilentlyContinue | Out-Null
-                Move-Item -Path "$name.DLL" -Destination $target -Force
+                $expression = "msbuild /p:Configuration=Release $($option)"
+                Invoke-Expression -Command $expression | % {
+                  if (-not $quiet.IsPresent) {
+                      Write-Host $_
+                  }
+                }
+
+                Pop-Location
             }
 
             Function Make-Readonly {
@@ -63,8 +62,8 @@ BEGIN {
                 }
             }
 
-            $x86 = ".\Package_x86\bin\"
-            $x64 = ".\Package_x64\bin\"
+            $x86 = "..\Package_x86\bin\"
+            $x64 = "..\Package_x64\bin\"
         }
 
         PROCESS {
@@ -73,13 +72,14 @@ BEGIN {
 
             Make-ReadOnly -Name $name
 
-            ## Only the last group of commands report
-            ## warnings an errors feedback in the output
+            ## Compile layout
 
-            Compile-Layout -Name $name -Option "-x" -Target $x86 -Quiet
-            Compile-Layout -Name $name -Option "-m" -Target $x64
-    
-            Make-Readonly -Name $name -ReadWrite
+            ".C", ".DEF", ".H", ".RC" |% {
+              Move-Item -Force -Path "$($name)$($_)" -Destination "src/$($name)/$($name)$($_)"
+            }
+
+            Compile-Layout -Name $name -Option "/p:Platform=x86 /p:OutDir=$($x86)" -Target $x86
+            Compile-Layout -Name $name -Option "/p:Platform=x64 /p:OutDir=$($x64)" -Target $x64
         }
     }
 
@@ -185,7 +185,7 @@ PROCESS {
     Patch-Version -Name KBFRZ71N -Version $version
 
     Build-Layout -Name KBFRZ71
-    Build-Layout -Name KBFRZ71N
+    ## Build-Layout -Name KBFRZ71N
 
     ##Remove-Item -Path KBFRZ71.C
     ##Remove-Item -Path KBFRZ71.H
