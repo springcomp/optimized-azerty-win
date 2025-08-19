@@ -16,73 +16,6 @@ BEGIN {
         Write-Output $result
     }
 
-    Function Build-Layout {
-        param(
-            [string] $name
-        )
-
-        BEGIN {
-
-            Function Compile-Layout {
-                param(
-                    [string] $name,
-                    [string] $option,
-                    [string] $target,
-                    [switch] $quiet = $false
-                )
-
-                Push-Location "src/$($name)/"
-
-                $expression = "msbuild /p:Configuration=Release $($option)"
-                Invoke-Expression -Command $expression | % {
-                  if (-not $quiet.IsPresent) {
-                      Write-Host $_
-                  }
-                }
-
-                Pop-Location
-            }
-
-            Function Make-Readonly {
-                param(
-                    [string] $name,
-                    [switch] $readwrite = $false
-                )
-                if ($readwrite.IsPresent) {
-                    attrib -R "$name.C"
-                    attrib -R "$name.H"
-                    attrib -R "$name.RC"
-                    attrib -R "$name.DEF"
-                }
-                else {
-                    attrib +R "$name.C"
-                    attrib +R "$name.H"
-                    attrib +R "$name.RC"
-                    attrib +R "$name.DEF"
-                }
-            }
-
-            $x86 = "..\Package_x86\bin\"
-            $x64 = "..\Package_x64\bin\"
-        }
-
-        PROCESS {
-
-            ## Protect the files to prevent kbdutool from overwriting them
-
-            Make-ReadOnly -Name $name
-
-            ## Compile layout
-
-            ".C", ".DEF", ".H", ".RC" |% {
-              Move-Item -Force -Path "$($name)$($_)" -Destination "src/$($name)/$($name)$($_)"
-            }
-
-            Compile-Layout -Name $name -Option "/p:Platform=x86 /p:OutDir=$($x86)" -Target $x86
-            Compile-Layout -Name $name -Option "/p:Platform=x64 /p:OutDir=$($x64)" -Target $x64
-        }
-    }
-
     Function Fix-Encoding {
         param(
             [string] $name
@@ -184,18 +117,18 @@ PROCESS {
     Patch-Version -Name KBFRZ71 -Version $version
     Patch-Version -Name KBFRZ71N -Version $version
 
-    Build-Layout -Name KBFRZ71
-    ## Build-Layout -Name KBFRZ71N
+    ## Move C source code to Visual Studio project folder
 
-    ##Remove-Item -Path KBFRZ71.C
-    ##Remove-Item -Path KBFRZ71.H
-    ##Remove-Item -Path KBFRZ71.RC
-    ##Remove-Item -Path KBFRZ71.DEF
+    ".C", ".DEF", ".H", ".RC" |% {
+      Move-Item -Force -Path "KBFRZ71$($_)" -Destination "KBFRZ71/KBFR71$($_)"
+      Move-Item -Force -Path "KBFRZ71N$($_)" -Destination "KBFRZ71N/KBFR71N$($_)"
+    }
 
     ## Copy MSKLC KbdMsi.dll used as Windows Installer custom actions
     ## in the resulting .MSI packages
 
-    Copy-Item -Path C:\MSKLC\bin\i386\KbdMsi.dll -Destination Package_x86\bin | Out-Null
+    New-Item -ItemType Directory -Path Package_x86\bin -EA SilentlyContinue | Out-Null
+    Copy-Item -Path C:\MSKLC\bin\i386\KbdMsi.dll -Destination Package_x86\bin\ | Out-Null
 
     Pop-Location
 }

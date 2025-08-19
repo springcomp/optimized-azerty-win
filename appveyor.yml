@@ -27,32 +27,27 @@ build_script:
         --mount "type=bind,source=C:\projects\optimized-azerty-win\src,target=C:\sources" `
         --env "KBFRZ71_VERSION=$Env:KBFRZ71_VERSION" `
         private/msklc:1.4 > build.log
-  - ps: |
-      $content = (Get-Content -Path ".\build.log" -Raw)
-      Write-Host "`r`n"
-      if ($content.Contains("Error")) {
-        Write-Host $content -ForegroundColor Red
-        throw "Build failed."
-      }
-      else {
-        Write-Host $content -ForegroundColor Green
-        Remove-Item -Path ".\KBFRZ71.klc"
-      }
+
+  - ps: msbuild .\src\KBFRZ71 /p:Configuration=Release /p:Platform=Win32
+  - ps: msbuild .\src\KBFRZ71 /p:Configuration=Release /p:Platform=x64
+  - ps: msbuild .\src\KBFRZ71N /p:Configuration=Release /p:Platform=Win32
+  - ps: msbuild .\src\KBFRZ71N /p:Configuration=Release /p:Platform=x64
+
   - ps: nuget restore .\src\Setup.sln
   - ps: msbuild .\src\Setup.sln /p:Configuration=Release /p:SolutionDir=.\src /p:ProductVersion=$Env:KBFRZ71_VERSION
 
 after_build:
   - ps: 7z a artifacts\setup.zip .\src\Setup\bin\x86\Release\net452\*.msi
-  - ps: 7z a artifacts\setup.zip .\src\Setup\bin\x86\Release\net452\*.exe 
+  - ps: 7z a artifacts\setup.zip .\src\Setup\bin\x86\Release\net452\*.exe
   - ps: 7z a artifacts\setup.zip .\src\Setup\bin\x86\Release\net452\*.config
   - ps: copy .\src\Setup\bin\x86\Release\net452\*.msi .\artifacts\
 
 artifacts:
   - path: artifacts\setup.zip
     name: setup
-    type: file
+    type: File
   - path: 'artifacts\*.msi'
-    type: file
+    type: File
 
 deploy:
   - provider: GitHub
