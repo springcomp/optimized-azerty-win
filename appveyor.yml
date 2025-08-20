@@ -1,4 +1,4 @@
-image: Visual Studio 2017
+image: Visual Studio 2019
 
 branches:
   only:
@@ -60,3 +60,4 @@ deploy:
     on:
       branch: main # only release from main branch
       APPVEYOR_REPO_TAG: true # only release on new tag
+
