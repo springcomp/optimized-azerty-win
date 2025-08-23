@@ -13,8 +13,8 @@ init:
         $Env:KBFRZ71_VERSION = "1.0.3.40"
       }
 
-before_build:
-  - ps: docker build --cache-from sprinccompdocker/msklc:1.4 --tag private/msklc:1.4 --file .\Dockerfile .\context\
+before_build: []
+  ## - ps: docker build --cache-from sprinccompdocker/msklc:1.4 --tag private/msklc:1.4 --file .\Dockerfile .\context\
 
 build_script:
   ## - ps: .\Make-KLC.ps1 -Name KBFRZ71 -Force
