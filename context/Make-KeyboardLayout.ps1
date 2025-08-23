@@ -120,8 +120,8 @@ PROCESS {
     ## Move C source code to Visual Studio project folder
 
     ".C", ".DEF", ".H", ".RC" |% {
-      Move-Item -Force -Path "KBFRZ71$($_)" -Destination "KBFRZ71/KBFR71$($_)"
-      Move-Item -Force -Path "KBFRZ71N$($_)" -Destination "KBFRZ71N/KBFR71N$($_)"
+      Move-Item -Force -Path "KBFRZ71$($_)" -Destination "KBFRZ71/KBFRZ71$($_)"
+      Move-Item -Force -Path "KBFRZ71N$($_)" -Destination "KBFRZ71N/KBFRZ71N$($_)"
     }
 
     ## Copy MSKLC KbdMsi.dll used as Windows Installer custom actions
