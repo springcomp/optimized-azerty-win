@@ -102,27 +102,27 @@ PROCESS {
 
     ## First create C source file
 
-    C:\MSKLC\bin\i386\kbdutool.exe -u -s KBFRZ71.klc | Out-Null
-    C:\MSKLC\bin\i386\kbdutool.exe -u -s KBFRZ71N.klc | Out-Null
+    ## C:\MSKLC\bin\i386\kbdutool.exe -u -s KBFRZ71.klc | Out-Null
+    ## C:\MSKLC\bin\i386\kbdutool.exe -u -s KBFRZ71N.klc | Out-Null
 
     ## Restore corrupted accented characters
 
-    Fix-Encoding -Name KBFRZ71
-    Fix-Encoding -Name KBFRZ71N
+    ## Fix-Encoding -Name KBFRZ71
+    ## Fix-Encoding -Name KBFRZ71N
 
     ## Update version in RC source file
     ## MSKLC creates a DLL with version fixed to 1.0.3.40.
     ## We need to patch the file to update our version
 
-    Patch-Version -Name KBFRZ71 -Version $version
-    Patch-Version -Name KBFRZ71N -Version $version
+    ## Patch-Version -Name KBFRZ71 -Version $version
+    ## Patch-Version -Name KBFRZ71N -Version $version
 
     ## Move C source code to Visual Studio project folder
 
-    ".C", ".DEF", ".H", ".RC" |% {
-      Move-Item -Force -Path "KBFRZ71$($_)" -Destination "KBFRZ71/KBFRZ71$($_)"
-      Move-Item -Force -Path "KBFRZ71N$($_)" -Destination "KBFRZ71N/KBFRZ71N$($_)"
-    }
+    ## ".C", ".DEF", ".H", ".RC" |% {
+    ##   Move-Item -Force -Path "KBFRZ71$($_)" -Destination "KBFRZ71/KBFRZ71$($_)"
+    ##   Move-Item -Force -Path "KBFRZ71N$($_)" -Destination "KBFRZ71N/KBFRZ71N$($_)"
+    ## }
 
     ## Copy MSKLC KbdMsi.dll used as Windows Installer custom actions
     ## in the resulting .MSI packages
